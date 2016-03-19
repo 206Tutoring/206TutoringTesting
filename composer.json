@@ -1,1 +1,6 @@
-{}
+{
+  "require": {
+    "stripe/stripe-php": "*",
+    "ext-mbstring": "*"
+  }
+}
