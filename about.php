@@ -116,7 +116,7 @@
 				<h2 class="prominent">Olivia White</h2>
 				<p>Olivia majored in English writing and Philosophy at Whitworth University in Spokane. She has since moved back to her native PNW to pursue her music, writing, and rainy walks. As a tutor for the required general philosophy course in college, she broke down everything from Plato to de Beauvoir to Derrida for a varied group of students. She spent most of her English classes workshopping her peers' creative and analytical writing. She took a variety of classes and can discuss and critically analyze any subject you bring to the table.</p>
 			</div>
-			<div class="one-third first">
+			<div class="one-fourth">
 				<img class="about-bio-img" src="/assets/about/DA.jpeg">
 				<h2 class="prominent">David Abramov</h2>
 				<p>David Abramov is a Biologist and Chemistry buff with a Bachelors of Science Degree from the University of Washington, Seattle. He has been tutoring Biology, Chemistry, Organic Chemistry, Advanced Biology, Mathematics, English, and SAT for the past five years. David has worked with students of all ages, from kindergarten to college. David has helped students score composite scores above 2000 on the SAT, 5’s on AP exams, and edited scholarship winning essays. Aside from tutoring, David has been a Research Aide of the Puget Sound Blood Center, where he employed his knowledge of Molecular Biological and Bioengineering aide in blood clotting research.</p>
