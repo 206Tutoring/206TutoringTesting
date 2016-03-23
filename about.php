@@ -122,23 +122,6 @@
 				<p>David Abramov is a Biologist and Chemistry buff with a Bachelors of Science Degree from the University of Washington, Seattle. He has been tutoring Biology, Chemistry, Organic Chemistry, Advanced Biology, Mathematics, English, and SAT for the past five years. David has worked with students of all ages, from kindergarten to college. David has helped students score composite scores above 2000 on the SAT, 5’s on AP exams, and edited scholarship winning essays. Aside from tutoring, David has been a Research Aide of the Puget Sound Blood Center, where he employed his knowledge of Molecular Biological and Bioengineering aide in blood clotting research.</p>
 			</div>
 		</section>
-		<section class="row">
-			<div class="teacher one-fifth first">
-				<img src="/assets/about/Teacher_1.jpg" alt="Teacher1" class="teacher-img">
-			</div>
-			<div class="teacher one-fifth">
-				<img src="/assets/about/Teacher_2.jpg" alt="Teacher2" class="teacher-img">
-			</div>
-			<div class="teacher one-fifth">
-				<img src="/assets/about/Teacher_3.png" alt="Teacher3" class="teacher-img">
-			</div>
-			<div class="teacher one-fifth">
-				<img src="/assets/about/Teacher_4.jpg" alt="Teacher4" class="teacher-img">
-			</div>
-			<div class="teacher one-fifth">
-				<img src="/assets/about/Teacher_5.jpg" alt="Teacher5" class="teacher-img">
-			</div>
-		</section>
 	</article>
 	<section class="about-content half-row">
 		<a name="contact-form"></a>
