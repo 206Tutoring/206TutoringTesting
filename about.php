@@ -59,8 +59,14 @@
 			<p>We teach to make learning more worthwhile and more fun for our students.</p>
 			<p>We tutor to <span class="italic">relieve</span> anxiety and frustration and stress.</p>
 			<p>We tutor to help our students spend <span class="italic">less</span> time on homework, and more time on the things they love to do.</p>
-			<p>We promote a relaxing and comfortable environment. We encourage our students to ask questions about the material and their interests. We cultivate a disposition for curiosity.</p>
-			<p>Working with 206 Tutoring, students feel like themselves, can put each difficulty in the right context, and focus on solving it.</p>
+      <p>
+        We promote a relaxing and comfortable environment. We encourage our
+        students to ask questions about the material and their interests. We cultivate
+        a disposition for curiosity.
+      </p>
+      <p>
+Working with 206 Tutoring, students feel like themselves, can put each difficulty in the right context, and focus on solving it.
+</p>
 			<p></p>
 		</article>
 		<a name="aboutCML"></a>
