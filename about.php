@@ -44,6 +44,7 @@
 						<li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
 						<li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
 						<li><a href="/about.php" class="nav-link">ABOUT</a></li>
+						<li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
 					</ul>
 				</nav>
 			</section>
