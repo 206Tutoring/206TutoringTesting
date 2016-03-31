@@ -62,28 +62,23 @@
       <a href="/about.php#contact-form" class="btn-orange">Contact Us Now</a> -->
     </main>
   </header><!-- END HEADER -->
-  <section class="home-about full-row">
-    <section class="row">
-      <div class="home-portrait two-fifths first">
-        <?php require_once('./config.php'); ?>
-
-        <form action="charge.php" method="post">
-          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="<?php echo $stripe['publishable_key']; ?>"
-            data-name="Two Lessons"
-            data-description="Pay for two lessons at $25/hour"
-            data-amount="5000"
-            data-locale="auto"
-            >
-          </script>
-        </form>
+    <div class="center payment-container">
+      <div class="center">
+        <h1>Set up payments with our secure payment portal.</h1>
       </div>
-      <div class="three-fifths">
-        <p>Set up payments with our secure payment portal.</p>
-      </div>
-    </section>
-  </section>
-  <!-- START FOOTER -->
+      <?php require_once('./config.php'); ?>
+      <form action="charge.php" method="post">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<?php echo $stripe['publishable_key']; ?>"
+          data-name="Two Lessons"
+          data-description="Pay for two lessons at $25/hour"
+          data-amount="5000"
+          data-locale="auto"
+          >
+        </script>
+      </form>
+    </div>
+  </div>
   <?php include 'footer.php'; ?>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -102,26 +97,26 @@
     }); 
   </script> 
   <script type="text/javascript">
-  $(function() {
-    // Insert Responsive Sidebar Icon
-    $('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
-    $('<div class="responsive-nav-close" />').appendTo('nav');
+    $(function() {
+      // Insert Responsive Sidebar Icon
+      $('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
+      $('<div class="responsive-nav-close" />').appendTo('nav');
 
-    // Navigation Slide In
-    $('.responsive-nav-icon').click(function() {
-      $('nav').addClass('slide-in');
-      $('html').css("overflow", "hidden");
-      $('#overlay').show();
-      return false;
-    });
+      // Navigation Slide In
+      $('.responsive-nav-icon').click(function() {
+        $('nav').addClass('slide-in');
+        $('html').css("overflow", "hidden");
+        $('#overlay').show();
+        return false;
+      });
 
-    // Navigation Slide Out
-    $('#overlay, .responsive-nav-close').click(function() {
-      $('nav').removeClass('slide-in');
-      $('html').css("overflow", "auto");
-      $('#overlay').hide();
-      return false;
+      // Navigation Slide Out
+      $('#overlay, .responsive-nav-close').click(function() {
+        $('nav').removeClass('slide-in');
+        $('html').css("overflow", "auto");
+        $('#overlay').hide();
+        return false;
+      });
     });
-  });
   </script>
 </body><!-- END BODY -->
