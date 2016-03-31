@@ -24,9 +24,7 @@
 
 	</script>
 </head>
-<!-- START BODY -->
 <body>
-	<!-- START HEADER -->
 	<header class="home-header">
 		<div class="full-row gradient">
 			<section class="top-nav row">
@@ -61,7 +59,7 @@
 			<h2>experienced, effective, empowering</h2>
 			<a href="/about.php#contact-form" class="btn-orange">Contact Us Now</a>
 		</main>
-	</header><!-- END HEADER -->
+	</header>
 	<section class="home-info row">
 		<article class="info-block one-third first">
 			<a href="/test_prep.html">
