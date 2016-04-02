@@ -74,6 +74,7 @@ a.nav-logo {color: #fff;}
 .nav-logo img {padding-top: 10px;}
 .nav-badge {text-align: center;}
 .thumbtack-logo {width: 75px; padding-top: 15px;}
+.seattletimes-logo {width: 75px; padding-top: 15px; margin: left;}
 nav li {
   display: inline;
   padding: 0 15px;
@@ -194,9 +195,9 @@ a.nav-link:hover {color: #FF9600;} /* orange */
 .success {color: #82F05D; font-size: 1.75em; font-weight: bold;}
 
 .center {margin: auto; padding: 10px;}
+.left {float: left; padding: 10px; text-align: center;}
 
 h1 {text-align: center;}
-
 /* $HOME
 ------------------------- */
 .home-info      {color: #363E40; padding-top: 50px; padding-bottom: 10px;}
@@ -204,6 +205,8 @@ h1 {text-align: center;}
 .info-block     {padding-bottom: 15px;}
 .info-block img {padding-bottom: 50px; width: 75%;}
 .info-block h1  {font-size: 1.5em;}
+
+.info-megablock {font-size: 125%; font-weight: bold;}
 .quote-slider {
   color: #363E40;
   background-color: #f5f5f5;
