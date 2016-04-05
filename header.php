@@ -3,18 +3,19 @@
     <section class="top-nav row">
       <a href="/home.php" class="nav-logo pull first" title="Home">206 <span class="subtext-light">tutoring</span></a>
       <div class="nav-badge nav-btn one-fifth push">
-        <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
-        <span class="phone-nmb info-megablock">(206) 551-7843</span>
-        <span class="phone-nmb info-megablock">contact@206tutoring.com</span>
-        <span>
+          <div class="header-contact">
+            <p>
+              contact@206tutoring.com<br>
+              (206) 551-7843
+            </p>
+          </div>
           <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
             <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
             <br>5 stars on Thumbtack — Best of 2015
           </a>
-        </span>
         <div>
           <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
-            <img src="/assets/home_page/seattletimes.jpg" alt="SeattleTimes" class="seattletimes-logo">
+            <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
             <br>Guest essay: How ‘good’ high schools can be so bad
           </a>
         </div>
@@ -33,9 +34,10 @@
     <div>
       <span>
         <main class="header-text row">
-          <h1>TEST PREP, TUTORING, MUSIC LESSONS</h1>
+          <h1 class="info-megablock">TEST PREP, TUTORING, MUSIC LESSONS</h1>
           <h2>experienced, effective, empowering</h2>
-          <a href="/about.php#contact-form" class="btn-orange">Contact Us Now</a>
+          <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+          <!-- <a href="/about.php#contact&#45;form" class="btn&#45;orange">Contact Us Now</a> -->
         </main>
       </span>
     </div>
