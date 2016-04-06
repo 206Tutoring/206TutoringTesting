@@ -4,10 +4,10 @@
       <a href="/home.php" class="nav-logo pull first" title="Home">206 <span class="subtext-light">tutoring</span></a>
       <div class="nav-badge nav-btn one-fifth push">
           <div class="header-contact">
-            <p>
-              contact@206tutoring.com<br>
-              (206) 551-7843
-            </p>
+            <a href="/about.php#contact-form" class="nobtn-contact">contact@206tutoring.com</a>
+          </div>
+          <div class="phone-numb">
+            <p>(206) 551-7843</p>
           </div>
           <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
             <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
@@ -34,10 +34,14 @@
     <div>
       <span>
         <main class="header-text row">
-          <h1 class="info-megablock">TEST PREP, TUTORING, MUSIC LESSONS</h1>
-          <h2>experienced, effective, empowering</h2>
+          <div>
+            <h1>TEST PREP, TUTORING, MUSIC LESSONS</h1>
+          </div>
+          <br>
+          <div>
+            <h2>experienced, effective, empowering</h2>
+          </div>
           <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
-          <!-- <a href="/about.php#contact&#45;form" class="btn&#45;orange">Contact Us Now</a> -->
         </main>
       </span>
     </div>
