@@ -1,7 +1,8 @@
 <header class="home-header">
   <div class="full-row gradient">
     <section class="top-nav row">
-      <a href="/home.php" class="nav-logo pull first" title="Home">206 <span class="subtext-light">tutoring</span></a>
+      <a href="/home.php" class="nav-logo pull first">
+        <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
       <div class="nav-badge nav-btn one-fifth push">
           <div class="header-contact">
             <a href="/about.php#contact-form" class="nobtn-contact">contact@206tutoring.com</a>
@@ -23,11 +24,11 @@
       <!-- START NAV -->
       <nav>
         <ul class="nav-link-list">
-          <li><a href="/test_prep.html" class="nav-link">TEST & COLLEGE PREP</a></li>
-          <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
-          <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
-          <li><a href="/about.php" class="nav-link">ABOUT</a></li>
-          <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
+          <li><a href="/test_prep.html" class="nav-link">Test & College Prep</a></li>
+          <li><a href="/tutoring.html" class="nav-link">Tutoring</a></li>
+          <li><a href="/music.html" class="nav-link">Music Lessons</a></li>
+          <li><a href="/about.php" class="nav-link">About</a></li>
+          <li><a href="/payment.php" class="nav-link">Payment</a></li>
         </ul>
       </nav>
     </section>
@@ -41,7 +42,7 @@
           <div>
             <h2>experienced, effective, empowering</h2>
           </div>
-          <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+          <a href="/about.php#contact-form" class="btn-orange btn-contact">Contact Us</a>
         </main>
       </span>
     </div>
