@@ -124,10 +124,15 @@ Working with 206 Tutoring, students feel like themselves, can put each difficult
 				<p>Peter Benjamin Schatz is a music educator with 20 years experience performing, producing, composing, and teaching music in his native Pacific Northwest.  He earned a Bachelor of Musical Arts from Pacific Lutheran University in 1997 where he studied guitar with Hilary Field, composition with Gregory Youtz, and sang in one the nation’s most celebrated college choral groups The Choir of the West.  His original music can be heard in it’s recorded medium on national network television or live in local and regional clubs, private engagements, and corporate events.  Peter currently teaches guitar, piano, voice, composition, and music theory, and is driven my the opportunity to bring value to his community through music and music education.</p>
 			</div>
 			<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/DA.jpg">
-				<h2 class="prominent">David Abramov</h2>
-				<p>David Abramov is a Biologist and Chemistry buff with a Bachelors of Science Degree from the University of Washington, Seattle. He has been tutoring Biology, Chemistry, Organic Chemistry, Advanced Biology, Mathematics, English, and SAT for the past five years. David has worked with students of all ages, from kindergarten to college. David has helped students score composite scores above 2000 on the SAT, 5’s on AP exams, and edited scholarship winning essays. Aside from tutoring, David has been a Research Aide of the Puget Sound Blood Center, where he employed his knowledge of Molecular Biological and Bioengineering aide in blood clotting research.</p>
+				<img class="about-bio-img" src="/assets/about/GS.jpg">
+				<h2 class="prominent">Garrett Sand</h2>
+				<p>Garrett Sand has a BA in Interdisciplinary Visual Art from the University of Washington and works as a freelance web developer. He spends his spare time creating UV-reactive drawings and making electronic music.</p>
 			</div>
+			<div class="one-third">
+				<img class="about-bio-img" src="/assets/about/AK.jpg">
+				<h2 class="prominent">Anders Kjell</h2>
+				<p>Anders believes that the best approach to becoming a musician is to simply be one. Having spent the last decade performing and songwriting, he is savvy with the steps needed to make playing music more meaningful, faster. Anders understands that each student is different, and customizes every lesson based on this principal. Whether you are new to this craft or are simply looking to improve your skills; come jam and learn the true extent to your potential!</p>	
+      </div>
 		</section>
 	</article>
 	<section class="about-content half-row">
