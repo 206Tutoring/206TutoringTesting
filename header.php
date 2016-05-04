@@ -24,7 +24,7 @@
       <!-- START NAV -->
       <nav>
         <ul class="nav-link-list">
-          <li><a href="/test_prep.html" class="nav-link">Test & College Prep</a></li>
+          <li><a href="/test_prep.php" class="nav-link">Test & College Prep</a></li>
           <li><a href="/tutoring.html" class="nav-link">Tutoring</a></li>
           <li><a href="/music.html" class="nav-link">Music Lessons</a></li>
           <li><a href="/about.php" class="nav-link">About</a></li>
