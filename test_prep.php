@@ -24,37 +24,56 @@
 </head>
 <!-- START BODY -->
 <body>
-	<!-- START HEADER -->
-	<header class="test-prep-header">
-		<div class="full-row grad">
-			<section class="top-nav row">
-				<a href="/home.php" class="nav-logo pull first" title="Home">206 <span class="subtext-light">tutoring</span></a>
-				<div class="nav-badge nav-btn one-fifth push">
-					<a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
-					<span class="phone-nmb">(206) 551-7843</span>
-					<a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
-						<img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
-						<br>5 stars on Thumbtack — Best of 2015
-					</a>
-				</div>
-				<!-- START NAV -->
-				<nav>
-					<ul class="nav-link-list">
-						<li><a href="/test_prep.html" class="nav-link">TEST & COLLEGE PREP</a></li>
-						<li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
-						<li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
-						<li><a href="/about.php" class="nav-link">ABOUT</a></li>
-						<li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
-					</ul>
-				</nav>
-			</section>
-		</div>
-		<main class="header-text row">
-			<h1>TEST PREP AND COLLEGE PLANNING</h1>
-			<h2>SAT, ACT, GRE / ESSAY EDITING, PLACEMENT, AND MORE</h2>
-			<a href="/about.php#contact-form" class="btn-orange">Contact Us Now</a>
-		</main>
-	</header><!-- END HEADER -->
+<header class="test-prep-header">
+  <div class="full-row gradient">
+    <section class="top-nav row">
+      <a href="/home.php" class="nav-logo pull first">
+        <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
+      <div class="nav-badge nav-btn one-fifth push">
+          <div class="header-contact">
+            <a href="/about.php#contact-form" class="nobtn-contact">contact@206tutoring.com</a>
+          </div>
+          <div class="phone-numb">
+            <p>(206) 551-7843</p>
+          </div>
+          <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+            <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
+            <br>5 stars on Thumbtack — Best of 2015
+          </a>
+        <div>
+          <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
+            <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
+            <br>Guest essay: How ‘good’ high schools can be so bad
+          </a>
+        </div>
+      </div>
+      <!-- START NAV -->
+      <nav>
+        <ul class="nav-link-list">
+          <li><a href="/test_prep.php" class="nav-link">Test & College Prep</a></li>
+          <li><a href="/tutoring.html" class="nav-link">Tutoring</a></li>
+          <li><a href="/music.html" class="nav-link">Music Lessons</a></li>
+          <li><a href="/about.php" class="nav-link">About</a></li>
+          <li><a href="/payment.php" class="nav-link">Payment</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div>
+      <span>
+        <main class="header-text row">
+          <div>
+            <h1>TEST PREP AND COLLEGE PLANNING</h1>
+          </div>
+          <br>
+          <div>
+            <h2>SAT, ACT, GRE / ESSAY EDITING, PLACEMENT, AND MORE</h2>
+          </div>
+          <a href="/about.php#contact-form" class="btn-orange btn-contact">Contact Us</a>
+        </main>
+      </span>
+    </div>
+  </div>
+  </header>
 	<span class="jump-links"><a href="#sat">SAT</a> | <a href="#act">ACT</a> | <a href="#collegePlanning">College Planning</a> | <a href="#other">Other Tests</a></span>
 	<section class="row content-block">
 		<article class="content-info one-half first">
@@ -129,10 +148,7 @@
 		<article class="content-info one-half first">
 			<h1>Prep for the GRE and Other Tests</h1>
 			<p>206 Tutoring offers prep services for a number of other standardized tests, where we apply the same individualized and context- and strategy-oriented methods we use for the SAT and ACT.</p>
-			<p>Our <span class="prominent">GRE</span> students have a 100-percent track record of gaining admission to the program of their first or second choice, and have improved their scores by an average of four points. Our <span class="prominent">Compass</span> students have bypassed scores of introductory courses, saving thousands of dollars each.</p>
-			<p>We also have experience with the <span class="prominent">Compass, West-B, ISEE, SSAT, GMAT, TOEFL, and any other test</span> on demand.</p>
-		</article>
-		<section class="content-img one-half">
+			<p>Our <span class="prominent">GRE</span> students have a 100-percent track record of gaining admission to the program of their first or second choice, and have improved their scores by an average of 7 points. Our <span class="prominent">Compass</span> students have bypassed scores of introductory courses, saving thousands of dollars each.</p> 			<p>We also have experience with the <span class="prominent">West-B, ISEE, SSAT, GMAT, TOEFL, and any other test</span> on demand.</p> 		</article> 		<section class="content-img one-half">
 			<img src="/assets/test_prep/Test_prep_GRE.png" alt="Test Prep">
 			<p class="quote-bubble">"I scored 155 on my math practice test and panicked—I was a math major, and applying to Stats grad school! Chris tapped into the skills I thought I’d forgotten and I was able to get scores on Verbal and Math both I and my program were happy with."<span class="prominent"> - Allison W., Renton</span></p>
 		</section>

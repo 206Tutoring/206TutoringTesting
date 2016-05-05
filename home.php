@@ -28,7 +28,7 @@
 	<?php include 'header.php'; ?>
 	<section class="home-info row">
 		<article class="info-block one-third first">
-			<a href="/test_prep.html">
+			<a href="/test_prep.php">
 				<img src="/assets/home_page/home_test_prep_sqr.png" alt="test_prep">
 				<h1>Test Preparation & College Planning</h1>
 			</a>
