@@ -9,13 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SEATTLE CALCULUS TUTORING</title>
+    <title>ACT-Coach</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../css/small-business.css" rel="stylesheet">
+
+    <!-- Old stylesheets we still need -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sand:400,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="type/css" href="/stylesheets/abc-reset.css">
+    <link rel="stylesheet" type="type/css" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,20 +46,29 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/home_page/spaceneedlelogosmall.png" alt="SpaceNeedle">
+                    <img src="../assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a href="#">Test and College</a>
+                    </li>
+                    <li>
+                        <a href="#">Tutoring</a>
+                    </li>
+                      
+                    <li>
+                        <a href="#">Music Lessons</a>
+                    </li>
+
+                    <li>
                         <a href="#">About</a>
                     </li>
+
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Payment</a>
                     </li>
                 </ul>
             </div>
@@ -82,12 +97,11 @@
               <img src="../assets/landingpages/seattlecalculustutoringsmall.png">
             </div>
             <div class="col-md-4">
-                <p>At 206 Tutoring, we believe that every student deserves to understand calculus. Calculus shouldn’t be a cause for anxiety and frustration, but confidence and discovery.</p>
+                <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
                 <br>
-                <p>Our tutors have years of experience teaching Calculus AB, Calculus BC, and beyond—to multivariable calculus and differential equations. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned 4’s and 5’s on the Calculus AB, Calculus BC, and Statistics AP tests. Our SAT math scores range from 750 to 800.</p>
+                <p>  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  </p>
                 <br>
-                <p>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our individualized lessons adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer. Approached from the right perspective, calculus is just as learnable as the subjects that came before it.
-                </p>
+                <p> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
             </div>
             <!-- /.col-md-4 -->
             <div>
@@ -102,7 +116,9 @@
                 <input name="name" type="text" value="" size="30"/><br>
                 Your email:<br>
                 <input name="email" type="text" value="" size="30"/><br>
-                Your message:<br>
+                Your phone number:<br>
+                <input name="phonenumber" type="text" value="" size="30"/><br>
+                How can we help you?<br>
                 <textarea name="message" rows="7" cols="30"></textarea><br>
                 <input type="submit" value="Send email"/>
                 </form>
@@ -113,17 +129,6 @@
                 $name=$_REQUEST['name'];
                 $email=$_REQUEST['email'];
                 $message=$_REQUEST['message'];
-                if (($name=="")||($email=="")||($message==""))
-                    {
-                    echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-                    }
-                else{        
-                    $from="From: $name<$email>\r\nReturn-path: $email";
-                    $subject="Message sent using your contact form";
-                    mail("youremail@yoursite.com", $subject, $message, $from);
-                    echo "Email sent!";
-                    }
-                }  
             ?>
                         <!-- /.col-md-4 -->
           </div>
@@ -131,19 +136,44 @@
         <!-- /.row -->
 
         <!-- Footer -->
-      <footer>
-        <section class="row">
-          <article class="footer-logo pull first">
-            <h1>206 <span class="subtext-dark">tutoring</span></h1>
-            <h3>&copy;206 Tutoring</h3>
-          </article>
-          <article class="footer-contact push info-megablock">
-            <h3>(206) 551-7843</h3>
-            <h3>contact@206tutoring.com</h3>
-          </article>
-        </section>
+        <footer>
+          <section class="row">
+            <article class="footer-logo pull first">
+              <h1>206 <span class="subtext-dark">tutoring</span></h1>
+              <h3>&copy;206 Tutoring<h3>
+            </article>
+            <article class="footer-contact push info-megablock">
+              <h3>(206) 551-7843</h3>
+              <h3>contacting@206tutoring.com</h3>
+            </article>
+          </section>
         </footer>
-      </div>
+    </div>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
+	<script type="text/javascript">
+	$(function() {
+		// Insert Responsive Sidebar Icon
+		$('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
+		$('<div class="responsive-nav-close" />').appendTo('nav');
+
+		// Navigation Slide In
+		$('.responsive-nav-icon').click(function() {
+			$('nav').addClass('slide-in');
+			$('html').css("overflow", "hidden");
+			$('#overlay').show();
+			return false;
+		});
+
+		// Navigation Slide Out
+		$('#overlay, .responsive-nav-close').click(function() {
+			$('nav').removeClass('slide-in');
+			$('html').css("overflow", "auto");
+			$('#overlay').hide();
+			return false;
+		});
+	});
+	</script>
+
     <!-- /.container -->
 
     <!-- jQuery -->
@@ -153,5 +183,3 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
-</html>
