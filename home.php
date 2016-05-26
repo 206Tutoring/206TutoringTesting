@@ -176,7 +176,7 @@
 		</section>
 	</section>
 	<!-- START FOOTER -->
-	<?php include 'footer.php'; ?>
+  <?php include "footer.php"; ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script>

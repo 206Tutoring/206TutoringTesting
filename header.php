@@ -29,7 +29,7 @@
           <li><a href="/music.html" class="nav-link">Music Lessons</a></li>
           <li><a href="/about.php" class="nav-link">About</a></li>
           <li><a href="/payment.php" class="nav-link">Payment</a></li>
-          <li><a href="/CalculusTutoring/index.html" class=nav-link">Landing Page</a><li>
+          <li><a href="/eigenindex.php" class=nav-link">Landing Page</a><li>
         </ul>
       </nav>
     </section>
