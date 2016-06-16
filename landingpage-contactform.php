@@ -70,14 +70,14 @@
 			?>
 			<section class="lp-contact-form">
 			  <form action="" method="post">
-			    <label>Your name:</label>
-			    <input name="name" type="text" value="" placeholder="Name..." class="input-box"/>
-			    <label>Your email:</label>
-			    <input name="email" type="email" value="" placeholder="Email..." class="input-box"/>
-			    <label>Your phone number:</label>
-			    <input name="phone" type="tel" value="" placeholder="Phone..." class="input-box"/>
-			    <label>How can we help you?:</label>
-			    <textarea name="message" type="text" value="" placeholder="Message..."></textarea>
+			    Your name:<br>
+			    <input name="name" type="text" value="" size="30"/><br>
+			    Your email:<br>
+			    <input name="email" type="email" value="" size="30"/><br>
+			    Your phone number:<br>
+			    <input name="phone" type="tel" value="" size="30"/><br>
+			    How can we help you?:<br>
+			    <textarea name="message" rows="7" cols="30"></textarea><br>
 			    <input name="submitted" type="submit" value="Send Message" class="btn-orange btn-submit"/>
 			  </form>
 			</section>
