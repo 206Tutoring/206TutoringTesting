@@ -40,10 +40,10 @@
 				  
 				  }
 				  //End of validation 
-          error_log($to);
-          error_log($subject);
-          error_log($body);
-          error_log($from);
+          error_log(var_dump($to));
+          error_log(var_dump($subject));
+          error_log(var_dump($body));
+          error_log(var_dump($from));
 				  if (isset($_REQUEST['submitted'])) {
 					  if (empty($errors)) { 
 						  $from = "From: 206Tutoring landing page"; //Site name
