@@ -1,6 +1,7 @@
 {
   "require": {
     "stripe/stripe-php": "*",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "sendgrid/sendgrid": "~4.0"
   }
 }

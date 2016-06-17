@@ -1,4 +1,5 @@
 <?php
+require 'vendor/autoload.php';
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
     {
@@ -30,11 +31,14 @@ else                /* send the submitted data */
     else{		
 	    $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your landing page contact form";
-    error_log($subject);
-    error_log($message);
-    error_log($from);
-		mail("garrettsand@gmail.com", $subject, $message, $from);
-		echo "Email sent!";
+      $sendgrid = new SendGrid('garrettsand', 'Chapagetti69!');
+
+      $mail = new SendGrid\Email();
+      $mail->addTo('garrettsand@gmail.com')
+        ->setFrom($email)
+        ->setSubject('Sent from landing page contact form')
+        ->setText($message . " " $phonenumber);
+      $sendgrid->send($email);
 	    }
     }  
 ?>
