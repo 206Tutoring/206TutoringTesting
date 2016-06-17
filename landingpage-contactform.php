@@ -38,7 +38,7 @@ else                /* send the submitted data */
         ->setFrom($email)
         ->setSubject('Sent from landing page contact form')
         ->setText($message . " " . $phonenumber);
-      $sendgrid->send($email);
+      $sendgrid->send($mail);
 	    }
     }  
 ?>
