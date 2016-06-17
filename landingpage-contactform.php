@@ -30,6 +30,9 @@ else                /* send the submitted data */
     else{		
 	    $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your landing page contact form";
+    error_log($subject);
+    error_log($message);
+    error_log($from);
 		mail("garrettsand@gmail.com", $subject, $message, $from);
 		echo "Email sent!";
 	    }
