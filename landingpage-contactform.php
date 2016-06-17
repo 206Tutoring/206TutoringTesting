@@ -51,6 +51,10 @@
 						  Phone: " . $phone . " ". "
 						  Message: " . $message . ""; 
 						  mail($to,$subject,$body,$from);
+              error_log($to);
+              error_log($subject);
+              error_log($body);
+              error_log($from);
 					  }
 					}
 				?>
