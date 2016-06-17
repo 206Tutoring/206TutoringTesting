@@ -2,6 +2,7 @@
 		<a name="lp-contact-form"></a>
 		<article>
 			<?php 
+        error_log("FUCK");
 				if (isset($_REQUEST['submitted'])) {
 				// Initialize error array.
 				  $errors = array();
