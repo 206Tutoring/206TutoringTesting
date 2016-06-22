@@ -34,7 +34,7 @@ else                /* send the submitted data */
       $sendgrid = new SendGrid('garrettsand', 'Chapagetti69!');
 
       $mail = new SendGrid\Email();
-      $mail->addTo('garrettsand@gmail.com')
+      $mail->addTo('contact@206tutoring.com')
         ->setFrom($email)
         ->setSubject('Sent from landing page contact form')
         ->setText($message . " " . $phonenumber);
