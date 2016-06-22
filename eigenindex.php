@@ -94,7 +94,7 @@
         <!-- /.row -->
 
         <!-- Content Row -->
-        <div class="row">
+        <div>
             <div class="col-md-4">
               <br>
               <img src="../assets/landingpages/seattlecalculustutoringvert.png" class="img-responsive" alt="Responsive image">
@@ -103,16 +103,16 @@
               <br>
               <h1>SEATTLE CALCULUS TUTORING</h1>
               <br>
-              <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+              <p></p>
               <br>
-              <p>Blah Blah Blah Blah</p>
+              <p></p>
               <br>
-              <p>Blah Blah Blah</p>
+              <p></p>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
               <br>
-              <?php include 'landingpage-contactform.php'; ?>
+              <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>
         <!-- /.row -->
