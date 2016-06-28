@@ -82,22 +82,16 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleMiddleSchoolMathTutoring/seattlemiddleschoolmathtutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE MIDDLE-SCHOOL MATH TUTORING</h1>
-              <br>
-              <p>Middle school is typically when math gets hard enough that students start experiencing difficulty, and when parents stop being able to help with math. As a result, 206 Tutoring <b>specializes in teaching middle-school math. We like working with middle-schoolers,</b> and are able to help with <b>Pre-Algebra, Algebra I, Geometry, Algebra II, Pre-Calculus, Integrated math, Common Core, and more.</b></p>
-              <br>
-              <p>Our tutors have years of experience teaching math to middle schoolers. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></p>
-              <br>
-              <p>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. In math, there may only be one right answer, but there are countless ways to get that answer.</p>
+              <h6>Middle school is typically when math gets hard enough that students start experiencing difficulty, and when parents stop being able to help with math. As a result, 206 Tutoring <b>specializes in teaching middle-school math. We like working with middle-schoolers,</b> and are able to help with <b>Pre-Algebra, Algebra I, Geometry, Algebra II, Pre-Calculus, Integrated math, Common Core, and more.</b></h6>
+              <h6>Our tutors have years of experience teaching math to middle schoolers. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></h6>
+              <h6>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. In math, there may only be one right answer, but there are countless ways to get that answer.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

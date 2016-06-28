@@ -82,24 +82,17 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleESLTutoring/seattleesltutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE ESL TUTORING</h1>
-              <br>
-              <p>The Seattle area has long been a terrific place for immigrants. Especially over the last few years, men and women from around the world have been flocking to the Pacific Northwest to seek opportunity. What better way to distinguish yourself or your children than with <b>exceptional English skills?</b></p>
-              <br>
-              <p>206 Tutoring’s team of instructors will help <b>anyone,</b> from <b>any background,</b> of <b>any age and ability level,</b> polish their English—to the point where you’ll be competitive in job interviews, comfortable in social situations, and integrated seamlessly in Seattle society.</p>
-              <br>
-              <p>Our current roster of students includes a middle-school Chinese immigrant, a Russian software engineer, a French-Canadian gentleman on a work visa, and several high school students of varying experience.</p>
-              <br>
-              <p>We teach all ages from 5 to 85: it’s never too early—or too late—to brush up on your English.</p>
+              <h6>The Seattle area has long been a terrific place for immigrants. Especially over the last few years, men and women from around the world have been flocking to the Pacific Northwest to seek opportunity. What better way to distinguish yourself or your children than with <b>exceptional English skills?</b></h6>
+              <h6>206 Tutoring’s team of instructors will help <b>anyone,</b> from <b>any background,</b> of <b>any age and ability level,</b> polish their English—to the point where you’ll be competitive in job interviews, comfortable in social situations, and integrated seamlessly in Seattle society.</h6>
+              <h6>Our current roster of students includes a middle-school Chinese immigrant, a Russian software engineer, a French-Canadian gentleman on a work visa, and several high school students of varying experience.</h6>
+              <h6>We teach all ages from 5 to 85: it’s never too early—or too late—to brush up on your English.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

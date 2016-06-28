@@ -82,20 +82,15 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleTutoring/seattletutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE TUTORING</h1>
-              <br>
-              <p>At 206 Tutoring, our team of tutors gives lessons in math, reading and writing, and more. But what we’re really teaching our students is how to <b>deal with school:</b> finding out what teachers really want, discovering the discipline to study before a big test, and getting the most out of every lecture and paper. <b>206 Tutoring specializes in helping students learn how to learn.</b></p>
-              <br>
-              <p>When students learn how to learn, they learn not just one subject, but all of them. They become their own teachers, able to judge a context or situation for themselves. They develop their own senses of style and methods for accomplishing their objectives. They free up time and energy to devote to the things that interest them—which are also easier to master, when they’ve learned how to learn.</p>
+              <h6>At 206 Tutoring, our team of tutors gives lessons in math, reading and writing, and more. But what we’re really teaching our students is how to <b>deal with school:</b> finding out what teachers really want, discovering the discipline to study before a big test, and getting the most out of every lecture and paper. <b>206 Tutoring specializes in helping students learn how to learn.</b></h6>
+              <h6>When students learn how to learn, they learn not just one subject, but all of them. They become their own teachers, able to judge a context or situation for themselves. They develop their own senses of style and methods for accomplishing their objectives. They free up time and energy to devote to the things that interest them—which are also easier to master, when they’ve learned how to learn.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

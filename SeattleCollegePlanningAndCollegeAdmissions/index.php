@@ -19,7 +19,6 @@
 
     <!-- Old stylesheets we still need -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
-	  <link rel="stylesheet" type="text/css" href="../stylesheets/abc-reset.css">
 	  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
 	  <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
 	  <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
@@ -81,46 +80,28 @@
     </nav>
 
     <!-- Page Content -->
-
-        <!-- Call to Action Well -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="well text-center">
-                  <h1>"                      "</h1>
-                </div>
-            </div>
-            <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleCollegePlanningAndCollegeAdmissions/seattlecollegeplanningandcollegeadmissions.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
-              <h1>SEATTLE COLLEGE PLANNING AND COLLEGE ADMISSIONS</h1>
-              <br>
-              <p>The college-admissions process is intimidating if you’ve never done it before. We have! Let us help you. 206 Tutoring’s college counseling services offer pragmatic and decisive solutions to an increasingly competitive procedure.</p>
-              <p>We will help you:</p>
-                  <p>—Identify and apply to a range of colleges you’d be happy to attend</p>
-                  <p>—Optimize standardized-test scores and GPAs</p>
-                  <p>—Write the best possible college essays</p>
-                  <p>—Find and win scholarships and opportunities for financial aid</p>
-              <br>
-              <p>We have the following qualifications:</p>
-                  <p>—Admission to Ivies and prestigious liberal-arts colleges</p>
-                  <p>—Experience with broader demographics than other private agencies</p>
-                  <p>—Familiarity with the demands of the modern application process</p>
-                  <p>—Youth and experience: as millennials, we know what colleges are like from firsthand experience, not admissions brochures or officers</p>        
-                  <p>—Comprehensive knowledge of colleges and how they fit with personality types</p>
-                  <p>—Extensive experience editing essays from published writers with exceptional skills</p>
+              <h4>SEATTLE COLLEGE PLANNING AND COLLEGE ADMISSIONS</h4>
+              <h6>The college-admissions process is intimidating if you’ve never done it before. We have! Let us help you. 206 Tutoring’s college counseling services offer pragmatic and decisive solutions to an increasingly competitive procedure.</h6>
+              <h6>We will help you:</h6>
+                  <h6>—Identify and apply to a range of colleges you’d be happy to attend</h6>
+                  <h6>—Optimize standardized-test scores and GPAs</h6>
+                  <h6>—Write the best possible college essays</h6>
+                  <h6>—Find and win scholarships and opportunities for financial aid</h6>
+              <h6>We have the following qualifications:</h6>
+                  <h6>—Admission to Ivies and prestigious liberal-arts colleges</h6>
+                  <h6>—Experience with broader demographics than other private agencies</h6>
+                  <h6>—Familiarity with the demands of the modern application process</h6>
+                  <h6>—Youth and experience: as millennials, we know what colleges are like from firsthand experience, not admissions brochures or officers</h6>        
+                  <h6>—Comprehensive knowledge of colleges and how they fit with personality types</h6>
+                  <h6>—Extensive experience editing essays from published writers with exceptional skills</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

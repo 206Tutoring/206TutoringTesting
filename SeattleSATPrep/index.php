@@ -82,28 +82,19 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleSATPrep/seattlesatprep.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE SAT PREP</h1>
-              <br>
-              <p>206 Tutoring offers full-service one-on-one SAT preparation, with expert instructors and average gains of <b>250 points.</b></p>
-              <br>
-              <p>The SAT consists of <b>three multiple-choice sections</b> (math, reading, and writing), along with a free-response essay. 206 Tutoring is on the cutting edge of the New SAT, collaborating with other agencies to develop original strategies you won’t find elsewhere.</p>
-              <br>
-              <p><b>Reading,</b> which tests vocabulary and reading comprehension through short passages, is the section where our improvements are most exceptional. The new SAT will feature graphs and charts alongside the passages.</p>
-              <br>
-              <p><b>Math,</b> which has multiple-choice and free-response “grid-in” problems, can be conquered with test-prep strategies and reviewing the material. The new SAT will cover more subjects.</p>
-              <br>
-              <p><b>Writing,</b> which asks students to correct sentences and find grammatical errors, is the easiest section to study for. The new SAT will present the same type of question within longer passages we can happily skip.</p>
-              <br>
-              <p><b>The essay</b> is a source of frustration to most test-takers, but not ours!</p>
+              <h6>206 Tutoring offers full-service one-on-one SAT preparation, with expert instructors and average gains of <b>250 points.</b></h6>
+              <h6>The SAT consists of <b>three multiple-choice sections</b> (math, reading, and writing), along with a free-response essay. 206 Tutoring is on the cutting edge of the New SAT, collaborating with other agencies to develop original strategies you won’t find elsewhere.</h6>
+              <h6><b>Reading,</b> which tests vocabulary and reading comprehension through short passages, is the section where our improvements are most exceptional. The new SAT will feature graphs and charts alongside the passages.</h6>
+              <h6><b>Math,</b> which has multiple-choice and free-response “grid-in” problems, can be conquered with test-prep strategies and reviewing the material. The new SAT will cover more subjects.</h6>
+              <h6><b>Writing,</b> which asks students to correct sentences and find grammatical errors, is the easiest section to study for. The new SAT will present the same type of question within longer passages we can happily skip.</h6>
+              <h6><b>The essay</b> is a source of frustration to most test-takers, but not ours!</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

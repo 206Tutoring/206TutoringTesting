@@ -82,26 +82,18 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleViolinLessons/seattleviolinlessons.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE VIOLIN LESSONS</h1>
-              <br>
-              <p>206 Music Lessons is happy to offer <b>violin lessons.</b> If you’re interested in starting the violin from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</p>
-              <br>
-              <p>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>fiddle,</b> from <b>jazz</b> to <b>pop</b> to <b>solo, orchestral,</b> and more. <b>Movie music</b> and <b>video-game music</b> are particular specialties.</p>
-              <br>
-              <p><b>Our violin lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</p>
-              <br>
-              <p><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. <b>We teach both kids and adults.</b></p>
-              <br>
-              <p><b>We will teach you what you want to play, how you want to play it.</b></p>
+              <h6>206 Music Lessons is happy to offer <b>violin lessons.</b> If you’re interested in starting the violin from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</h6>
+              <h6>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>fiddle,</b> from <b>jazz</b> to <b>pop</b> to <b>solo, orchestral,</b> and more. <b>Movie music</b> and <b>video-game music</b> are particular specialties.</h6>
+              <h6><b>Our violin lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</h6>
+              <h6><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. <b>We teach both kids and adults.</b></h6>
+              <h6><b>We will teach you what you want to play, how you want to play it.</b></h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

@@ -82,7 +82,6 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <div class="video-container">
                 <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/LaVJkBkCyTU">
@@ -90,21 +89,15 @@
               </div>
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE PIANO LESSONS</h1>
-              <p>206 Music Lessons is happy to offer <b>piano lessons.</b> If you’re interested in starting the piano from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</p>
-              <br>
-              <p>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop</b>—<b>movie music</b> and <b>video-game music</b> are particular specialties.</p>
-              <br>
-              <p><b>Our piano lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</p>
-              <br>
-              <p><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. These are not your typical music lessons with rigid and grumpy professionals!</p>
-              <br>
-              <p><b>We will teach you what you want to play, how you want to play it.</b></p>
+              <h6>206 Music Lessons is happy to offer <b>piano lessons.</b> If you’re interested in starting the piano from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</h6>
+              <h6>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop</b>—<b>movie music</b> and <b>video-game music</b> are particular specialties.</h6>
+              <h6><b>Our piano lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</h6>
+              <h6><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. These are not your typical music lessons with rigid and grumpy professionals!</h6>
+              <h6><b>We will teach you what you want to play, how you want to play it.</b></h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>
