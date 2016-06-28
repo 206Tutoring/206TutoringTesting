@@ -86,22 +86,16 @@
         <!-- Content Row -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../assets/landingpages/seattlecalculustutoringvert.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE CALCULUS TUTORING</h1>
-              <br>
-              <p>At 206 Tutoring, we believe that <b>every student deserves to understand calculus.</b> Calculus shouldn’t be a cause for anxiety and frustration, but <strong>confidence and discovery.</strong></p>
-              <br>
-              <p>Our tutors have years of experience teaching Calculus AB, Calculus BC, and beyond—to multivariable calculus and differential equations. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <strong>4’s and 5’s</strong> on the <strong>Calculus AB, Calculus BC, and Statistics AP tests.</strong> Our SAT math scores range from <strong>750 to 800.</strong></p>
-              <br>
-              <p>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer. Approached from the right perspective, calculus is just as learnable as the subjects that came before it.</p>
+              <h6>At 206 Tutoring, we believe that <b>every student deserves to understand calculus.</b> Calculus shouldn’t be a cause for anxiety and frustration, but <strong>confidence and discovery.</strong></h6>
+              <h6>Our tutors have years of experience teaching Calculus AB, Calculus BC, and beyond—to multivariable calculus and differential equations. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <strong>4’s and 5’s</strong> on the <strong>Calculus AB, Calculus BC, and Statistics AP tests.</strong> Our SAT math scores range from <strong>750 to 800.</strong></h6>
+              <h6>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer. Approached from the right perspective, calculus is just as learnable as the subjects that came before it.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

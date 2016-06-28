@@ -86,22 +86,17 @@
         <!-- Content Row -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleElementarySchoolMathTutoring/seattleelementaryschoolmathtutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
               <br>
               <h1>SEATTLE ELEMENTARY-SCHOOL MATH TUTORING</h1>
-              <br>
-              <p>Solid basic-math skills in elementary school are the basis for success in math in middle school, high school, college, and beyond. 206 Tutoring offers personalized math lessons to all kids, all ability levels, grades K through 5. We are happy to help with <b>addition, subtraction, multiplication, division, geometry, percentages, fractions, decimals, pre-algebra, and more.</b></p>
-              <br>
-              <p>Our tutors have years of experience teaching math, and <b>love working with kids.</b> Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></p>
-              <br>
-              <p>Any student can enjoy math, and our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. In math, there may only be one right answer, but there are countless ways to get that answer.</p>
+              <h6>Solid basic-math skills in elementary school are the basis for success in math in middle school, high school, college, and beyond. 206 Tutoring offers personalized math lessons to all kids, all ability levels, grades K through 5. We are happy to help with <b>addition, subtraction, multiplication, division, geometry, percentages, fractions, decimals, pre-algebra, and more.</b></h6>
+              <h6>Our tutors have years of experience teaching math, and <b>love working with kids.</b> Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></h6>
+              <h6>Any student can enjoy math, and our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. In math, there may only be one right answer, but there are countless ways to get that answer.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

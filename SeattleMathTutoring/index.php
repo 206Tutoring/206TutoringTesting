@@ -86,22 +86,16 @@
         <!-- Content Row -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleMathTutoring/seattlemathtutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE MATH TUTORING</h1>
-              <br>
-              <p>At 206 Tutoring, we believe that <b>every student deserves to understand math.</b> Math shouldn’t be a cause for anxiety and frustration, but <b>confidence and discovery.</b></p>
-              <br>
-              <p>Our tutors have experience teaching everything from basic addition to calculus, ages 5 to 45. Several of us were mathletes in middle school, and were two to three years ahead in math in high school. We earned <b>4’s or 5’s</b> on the <b>Calculus AB, Calculus BC, and Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></p>
-              <br>
-              <p>Every math class could be aced by a majority of students. Yet math is the subject taught worst in school. New teaching methods force students to adopt methods that don’t fit their style. Often, explanations confuse instead of clarifying. Our teaching reverses this. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer.</p>
+              <h6>At 206 Tutoring, we believe that <b>every student deserves to understand math.</b> Math shouldn’t be a cause for anxiety and frustration, but <b>confidence and discovery.</b></h6>
+              <h6>Our tutors have experience teaching everything from basic addition to calculus, ages 5 to 45. Several of us were mathletes in middle school, and were two to three years ahead in math in high school. We earned <b>4’s or 5’s</b> on the <b>Calculus AB, Calculus BC, and Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></h6>
+              <h6>Every math class could be aced by a majority of students. Yet math is the subject taught worst in school. New teaching methods force students to adopt methods that don’t fit their style. Often, explanations confuse instead of clarifying. Our teaching reverses this. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

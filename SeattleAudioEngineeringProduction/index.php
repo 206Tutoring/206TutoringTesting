@@ -82,20 +82,15 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleAudioEngineeringProduction/seattleaudioengineeringproduction.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE AUDIO RECORDING, ENGINEERING AND PRODUCTION SERVICES</h1>
-              <br>
-              <p>206 Music Lessons is happy to offer <b>audio recording, audio engineering, and digital-music production services</b> across all genres. Our services are <b>more professional</b> than what you’d get at home, and <b>more flexible</b> than what you’d get at the larger recording studios. We have experience with <b>all genres</b> and <b>all instruments,</b> and are happy to match you with an audio engineer that fits your needs, goals, and ambitions.</p>
-              <br>
-              <p>We serve the entire Seattle area, and our availability can be tailored to fit your location and schedule. Whether you’re looking to make Christmas presents for the family, prepare an audition track for college or conservatory, or release an album to the public, 206 Audio Productions is the best in the business.</p>
+              <h6>206 Music Lessons is happy to offer <b>audio recording, audio engineering, and digital-music production services</b> across all genres. Our services are <b>more professional</b> than what you’d get at home, and <b>more flexible</b> than what you’d get at the larger recording studios. We have experience with <b>all genres</b> and <b>all instruments,</b> and are happy to match you with an audio engineer that fits your needs, goals, and ambitions.</h6>
+              <h6>We serve the entire Seattle area, and our availability can be tailored to fit your location and schedule. Whether you’re looking to make Christmas presents for the family, prepare an audition track for college or conservatory, or release an album to the public, 206 Audio Productions is the best in the business.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

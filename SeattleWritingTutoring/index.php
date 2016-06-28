@@ -82,28 +82,19 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleWritingTutoring/seattlewritingtutoring.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE WRITING TUTORING</h1>
-              <br>
-              <p>Mastery of reading and writing is more critical than ever before. College admissions are increasingly competitive and subjective, based on the essay. Jobs are hard to find and harder to get—and your success hinges on résumés, interviews, and communication skills. Academic papers are stressful and difficult. <b>Writing and reading well are marketable skills.</b></p>
-              <br>
-              <p>We offer a full range of services, from learning to free write in elementary school, to writing longer papers and college-admissions essays in high school, writing original papers in college, and beyond.</p>
-              <br>
-              <p><b>Whatever your need, 206 Tutoring can help you express yourself.</b></p>
-              <br>
-              <p>We apply our personalized teaching methods to help students overcome writer’s block, in difficult genres from term papers to college essays, ages 8 and above.</p>
-              <br>
-              <p>On the SAT, our founder scored a <b>800 in Reading</b> and a <b>770 in Writing,</b> and has written for, and been paid by, several different websites on topics ranging from modern TV to old literature and card games. He has edited innumerable college essays, bringing out the best in each student through specific examples of resonant experiences.</p>
-              <br>
-              <p>The rest of our instructors are held to the same extremely high standard.</p>
+              <h6>Mastery of reading and writing is more critical than ever before. College admissions are increasingly competitive and subjective, based on the essay. Jobs are hard to find and harder to get—and your success hinges on résumés, interviews, and communication skills. Academic papers are stressful and difficult. <b>Writing and reading well are marketable skills.</b></h6>
+              <h6>We offer a full range of services, from learning to free write in elementary school, to writing longer papers and college-admissions essays in high school, writing original papers in college, and beyond.</h6>
+              <h6><b>Whatever your need, 206 Tutoring can help you express yourself.</b></h6>
+              <h6>We apply our personalized teaching methods to help students overcome writer’s block, in difficult genres from term papers to college essays, ages 8 and above.</h6>
+              <h6>On the SAT, our founder scored a <b>800 in Reading</b> and a <b>770 in Writing,</b> and has written for, and been paid by, several different websites on topics ranging from modern TV to old literature and card games. He has edited innumerable college essays, bringing out the best in each student through specific examples of resonant experiences.</h6>
+              <h6>The rest of our instructors are held to the same extremely high standard.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

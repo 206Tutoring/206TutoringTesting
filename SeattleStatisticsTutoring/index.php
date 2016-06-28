@@ -82,22 +82,16 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../assets/landingpages/seattlecalculustutoringvert.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE STATISTICS TUTORING</h1>
-              <br>
-              <p>At 206 Tutoring, we believe that <b>every student deserves to understand statistics.</b> Statistics is a useful field beyond high-school math, to college and the adult job market and beyond. <b>Statistics is the most important field of math,</b> necessary for the study of social sciences, markets, and beyond. Stats shouldn’t be a cause for anxiety and frustration, but <b>confidence and discovery.</b></p>
-              <br>
-              <p>Our tutors have years of experience teaching statistics; stats classes are among our most popular offerings. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></p>
-              <br>
-              <p>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer. Approached from the right perspective, statistics is just as learnable as the math subjects that came before it.</p>
+              <h6>At 206 Tutoring, we believe that <b>every student deserves to understand statistics.</b> Statistics is a useful field beyond high-school math, to college and the adult job market and beyond. <b>Statistics is the most important field of math,</b> necessary for the study of social sciences, markets, and beyond. Stats shouldn’t be a cause for anxiety and frustration, but <b>confidence and discovery.</b></h6>
+              <h6>Our tutors have years of experience teaching statistics; stats classes are among our most popular offerings. Several of us were mathletes in middle school, were two to three years ahead in math in high school, and earned math degrees as undergrads or grad students. We earned <b>4’s and 5’s</b> on the <b>Calculus AB, Calculus BC,</b> and <b>Statistics AP tests.</b> Our SAT math scores range from <b>750 to 800.</b></h6>
+              <h6>Every math class could be aced by a majority of students. Our teaching reflects this belief. Our <b>individualized lessons</b> adapt to each student’s learning style. There may only be one right answer, but there are countless ways to get that answer. Approached from the right perspective, statistics is just as learnable as the math subjects that came before it.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

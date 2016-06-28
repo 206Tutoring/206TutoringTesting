@@ -82,22 +82,16 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleGREPrep/seattlegreprep.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE GRE PREP</h1>
-              <br>
-              <p>206 Tutoring offers full-service one-on-one GRE preparation, with expert instructors and average gains of <b>7 points.</b> Typical GRE classes cater to a broad range of ability levels and leave half the students bored and the other half confused. <b>Personalized lessons</b> are a far more effective way to prepare for the GRE than for any other standardized test.</p>
-              <br>
-              <p>We apply the same individualized and context- and strategy-oriented methods we use for the SAT and ACT. On the GRE, the math section is a particular specialty of ours.</p>
-              <br>
-              <p>Our GRE students have a <b>100-percent track record</b> of gaining admission to the program of their first or second choice, and have improved their scores by an average of 7 points.</p>
+              <h6>206 Tutoring offers full-service one-on-one GRE preparation, with expert instructors and average gains of <b>7 points.</b> Typical GRE classes cater to a broad range of ability levels and leave half the students bored and the other half confused. <b>Personalized lessons</b> are a far more effective way to prepare for the GRE than for any other standardized test.</h6>
+              <h6>We apply the same individualized and context- and strategy-oriented methods we use for the SAT and ACT. On the GRE, the math section is a particular specialty of ours.</h6>
+              <h6>Our GRE students have a <b>100-percent track record</b> of gaining admission to the program of their first or second choice, and have improved their scores by an average of 7 points.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>

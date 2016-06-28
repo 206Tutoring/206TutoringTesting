@@ -82,28 +82,19 @@
     <!-- Page Content -->
         <div>
             <div class="col-md-4">
-              <br>
               <img src="../SeattleACTPrep/seattleactprep.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <br>
               <h1>SEATTLE ACT PREP</h1>
-              <br>
-              <p>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></p>
-              <br>
-              <p>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></p>
-              <br>
-              <p><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</p>
-              <br>
-              <p><b>Math</b> covers more concepts than SAT math, all the way through trigonometry, which means it’s easier—as long as you know math.</p>
-              <br>
-              <p><b>Reading</b> contains four passages (prose fiction, humanities, social science, and natural science) with ten questions each.</p>
-              <br>
-              <p><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.</p>
+              <h6>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></h6>
+              <h6>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></h6>
+              <h6><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</h6>
+              <h6><b>Math</b> covers more concepts than SAT math, all the way through trigonometry, which means it’s easier—as long as you know math.</h6>
+              <h6><b>Reading</b> contains four passages (prose fiction, humanities, social science, and natural science) with ten questions each.</h6>
+              <h6><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.</h6>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
-              <br>
               <?php include '../landingpage-contactform.php'; ?>
             </div>
         </div>
