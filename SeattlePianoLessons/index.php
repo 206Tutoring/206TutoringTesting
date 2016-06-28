@@ -99,6 +99,7 @@
             <!-- /.col-md-4 -->
             <div class="col-md-4">
               <?php include '../landingpage-contactform.php'; ?>
+              <br>
             </div>
         </div>
         <!-- /.row -->
