@@ -1,24 +1,15 @@
 <header class="home-header">
   <div class="full-row gradient">
     <section class="top-nav row">
-      <a href="/home.php" class="nav-logo pull first">
-        <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
+      <div>
+        <a href="/home.php" class="nav-logo pull first">
+          <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo">
+        </a>
+      </div>
       <div class="nav-badge nav-btn one-fifth push">
-          <div class="header-contact">
-            <a href="/about.php#contact-form" class="nobtn-contact">contact@206tutoring.com</a>
-          </div>
-          <div class="phone-numb">
-            <p>(206) 551-7843</p>
-          </div>
-          <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
-            <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
-            <br>5 stars on Thumbtack — Best of 2015
-          </a>
-        <div>
-          <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
-            <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-            <br>Guest essay: How ‘good’ high schools can be so bad
-          </a>
+        <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+        <div class="phone-numb">
+          <p>(206) 551-7843</p>
         </div>
       </div>
       <!-- START NAV -->
@@ -30,6 +21,20 @@
           <li><a href="/about.php" class="nav-link">About</a></li>
           <li><a href="/payment.php" class="nav-link">Payment</a></li>
         </ul>
+        <section>
+          <div class="pull">
+            <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
+              <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
+              <br>Guest essay: <br>How ‘good’ high schools can be so bad<br>
+            </a>
+          </div>
+          <div class="push">
+            <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+              <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
+              <br>5 stars on Thumbtack — <br>Best of 2015<br>
+            </a>
+          </div>
+        </section>
       </nav>
     </section>
     <div>
@@ -42,7 +47,7 @@
           <div>
             <h2>experienced, effective, empowering</h2>
           </div>
-          <a href="/about.php#contact-form" class="btn-orange btn-contact">Contact Us</a>
+          <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US NOW</a>
         </main>
       </span>
     </div>
