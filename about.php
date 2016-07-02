@@ -24,7 +24,47 @@
 </head>
 <!-- START BODY -->
 <body>
-<?php include 'header.php'; ?>
+<header class="about-header">
+  <div class="full-row gradient">
+    <section class="top-nav row">
+      <div>
+        <a href="/home.php" class="nav-logo pull first">
+          <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo">
+        </a>
+      </div>
+      <div class="nav-badge nav-btn one-fifth push">
+        <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+        <div class="phone-numb">
+          <p>(206) 551-7843</p>
+        </div>
+      </div>
+      <!-- START NAV -->
+      <nav>
+        <ul class="nav-link-list">
+          <li><a href="/test_prep.php" class="nav-link">TEST & COLLEGE PREP</a></li>
+          <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
+          <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
+          <li><a href="/about.php" class="nav-link">ABOUT</a></li>
+          <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
+        </ul>
+        <section>
+          <div class="pull">
+            <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
+              <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
+              <br>Guest essay: <br>How ‘good’ high schools can be so bad<br>
+            </a>
+          </div>
+          <div class="push">
+            <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+              <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
+              <br>5 stars on Thumbtack — <br>Best of 2015<br>
+            </a>
+          </div>
+        </section>
+      </nav>
+    </section>
+  </div>
+</header>
 <span class="jump-links"><a href="#aboutCML">About Chris Morris-Lent</a> | <a href="#instructors">Instructors</a> | <a href="#contact-form">Get In Touch</a></span>
 	<section class="about-content half-row">
 		<article class="about-article">
@@ -230,13 +270,13 @@
 			</section>
 			<article class="address">
 				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
-				<h2>7711 14th Avenue NE</h2>
-				<h2>Seattle, WA 98115</h2	>
+				<h2>3920 Stone Way N., Suite 409</h2>
+				<h2>Seattle, WA 98103</h2	>
 			</article>
 		</article>
 	</section>
 	<!-- START FOOTER -->
-  <?php include footer.php; ?>
+  <?php include "footer.php"; ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
 	<script type="text/javascript">
 	$(function() {
