@@ -1,3 +1,7 @@
+<?php
+require_once('config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,25 +50,19 @@
       <span class="donate-alert" aria-expanded="false"></span>
       <span class="donate-process" aria-expanded="false">processing your donation...</span>
       <span class="donate-thanks" aria-expanded="false"></span>
-      
+
       <h1>Donate</h1>
       <p><em>Enter an amount below, or use the quick links for a specific amount.</em></p>
-      
-      <form method="post" action="/" id="donate-form">
-        <input type="text" id="amt" value="">
-        <button id="donateNow">Donate</button>
-      </form>
-      
-      <button data-amt="25">+$25</button>
-      <button data-amt="50">+$50</button>
-      <button data-amt="100">+$100</button>
-      <button data-amt="150">+$150</button>
-      
+
+      $ <input type="text" id="amt" value="">
+      <button id="donateNow" type="submit">Donate</button>
     </section>
 
   </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
 <script>
 $(document).ready(function(){
   // scroll to top for processing
@@ -84,8 +82,12 @@ $(document).ready(function(){
     document.addEventListener('DOMMouseScroll', stopAnimatedScroll, false);
   }
   document.onmousewheel = stopAnimatedScroll;
+
   // prevent decimal in donation input
-  $('#amt').keypress(function(){preventDot(event)});
+  $('#amt').keypress(function(){
+    preventDot(event)
+  });
+
   function preventDot(event){
     var key = event.charCode ? event.charCode : event.keyCode;  
     if (key == 46){
@@ -93,26 +95,33 @@ $(document).ready(function(){
       return false;
     }
   }
+
   function showProcessing() {
     scrollTo();
     $('.donate-process').addClass('show').attr('aria-expanded', 'true');
     $('.donate-thanks, .donate-alert').removeClass('show').attr('aria-expanded', 'false');
   }
+
   function hideProcessing() {
     $('.donate-process').removeClass('show').attr('aria-expanded', 'false');
   }
+
   // set up Stripe config, ajax post to charge
   var handler = StripeCheckout.configure({
-    key: 'sk_test_01esljLaB7KSmUgIrfLaDIEf',
-    image: '../assets/about/carolinabotero.jpg',
+    key: '<?php echo $stripe['publishable_key'] ?>',
+    image: '/assets/home_page/spaceneedlelogo.jpg',
     closed: function(){document.getElementById('donateNow').removeAttribute('disabled');},
     token: function(token) {
       $.ajax({
-        url: '../charge.php',
+        url: '/charge.php',
         type: 'POST',
         dataType: 'json',
         beforeSend: showProcessing,
-        data: {stripeToken: token.id, stripeEmail: token.email, donationAmt: donationAmt},
+        data: {
+          stripeToken: token.id,
+          stripeEmail: token.email,
+          donationAmt: donationAmt
+        },
         success: function(data) {
           hideProcessing();
           $('#amt').val('');
@@ -128,6 +137,7 @@ $(document).ready(function(){
       });
     }
   });
+
   // donate now button, open Checkout
   $('#donateNow').click(function(e) {
     // strip non-numbers from amount and convert to cents
@@ -140,19 +150,15 @@ $(document).ready(function(){
       $('#donateNow').attr('disabled', 'disabled');
       // Open Checkout
       handler.open({
-        name: 'Your Org Name',
-        description: 'Online Donation',
+        name: '206 Tutoring',
+        description: 'Payment',
         amount: donationAmt,
         billingAddress: true
       });
       e.preventDefault();
     }
   });
-  // quick-add amount buttons
-  $('.btn-amt').click(function() {
-    var insert = $.parseJSON($(this).attr('data-amt'));
-    $('#amt').val(insert);
-  });
+
   // Close Checkout on page navigation
   $(window).on('popstate', function() {
     handler.close();
