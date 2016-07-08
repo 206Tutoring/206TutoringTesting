@@ -23,29 +23,225 @@
   ga('send', 'pageview');
 
   </script>
+  <style>
+    .donate-process,
+    .donate-thanks,
+    .donate-alert {
+      font-size: 1.2em;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -o-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      display: block;
+    }
+    .donate-process.show,
+    .donate-thanks.show,
+    .donate-alert.show {
+      opacity: 1;
+      height: auto;
+      visibility: visible;
+      padding: 1em;
+    }
+    .donate-alert.show {
+      background: #f6cfcf;
+    }
+    .donate-thanks.show {
+      background: #39d1b4;
+      color: #fff;
+    }
+  </style>
+
 </head>
 <!-- START BODY -->
 <body>
   <!-- START HEADER -->
-  <?php include 'header.php'; ?>
-   <div class="center payment-container">
-      <div class="center">
-        <h1>Set up payments with our secure payment portal.</h1>
+<header class="home-header">
+  <div class="full-row gradient">
+    <section class="top-nav row">
+      <div>
+        <a href="/home.php" class="nav-logo pull first">
+          <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo">
+        </a>
       </div>
-      <?php require_once('./config.php'); ?>
-      <form action="charge.php" method="post">
-        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<?php echo $stripe['publishable_key']; ?>"
-          data-name="Two Lessons"
-          data-description="Pay for two lessons at $25/hour"
-          data-amount="5000"
-          data-locale="auto"
-          >
-        </script>
-      </form>
+      <div class="nav-badge nav-btn one-fifth push">
+        <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+        <div class="phone-numb">
+          <p>(206) 551-7843</p>
+        </div>
+      </div>
+      <!-- START NAV -->
+      <nav>
+        <ul class="nav-link-list">
+          <li><a href="/test_prep.php" class="nav-link">TEST & COLLEGE PREP</a></li>
+          <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
+          <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
+          <li><a href="/about.php" class="nav-link">ABOUT</a></li>
+          <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
+        </ul>
+        <section>
+          <div class="pull">
+            <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
+              <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
+              <br>Guest essay: <br>How ‘good’ high schools can be so bad<br>
+            </a>
+          </div>
+          <div class="push">
+            <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+              <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
+              <br>5 stars on Thumbtack — <br>Best of 2015<br>
+            </a>
+          </div>
+        </section>
+      </nav>
+    </section>
+    <div>
+      <span>
+        <main class="header-text row">
+          <div>
+            <h1>PAYMENT</h1>
+          </div>
+        </main>
+      </span>
     </div>
   </div>
-  <?php include 'footer.php'; ?>
+</header>
+
+
+<body>
+
+  <div id="main" role="main">
+
+    <section>
+
+      <span class="donate-alert" aria-expanded="false"></span>
+      <span class="donate-process" aria-expanded="false">processing your donation...</span>
+      <span class="donate-thanks" aria-expanded="false"></span>
+      
+      <h1>Payment</h1>
+      <p><em>Enter an amount below, or use the quick links for a specific amount.</em></p>
+      
+      <form method="post" action="/" id="donate-form">
+        <input type="text" id="amt" value="">
+        <button id="donateNow">Donate</button>
+      </form>
+      
+      <button data-amt="25">+$25</button>
+      <button data-amt="50">+$50</button>
+      <button data-amt="100">+$100</button>
+      <button data-amt="150">+$150</button>
+      
+    </section>
+
+  </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  // scroll to top for processing
+  function scrollTo() {
+    var hash = '#main';
+    var destination = $(hash).offset().top;
+    stopAnimatedScroll();
+    $('html, body').stop().animate({
+      scrollTop: destination
+    }, 400, function() { window.location.hash = hash; });
+    return false;
+  }
+  function stopAnimatedScroll(){
+    if ( $('*:animated').length > 0 ) {$('*:animated').stop();}
+  }
+  if(window.addEventListener) {
+    document.addEventListener('DOMMouseScroll', stopAnimatedScroll, false);
+  }
+  document.onmousewheel = stopAnimatedScroll;
+
+  // prevent decimal in donation input
+  $('#amt').keypress(function(){preventDot(event)});
+  function preventDot(event){
+    var key = event.charCode ? event.charCode : event.keyCode;  
+    if (key == 46){
+      event.preventDefault();
+      return false;
+    }
+  }
+
+  function showProcessing() {
+    scrollTo();
+    $('.donate-process').addClass('show').attr('aria-expanded', 'true');
+    $('.donate-thanks, .donate-alert').removeClass('show').attr('aria-expanded', 'false');
+  }
+
+  function hideProcessing() {
+    $('.donate-process').removeClass('show').attr('aria-expanded', 'false');
+  }
+
+  // set up Stripe config, ajax post to charge
+  var handler = StripeCheckout.configure({
+    key: 'pk_test_your_secret_key',
+    image: 'path/to/img',
+    closed: function(){document.getElementById('donateNow').removeAttribute('disabled');},
+    token: function(token) {
+      $.ajax({
+        url: 'path/to/charge.php',
+        type: 'POST',
+        dataType: 'json',
+        beforeSend: showProcessing,
+        data: {stripeToken: token.id, stripeEmail: token.email, donationAmt: donationAmt},
+        success: function(data) {
+          hideProcessing();
+          $('#amt').val('');
+          if (data.error!='') {
+            $('.donate-alert').addClass('show').text(data.error).attr('aria-expanded', 'true');
+          } else {
+            $('.donate-thanks').addClass('show').text(data.success).attr('aria-expanded', 'true');
+          }
+        },
+        error: function(data) {
+          $('.donate-alert').show().text(data).attr('aria-expanded', 'true');
+        }
+      });
+    }
+  });
+
+  // donate now button, open Checkout
+  $('#donateNow').click(function(e) {
+    // strip non-numbers from amount and convert to cents
+    donationAmt = document.getElementById('amt').value.replace(/\D/g,'') + '00';
+    // make sure there is an amount
+    if (donationAmt < 1) {
+      $('#amt').val('').focus();
+      e.preventDefault();
+    } else {
+      $('#donateNow').attr('disabled', 'disabled');
+      // Open Checkout
+      handler.open({
+        name: 'Your Org Name',
+        description: 'Online Donation',
+        amount: donationAmt,
+        billingAddress: true
+      });
+      e.preventDefault();
+    }
+  });
+
+  // quick-add amount buttons
+  $('.btn-amt').click(function() {
+    var insert = $.parseJSON($(this).attr('data-amt'));
+    $('#amt').val(insert);
+  });
+
+  // Close Checkout on page navigation
+  $(window).on('popstate', function() {
+    handler.close();
+  });
+
+});
+
+<?php include 'footer.php'; ?>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script>

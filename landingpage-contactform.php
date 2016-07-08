@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
     {
@@ -31,7 +32,7 @@ else                /* send the submitted data */
     else{		
 	    $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your landing page contact form";
-      $sendgrid = new SendGrid('garrettsand', 'Chapagetti69!');
+      $sendgrid = new SendGrid($_ENV['SENDGRID_USERNAME'], $_ENV['SENDGRID_PASSWORD']);
 
       $mail = new SendGrid\Email();
       $mail->addTo('contact@206tutoring.com')
