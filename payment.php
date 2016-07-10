@@ -117,10 +117,10 @@ require_once('config.php');
 </header>
 
 <body>
-  <div class="col-md-4">
+  <div class="col-md-5">
     <br>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
 
     <div id="main" role="main">
 
