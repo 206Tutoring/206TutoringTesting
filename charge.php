@@ -70,7 +70,7 @@ EOD;
 EOD;
     
     $adminReceipt
-      ->addTo("garrettsand@gmail.com")
+      ->addTo("contact@206tutoring.com")
       ->setFrom($custemail)
       ->setSubject("Payment received")
       ->setText($adminBody);
