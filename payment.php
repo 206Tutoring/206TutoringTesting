@@ -1,3 +1,7 @@
+<?php
+require_once('config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +10,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="publisher" content="James Hoover"/>
   <!-- LINK stylesheets -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/small-business.css" rel="stylesheet">
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
   <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <title>206Tutoring - Home</title>
+  <title>206Tutoring - Payment</title>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -109,38 +116,38 @@
   </div>
 </header>
 
-
 <body>
+  <div class="col-md-5">
+    <br>
+  </div>
+  <div class="col-md-3">
 
-  <div id="main" role="main">
+    <div id="main" role="main">
 
-    <section>
+      <section>
 
-      <span class="donate-alert" aria-expanded="false"></span>
-      <span class="donate-process" aria-expanded="false">processing your donation...</span>
-      <span class="donate-thanks" aria-expanded="false"></span>
-      
-      <h1>Payment</h1>
-      <p><em>Enter an amount below, or use the quick links for a specific amount.</em></p>
-      
-      <form method="post" action="/" id="donate-form">
-        <input type="text" id="amt" value="">
-        <button id="donateNow">Donate</button>
-      </form>
-      
-      <button data-amt="25">+$25</button>
-      <button data-amt="50">+$50</button>
-      <button data-amt="100">+$100</button>
-      <button data-amt="150">+$150</button>
-      
-    </section>
+        <span class="donate-alert" aria-expanded="false"></span>
+        <span class="donate-process" aria-expanded="false">processing your donation...</span>
+        <span class="donate-thanks" aria-expanded="false"></span>
+          <br>
+          <p>Pay for lessons with our secure payment<br>portal using <a href="https://stripe.com">Stripe</a></p>
+          <br>
+          <br>
+        $ <input type="text" id="amt" value="">
+        <button id="donateNow" type="submit">Pay</button>
+      </section>
+
+    </div>
 
   </div>
-
+  <div class="col-md-4">
+    <br>
+  </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
 <script>
 $(document).ready(function(){
-
   // scroll to top for processing
   function scrollTo() {
     var hash = '#main';
@@ -160,7 +167,10 @@ $(document).ready(function(){
   document.onmousewheel = stopAnimatedScroll;
 
   // prevent decimal in donation input
-  $('#amt').keypress(function(){preventDot(event)});
+  $('#amt').keypress(function(){
+    preventDot(event)
+  });
+
   function preventDot(event){
     var key = event.charCode ? event.charCode : event.keyCode;  
     if (key == 46){
@@ -181,16 +191,20 @@ $(document).ready(function(){
 
   // set up Stripe config, ajax post to charge
   var handler = StripeCheckout.configure({
-    key: 'pk_test_your_secret_key',
-    image: 'path/to/img',
+    key: '<?php echo $stripe['publishable_key'] ?>',
+    image: '/assets/home_page/spaceneedlelogo.jpg',
     closed: function(){document.getElementById('donateNow').removeAttribute('disabled');},
     token: function(token) {
       $.ajax({
-        url: 'path/to/charge.php',
+        url: '/charge.php',
         type: 'POST',
         dataType: 'json',
         beforeSend: showProcessing,
-        data: {stripeToken: token.id, stripeEmail: token.email, donationAmt: donationAmt},
+        data: {
+          stripeToken: token.id,
+          stripeEmail: token.email,
+          donationAmt: donationAmt
+        },
         success: function(data) {
           hideProcessing();
           $('#amt').val('');
@@ -219,8 +233,8 @@ $(document).ready(function(){
       $('#donateNow').attr('disabled', 'disabled');
       // Open Checkout
       handler.open({
-        name: 'Your Org Name',
-        description: 'Online Donation',
+        name: '206 Tutoring',
+        description: 'Payment',
         amount: donationAmt,
         billingAddress: true
       });
@@ -228,19 +242,33 @@ $(document).ready(function(){
     }
   });
 
-  // quick-add amount buttons
-  $('.btn-amt').click(function() {
-    var insert = $.parseJSON($(this).attr('data-amt'));
-    $('#amt').val(insert);
-  });
-
   // Close Checkout on page navigation
   $(window).on('popstate', function() {
     handler.close();
   });
-
 });
-
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php include 'footer.php'; ?>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
