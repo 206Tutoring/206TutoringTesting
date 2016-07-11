@@ -178,10 +178,11 @@
 				<h2 class="prominent">Ofelia Ruiz</h2>
         <p>Ofelia is a native Spanish speaker from the state of Jalisco, Mexico, and a Bellevue College-certified Spanish tutor. She taught Bellevue College students for two years while taking her own business classes, then transferred to Seattle University and completed her bachelor's degree in Business Administration. Helping others to learn how to communicate in Spanish is her passion, and she is proud to share her culture, traditions, and arts through teaching. She lives in Issaquah with her husband and young daughter.</p>	
       </div>
-
-
-
-
+      <div class="one-third first">
+				<img class="about-bio-img" src="/assets/about/jonahbyrne.jpg">
+				<h2 class="prominent">Jonah Byrne</h2>
+        <p>Jonah has been playing violin for over 20 years in a wide range of styles and settings. He studied music at University of Colorado and has been active in the Seattle music scene for the past ten years. He has played classical violin, played fiddle with country and folk bands, and played with experimental, electronic, and indie rock groups. His lessons are designed to teach good technique while helping you play whatever kind of music you’re interested in!</p>	
+      </div>
 		</section>
 	</article>
 	<section class="about-content half-row">
