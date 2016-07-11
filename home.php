@@ -36,7 +36,7 @@
 		</article>
 		<article class="info-block one-third">
 			<a href="/tutoring.html">
-				<img src="/assets/home_page/home_tutor_sqr.png" alt="tutor">
+				<img src="/assets/landingpages/seattlecalculustutoring.png" alt="tutor">
 				<h1>K-12 Tutoring</h1><br>
 			</a>
 			<p>On-demand and regularly scheduled help with math, reading, and writing. Elementary school, high school, and college. Homework, tests, and more. Take all the academic pressure off. Let us help make school a place for not stress and anxiety, but discovery and growth.</p>
