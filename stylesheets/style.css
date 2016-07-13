@@ -19,14 +19,16 @@ html, body {
 	height: 	 100%;
   font-size: 100%;
 }
-h1, h2, h3, h4, h5, h6 {font-weight: 100;}
+h1, h2, h3, h4, h5, {font-weight: 100;}
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.125em;}
 h4 {font-size: 1em;} /* Same size as paragraph */
 h5 {font-size: .875em;}
 h6 {
-  font-size: .90em;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
 }
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
