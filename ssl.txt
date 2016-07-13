@@ -1,0 +1,7 @@
+1. Buy an SSL certificate
+  https://letsencrypt.org
+2. Upload to Heroku
+3. Make sure site is all good
+4. Somehow point the domain at Heroku, either:
+  - change the domain's nameservers to ones you control
+  - update Alex's nameservers in person to point at the new site

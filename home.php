@@ -7,6 +7,7 @@
 	<meta name="publisher" content="James Hoover"/>
 	<!-- LINK stylesheets -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
@@ -29,21 +30,21 @@
 	<section class="home-info row">
 		<article class="info-block one-third first">
 			<a href="/test_prep.php">
-				<img src="/assets/home_page/home_test_prep_sqr.png" alt="test_prep">
+				<img class="center-block" src="/assets/home_page/home_test_prep_sqr.png" alt="test_prep">
 				<h1>Test Preparation & College Planning</h1>
 			</a>
 			<p>The best tutors and college planners in the Seattle metropolitan area. We’ll help you get the score you want on the SAT, ACT, or GRE by using the information on the test itself to your advantage. Alongside our college counseling program, you’ll have the essays, scores, and résumé you need to maximize your chances at your dream school.</p>
 		</article>
 		<article class="info-block one-third">
 			<a href="/tutoring.html">
-				<img src="/assets/landingpages/seattlecalculustutoring.png" alt="tutor">
+				<img class="center-block" src="/assets/home_page/seattlecalculustutoring_sqr2.png" alt="tutor">
 				<h1>K-12 Tutoring</h1><br>
 			</a>
 			<p>On-demand and regularly scheduled help with math, reading, and writing. Elementary school, high school, and college. Homework, tests, and more. Take all the academic pressure off. Let us help make school a place for not stress and anxiety, but discovery and growth.</p>
 		</article>
 		<article class="info-block one-third">
 			<a href="/music.html">
-				<img src="/assets/home_page/home_piano_sqr.png" alt="piano">
+				<img class="center-block" src="/assets/home_page/home_piano_sqr.png" alt="piano">
 				<h1>Music Lessons</h1><br>
 			</a>
 			<p>Our team of experienced, professional performers and instructors offers lessons in piano, voice, guitar, violin, viola, cello, drums, and more. Lessons are fun with flexible schedules and learning plans—we’ll help you learn to play what you want to play, how you want to play it.</p>
@@ -95,16 +96,6 @@
     	</div>
   	</div>
 	</section>
-	<section class="home-about full-row">
-		<section class="row">
-			<div class="home-portrait one-fifth first">
-				<img src="/assets/home_page/home_profile_pic.png" alt="CML Portrait">
-			</div>
-			<div class="four-fifths">
-				<p>Hello! My name is Chris Morris-Lent. I’m the founder of 206 Tutoring and Music Lessons. We provide the highest quality of instruction, through hiring only the most qualified instructors, and matching our students with the best possible fit. For more information, sign up for my blog below, or spend a few minutes exploring the website to get a feel for what we can offer you.</p>
-			</div>
-		</section>
-	</section>
 	<section class="home-consultation row">
 		<section class="consultation-icons">
 			<img src="/assets/home_page/home_lesson_option_in_person_icon.png" alt="lesson_option_in_person">
@@ -113,6 +104,16 @@
 			<h1>Lessons are available in person or online</h1>
 			<h2>Unsure about the best option for you? Contact us now for a free 15-minute consultation. We’ll help you figure out the right plan.</h2>
 			<a href="/about.php#contact-form" class="btn-orange">CONTACT US NOW</a>
+	</section>
+  <section class="home-about full-row">
+		<section class="row">
+			<div class="home-portrait one-fifth first">
+				<img src="/assets/home_page/home_profile_pic.png" alt="CML Portrait">
+			</div>
+			<div class="four-fifths">
+				<p>Hello! My name is Chris Morris-Lent. I’m the founder of 206 Tutoring and Music Lessons. We provide the highest quality of instruction, through hiring only the most qualified instructors, and matching our students with the best possible fit. For more information, sign up for my blog below, or spend a few minutes exploring the website to get a feel for what we can offer you.</p>
+			</div>
+		</section>
 	</section>
 	<section class="schedule-block full-row">
 		<h1>Want to learn more great ways to learn?</h1>

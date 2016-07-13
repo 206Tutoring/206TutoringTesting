@@ -264,7 +264,7 @@
 			    <input name="email" type="email" value="" placeholder="Email..." class="input-box"/>
 			    <label>Phone Number:</label>
 			    <input name="phone" type="tel" value="" placeholder="Phone..." class="input-box"/>
-			    <label>Message:</label>
+			    <label>What can we help you with?</label>
 			    <textarea name="message" type="text" value="" placeholder="Message..."></textarea>
 			    <input name="submitted" type="submit" value="Send Message" class="btn-orange btn-submit"/>
 			  </form>
