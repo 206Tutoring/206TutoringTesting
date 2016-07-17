@@ -201,6 +201,7 @@ a.nav-link:hover {color: #FF9600;}
 .center {margin: auto; padding: 10px;}
 .left {float: left; padding: 10px; text-align: center;}
 
+.payment-button {text-align: center;}
 h1 {text-align: center;}
 /* $HOME
 ------------------------- */

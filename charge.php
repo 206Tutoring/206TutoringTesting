@@ -53,6 +53,10 @@ Thank you!
 Sincerely,
 
 Christopher Morris-Lent, Founder
+
+206-551-7843
+
+contact@206tutoring.com
 EOD;
 
     $receipt

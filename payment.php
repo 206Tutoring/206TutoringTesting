@@ -117,20 +117,21 @@ require_once('config.php');
 </header>
 
 <body>
-  <div class="col-md-5">
+  <div class="col-md-3">
     <br>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-6">
 
     <div id="main" role="main">
 
-      <section>
+      <section class="payment-button">
 
         <span class="donate-alert" aria-expanded="false"></span>
         <span class="donate-process" aria-expanded="false">processing your donation...</span>
         <span class="donate-thanks" aria-expanded="false"></span>
           <br>
-          <p>Pay for lessons with our secure payment<br>portal using <a href="https://stripe.com">Stripe</a></p>
+          <br>
+          <h2><b>Pay for lessons in advance with our secure payment portal using <a href="https://stripe.com">Stripe</a>—easy, fast, convenient, secure.</b></h2>
           <br>
           <br>
         $ <input type="text" id="amt" value="">
@@ -140,7 +141,7 @@ require_once('config.php');
     </div>
 
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <br>
   </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
