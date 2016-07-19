@@ -131,7 +131,7 @@ require_once('config.php');
         <span class="donate-thanks" aria-expanded="false"></span>
           <br>
           <br>
-          <h2><b>Pay for lessons in advance with our secure payment portal using <a href="https://stripe.com">Stripe</a>—easy, fast, convenient, secure.</b></h2>
+          <h2><b>Pay for lessons in advance with our secure payment portal using <a href="https://stripe.com">Stripe</a>—convenient and secure.</b></h2>
           <br>
           <br>
         $ <input type="text" id="amt" value="">
