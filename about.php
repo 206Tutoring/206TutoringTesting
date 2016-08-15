@@ -185,7 +185,7 @@
       </div>
       <div class="one-third">
 				<img class="about-bio-img" src="/assets/about/averypong.jpg">
-				<h2 class="prominent">Jonah Byrne</h2>
+				<h2 class="prominent">Avery Pong</h2>
         <p>Avery, a native New Yorker, is a product of the Manhattan School of Music precollege division.  His ten years of classical training has allowed to him make finals in a number of city and regional concerto competitions, but has also afforded him a passionate, technical appreciation of all that the piano has to offer: from indulgent Chopin, to intense ensemble pieces, to modern piano covers, he's always tried to use his formal instruction to explore new ways to enjoy his music-making more personally.  He now lives in Seattle and attends the University of Washington.</p>	
       </div>
 	</article>
