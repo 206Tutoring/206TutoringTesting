@@ -1,7 +1,5 @@
 RewriteEngine On
 
-#Heroku way
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-
-#If neither above conditions are met, redirect to https
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https 
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
