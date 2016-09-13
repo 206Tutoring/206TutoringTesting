@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="publisher" content="James Hoover"/>
 	<!-- LINK stylesheets -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<title>206Tutoring - Test Prep</title>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -173,7 +173,7 @@
 			</article>
 		</section>
 	</footer><!-- END FOOTER -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
 	<script type="text/javascript">
 	$(function() {
 		// Insert Responsive Sidebar Icon

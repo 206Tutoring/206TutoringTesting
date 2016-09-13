@@ -14,12 +14,12 @@ require_once('config.php');
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/small-business.css" rel="stylesheet">
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
   <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <title>206Tutoring - Payment</title>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -272,7 +272,7 @@ $(document).ready(function(){
 <br>
 <br>
 <?php include 'footer.php'; ?>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script>
     $(document).ready(function(){
