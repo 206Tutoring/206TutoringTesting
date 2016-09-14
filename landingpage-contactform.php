@@ -33,7 +33,7 @@ else {
     $sendgrid = new SendGrid($_ENV['SENDGRID_USERNAME'], $_ENV['SENDGRID_PASSWORD']);
 
     $mail = new SendGrid\Email();
-    $mail->addTo('garrettsand@gmail.com')
+    $mail->addTo('itscml@gmail.com')
       ->setFrom($email)
       ->setSubject('Sent from landing page contact form')
       ->setText($message . " " . $phonenumber);
