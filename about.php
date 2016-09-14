@@ -193,87 +193,53 @@
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
 			<h1>Get in touch</h1>
-			<?php 
-				if (isset($_REQUEST['submitted'])) {
-				// Initialize error array.
-				  $errors = array();
-				  // Check for a proper First name
-				  if (!empty($_REQUEST['name'])) {
-				  $name = $_REQUEST['name'];
-				  $pattern = "/.{1,25}/";// This is a regular expression that checks if the name is valid characters
-				  if (preg_match($pattern,$name)){ $name = $_REQUEST['name'];}
-				  else{ $errors[] = 'Your Name should only contain letters and be 1-25 long.';}
-				  } else {$name = 'No name entered.';}
-				  
-				  //Check for a valid email
-				  if (!empty($_REQUEST['email'])) {
-				  $email = $_REQUEST['email'];
-				  $pattern = "/.{1,40}/";
-				  if (preg_match($pattern,$email)){ $email = $_REQUEST['email'];}
-				  else{ $errors[] = 'Your email was not formatted correctly.';}
-				  } else {$email = 'No email entered.';}
+			<?php
+      require 'vendor/autoload.php';
 
-				  //Check for a valid phone number
-				  if (!empty($_REQUEST['phone'])) {
-				  $phone = $_REQUEST['phone'];
-				  $pattern = "/[0-9]/";
-				  if (preg_match($pattern,$phone)){ $phone = $_REQUEST['phone'];}
-				  else{ $errors[] = 'Your Phone number can only be numbers.';}
-				  } else {$phone = 'No phone number entered.';}
-				  
-				  // Check for a message
-				  if (!empty($_REQUEST['message'])) {
-				  $message = $_REQUEST['message'];
-				  $pattern = "/.{1,500}/";// This is a regular expression that checks if the message is valid characters
-				  if (preg_match($pattern,$message)){ $message = $_REQUEST['message'];}
-				  else{ $errors[] = 'Your message can only contain numbers, letters, standard punctuation, and be 1-500 characters long.';}
-				  } else {$message = 'No message entered.';}
-				  
-				  }
-				  //End of validation 
-				  if (isset($_REQUEST['submitted'])) {
-					  if (empty($errors)) { 
-						  $from = "From: 206Tutoring"; //Site name
-						  // Change this to your email address you want to form sent to
-						  $to = "itscml@gmail.com";
-						  $subject = "Admin - 206Tutoring - CONTACT FORM: Message from " . $name . "";
-						  
-						  $body = "Message from " . $name . " ". "
-						  Email: " . $email . " ". "
-						  Phone: " . $phone . " ". "
-						  Message: " . $message . ""; 
-						  mail($to,$subject,$body,$from);
-					  }
-					}
-				?>
-				<?php 
-				  //Print Errors
-				  if (isset($_REQUEST['submitted'])) {
-				  // Print any error messages. 
-				  if (!empty($errors)) { 
-				  echo '<hr /><h3 class="error">The following occurred:</h3><ul>'; 
-				  // Print each error. 
-				  foreach ($errors as $msg) { echo '<li>'. $msg . '</li>';}
-				  echo '</ul><h3 class="error">Your mail could not be sent due to input errors.</h3><hr />';}
-				   else{echo '<hr /><h3 class="success" align="center">Thank you for your message!</h3><hr />'; 
-				  }
-				  }
-				//End of errors array
-			?>
-			<section class="contact-form">
-			  <form action="" method="post">
-			    <label>Name:</label>
-			    <input name="name" type="text" value="" placeholder="Name..." class="input-box"/>
-			    <label>Email:</label>
-			    <input name="email" type="email" value="" placeholder="Email..." class="input-box"/>
-			    <label>Phone Number:</label>
-			    <input name="phone" type="tel" value="" placeholder="Phone..." class="input-box"/>
-			    <label>What can we help you with?</label>
-			    <textarea name="message" type="text" value="" placeholder="Message..."></textarea>
-			    <input name="submitted" type="submit" value="Send Message" class="btn-orange btn-submit"/>
-			  </form>
-			</section>
-			<article class="address">
+      $action=$_REQUEST['action'];
+      if ($action=="")    /* display the contact form */
+          {
+          ?>
+          <form class="lp-contact-form"  action="" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="action" value="submit">
+          Your name:<br>
+          <input name="name" type="text" value="" size="30"/><br>
+          Your email:<br>
+          <input name="email" type="text" value="" size="30"/><br>
+          Your phone number:<br>
+          <input name="phonenumber" type="text" value="" size="30"/><br>
+          How can we help you?:<br>
+          <textarea name="message" rows="7" cols="30"></textarea><br>
+          <input type="submit" value="Send email"/>
+          </form>
+          <?php
+          } 
+      else {
+        $name=$_REQUEST['name'];
+        $email=$_REQUEST['email'];
+        $phonenumber=$_REQUEST['phonenumber'];
+        $message=$_REQUEST['message'];
+
+        if (($name=="")||($email=="")||($phonenumber=="")||($message=="")) {
+          echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        } else {		
+          $from="From: $name<$email>\r\nReturn-path: $email";
+            $subject="Message sent using your landing page contact form";
+          $sendgrid = new SendGrid($_ENV['SENDGRID_USERNAME'], $_ENV['SENDGRID_PASSWORD']);
+
+          $mail = new SendGrid\Email();
+          $mail->addTo('itscml@gmail.com')
+            ->setFrom($email)
+            ->setSubject('Sent from about page contact form')
+            ->setText($message . " " . $phonenumber);
+          $sendgrid->send($mail);
+          ?>
+          <p>Thank you for your message!</p>
+          <?php
+        }
+      }
+      ?>
+        <article class="address">
 				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
 				<h2>3920 Stone Way N., Suite 409</h2>
 				<h2>Seattle, WA 98103</h2	>
