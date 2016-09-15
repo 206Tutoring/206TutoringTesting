@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle College Planning and College Admissions";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

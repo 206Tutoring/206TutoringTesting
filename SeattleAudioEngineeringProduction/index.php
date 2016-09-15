@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Audio Recording, Engineering and Production Services";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

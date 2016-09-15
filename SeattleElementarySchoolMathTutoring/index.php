@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Elementary-School Math Tutoring";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

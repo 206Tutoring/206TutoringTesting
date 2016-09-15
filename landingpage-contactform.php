@@ -1,6 +1,7 @@
 <?php
+session_start();
 require 'vendor/autoload.php';
-
+$course = $_SESSION['myValue'];
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
     {
@@ -29,13 +30,14 @@ else {
     echo "All fields are required, please fill <a href=\"\">the form</a> again.";
   } else {		
     $from="From: $name<$email>\r\nReturn-path: $email";
-      $subject="Message sent using your landing page contact form";
+      $subject="Student interested in $course";
     $sendgrid = new SendGrid($_ENV['SENDGRID_USERNAME'], $_ENV['SENDGRID_PASSWORD']);
 
     $mail = new SendGrid\Email();
     $mail->addTo('itscml@gmail.com')
+      ->addTo('rdmcabee@hotmail.com')
       ->setFrom($email)
-      ->setSubject('Sent from landing page contact form')
+      ->setSubject($subject)
       ->setText($message . " " . $phonenumber);
     $sendgrid->send($mail);
     ?>
