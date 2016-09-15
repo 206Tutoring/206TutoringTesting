@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Voice Lessons";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

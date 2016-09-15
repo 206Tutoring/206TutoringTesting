@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Cello Lessons";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

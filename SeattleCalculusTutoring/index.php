@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Calculus Tutoring";
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Writing Tutoring";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

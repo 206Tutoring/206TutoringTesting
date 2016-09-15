@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['myValue']="Seattle Standardized-Test Prep / Test Preparation";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
