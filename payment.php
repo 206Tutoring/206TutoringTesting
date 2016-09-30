@@ -93,7 +93,7 @@ require_once('config.php');
           <div class="pull">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>Guest essay: <br>How ‘good’ high schools can be so bad<br>
+              <br>Guest essay: <br>Op-ed: How even good high schools can cause stress<br>
             </a>
           </div>
           <div class="push">
@@ -128,7 +128,7 @@ require_once('config.php');
       <section class="payment-button">
 
         <span class="donate-alert" aria-expanded="false"></span>
-        <span class="donate-process" aria-expanded="false">processing your donation...</span>
+        <span class="donate-process" aria-expanded="false">processing your payment...</span>
         <span class="donate-thanks" aria-expanded="false"></span>
           <br>
           <br>

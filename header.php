@@ -25,7 +25,7 @@
           <div class="pull">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>Guest essay: <br>How ‘good’ high schools can be so bad<br>
+              <br>Guest essay: <br>Op-ed: How even good high schools can cause stress<br>
             </a>
           </div>
           <div class="push">
