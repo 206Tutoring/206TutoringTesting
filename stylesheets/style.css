@@ -83,9 +83,11 @@ nav li {
   display: inline;
   padding: 0 15px;
 }
+.village-logo {width: 63px; padding-top: 19px; margin: 0px 0px 5px 0px;}
 a.nav-link {color: white;}
 a.nav-link:hover {color: #FF9600;}
 .header-contact {color: white; text-align: center; font-size: 135%;}
+#circles {margin-left: 250px;}
 
 /* $Header 
 ------------------------- */
@@ -747,4 +749,61 @@ a.nobtn-contact img,
 .payment-container button {
   display: block;
   margin: 0 auto;
+}
+
+/* contact form */
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+	background: url(images/stripe.png) repeat;
+
+}
+
+#page-wrap p {
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
 }
