@@ -1,87 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>A Nice &amp; Simple Contact Form</title>
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<!-- TODO: Change routes to correct location when in production -->
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="publisher" content="James Hoover"/>
+	<!-- LINK stylesheets -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<title>206Tutoring - Contact Us</title>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48216177-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
 </head>
-
 <body>
-
-	<div id="page-wrap">
-
-		<img src="images/title.gif" alt="A Nice &amp; Simple Contact Form" /><br /><br />
-		
-		<p>There are a million contact form examples on the web, why this one? Because it's SIMPLE, it's FREE, it WORKS, it's VALID, and it's primarily styled with CSS.</p>
-		
-		<p>If you are trying to contact CSS-Tricks, DO NOT USE THIS FORM. This is just an example, my real <a href="http://css-tricks.com/contact/">contact form is here</a>.</p>
-		
-		<p><a href="http://css-tricks.com/examples/NiceSimpleContactForm.zip">[DOWNLOAD THIS EXAMPLE]</a></p>
+	<?php include 'header.php'; ?>
+	<section class="home-info row">
+		<article class="info-block one-third first">
 				
-		<div id="contact-area">
-			
-			<form method="post" action="contactengine.php">
-				<label for="Name">Name:</label>
-				<input type="text" name="Name" id="Name" />
-				
-				<label for="City">City:</label>
-				<input type="text" name="City" id="City" />
-	
-				<label for="Email">Email:</label>
-				<input type="text" name="Email" id="Email" />
-				
-				<label for="Message">Message:</label><br />
-				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+		<h1>Test Preparation & College Planning</h1>
+			</a>
+			<p>We would love to hear from you! INSERT TEXT CONTENT ABOUT 				CONTACT FORM HERE</p>
+			<p>Address, Phone number, etc.</p>
+			<img class="center-block" src="/assets/home_page/					home_test_prep_sqr.png" alt="test_prep">
+		</article>
 
-				<input type="submit" name="submit" value="Submit" class="submit-button" />
-			</form>
-			
-			<div style="clear: both;"></div>
-			
-			<p>Check out a <a href="http://css-tricks.com/examples/NiceSimpleContactForm2">version of this</a> with SPAM protection.</p>
-		
-		</div>
-	
-	</div>
 
-<?php
-$action=$_REQUEST['action'];
-if ($action=="")    /* display the contact form */
-    {
-    ?>
-    <form  action="" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-    Your name:<br>
-    <input name="name" type="text" value="" size="30"/><br>
-    Your email:<br>
-    <input name="email" type="text" value="" size="30"/><br>
-    Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
-    <input type="submit" value="Send email"/>
-    </form>
-    <?php
-    } 
-else                /* send the submitted data */
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=="")||($email=="")||($message==""))
-        {
-		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-	    }
-    else{		
-	    $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-		mail("angelwood@me.com", $subject, $message, $from);
-		echo "Email sent!";
-	    }
-    }  
-?>
-						
 <section class="about-content half-row">
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
@@ -132,10 +88,38 @@ else                /* send the submitted data */
         }
       }
       ?>
+        <article class="address">
+				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
+				<h2>3920 Stone Way N., Suite 409</h2>
+				<h2>Seattle, WA 98103</h2	>
+			</article>
+		</article>
+	</section>
+	<!-- START FOOTER -->
+  <?php include "footer.php"; ?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
+	<script type="text/javascript">
+	$(function() {
+		// Insert Responsive Sidebar Icon
+		$('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
+		$('<div class="responsive-nav-close" />').appendTo('nav');
 
+		// Navigation Slide In
+		$('.responsive-nav-icon').click(function() {
+			$('nav').addClass('slide-in');
+			$('html').css("overflow", "hidden");
+			$('#overlay').show();
+			return false;
+		});
 
-</body>
-
-</html>
-
+		// Navigation Slide Out
+		$('#overlay, .responsive-nav-close').click(function() {
+			$('nav').removeClass('slide-in');
+			$('html').css("overflow", "auto");
+			$('#overlay').hide();
+			return false;
+		});
+	});
+	</script>
+</body><!-- END BODY -->
 
