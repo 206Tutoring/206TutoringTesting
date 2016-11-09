@@ -38,7 +38,7 @@
 		</article>
 
 
-<section class="about-content half-row">
+<section class="about-content one-third">
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
 			<h1>Get in touch</h1>
@@ -95,6 +95,11 @@
 			</article>
 		</article>
 	</section>
+
+	<section class="home-info one-third">
+<img class="center-block" src="/assets/contact/map.jpg" alt="Find us on the map">
+	</section>
+
 	<!-- START FOOTER -->
   <?php include "footer.php"; ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
