@@ -30,8 +30,7 @@
 	<section class="home-info row">
 		<article class="info-block one-half first">
 				
-		
-			</a>
+	
 			<article class="address2">
 				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
 				<h2>3920 Stone Way N., Suite 409</h2>
@@ -96,6 +95,7 @@
       ?>
         
 		</article>
+	</section>
 	</section>
 	<!-- START FOOTER -->
   <?php include "footer.php"; ?>
