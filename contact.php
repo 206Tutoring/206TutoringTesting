@@ -28,13 +28,19 @@
 <body>
 	<?php include 'header.php'; ?>
 	<section class="home-info row">
-		<article class="info-block one-third first">
+		<article class="info-block one-half first">
 				
-		<h1>Test Preparation & College Planning</h1>
+		
 			</a>
-			<p>We would love to hear from you! INSERT TEXT CONTENT ABOUT 				CONTACT FORM HERE</p>
-			<p>Address, Phone number, etc.</p>
-			<img class="center-block" src="/assets/home_page/					home_test_prep_sqr.png" alt="test_prep">
+			<article class="address2">
+				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
+				<h2>3920 Stone Way N., Suite 409</h2>
+				<h2>Seattle, WA 98103</h2	>
+				<h2>(206) 551-7843</h2	>
+			</article>
+<a href="https://www.google.com/maps/place/3920+Stone+Way+N+%23409,+Seattle,+WA+98103/@47.6547819,-122.3490841,15z/data=!4m5!3m4!1s0x5490145562eefa41:0x217dff24f3468d93!8m2!3d47.654794!4d-122.342066">			
+<img class="center-block" src="/assets/contact/map.jpg" alt="find us on the map">
+		</a>
 		</article>
 
 
@@ -77,7 +83,7 @@
           $sendgrid = new SendGrid($_ENV['SENDGRID_USERNAME'], $_ENV['SENDGRID_PASSWORD']);
 
           $mail = new SendGrid\Email();
-          $mail->addTo('itscml@gmail.com')
+          $mail->addTo('angelwood@me.com')
             ->setFrom($email)
             ->setSubject('Sent from about page contact form')
             ->setText($message . " " . $phonenumber);
@@ -88,18 +94,9 @@
         }
       }
       ?>
-        <article class="address">
-				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
-				<h2>3920 Stone Way N., Suite 409</h2>
-				<h2>Seattle, WA 98103</h2	>
-			</article>
+        
 		</article>
 	</section>
-
-	<section class="home-info one-third">
-<img class="center-block" src="/assets/contact/map.jpg" alt="Find us on the map">
-	</section>
-
 	<!-- START FOOTER -->
   <?php include "footer.php"; ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
