@@ -28,6 +28,16 @@
 <body>
 	<?php include 'header.php'; ?>
 	<section class="home-info row">
+	<h1> As Featured On </h1>
+	</br>
+	<div class="one-fifth">
+	<a href="https://www.takesavillage.com/" class="nav-link">
+              <img src="/assets/home_page/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	</div>
+	</section>
+
+	<section class="home-info row">
 		<article class="info-block one-third first">
 			<a href="/test_prep.php">
 				<img class="center-block" src="/assets/home_page/home_test_prep_sqr.png" alt="test_prep">
