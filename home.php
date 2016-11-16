@@ -31,11 +31,37 @@
 	<section class="home-info row">
 	<h1> As Featured On </h1>
 	</br>
-	<div class="one-fifth">
-	<a href="https://www.takesavillage.com/" class="nav-link">
-              <img src="/assets/home_page/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
+	<div class="featured-container">
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
 	</a>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/crosscutlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/dailydotlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/gawkerlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/nprlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/seattleweeklylogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/thestrangerlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	
+	
 	</div>
+	
+
 	</section>
 
 	<section class="home-info row">
