@@ -291,7 +291,8 @@ img.editorial {
 .about-prof  {text-align: center; border-radius: 100%; margin-bottom: 15px;}
 .get-intouch article {padding-bottom: 30px;}
 .address             {padding-top: 50px;}
-.address2            {padding-top: 55px; padding-bottom: 25px; text-align: center;}
+.address2            {padding-top: 55px; padding-bottom: 25px; text-align: center; }
+.addresses	{margin: 20px 0px;}
 
 /* $BLOG
 ------------------------- */
@@ -765,5 +766,6 @@ margin-right: auto;
 
 .featured {
 margin: auto;	
-padding: 2%;
+padding: 0% 3%;
+float: left;
 }
