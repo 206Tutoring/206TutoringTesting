@@ -85,11 +85,11 @@ $_SESSION['myValue']="Seattle ACT Prep";
 
     <!-- Page Content -->
         <div>
-            <div class="col-md-4">
+		 <h1>SEATTLE ACT PREP</h1>
+            <div class="col-md-4 landing">
               <img src="../SeattleACTPrep/seattleactprep.png" class="img-responsive" alt="Responsive image">
             </div>
             <div class="col-md-4">
-              <h1>SEATTLE ACT PREP</h1>
               <h6>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></h6>
               <h6>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></h6>
               <h6><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</h6>
