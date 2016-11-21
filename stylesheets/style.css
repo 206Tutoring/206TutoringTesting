@@ -777,3 +777,8 @@ padding: 2%;
 .landing {
 	box-shadow: 10px 20px 30px;
 }
+
+.color-block {
+	height: 30px;
+	background-color: #099AD2;	
+}
