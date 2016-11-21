@@ -767,3 +767,13 @@ margin-right: auto;
 margin: auto;	
 padding: 2%;
 }
+
+/* LANDING PAGES */
+.img-responsive {
+	border: 5px solid;
+	margin-top: 20px;
+	
+}
+.landing {
+	box-shadow: 10px 20px 30px;
+}
