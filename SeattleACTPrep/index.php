@@ -102,6 +102,9 @@ $_SESSION['myValue']="Seattle ACT Prep";
               <?php include '../landingpage-contactform.php'; ?>
               <br>
             </div>
+		<div class="color-block">
+		
+		</div>
         </div>
         <!-- /.row -->
         <!-- Footer -->
