@@ -98,7 +98,7 @@ $_SESSION['myValue']="Seattle ACT Prep";
               <h6><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.</h6>
             </div>
             <!-- /.col-md-4 -->
-            <div class="col-md-4">
+            <div class="col-md-4 landing-contact-div">
               <?php include '../landingpage-contactform.php'; ?>
               <br>
             </div>
