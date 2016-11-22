@@ -772,10 +772,11 @@ padding: 2%;
 .img-responsive {
 	border: 5px solid;
 	margin-top: 20px;
-	
+	box-shadow: 10px 20px 30px;
 }
 .landing {
-	box-shadow: 10px 20px 30px;
+	margin: 10px 40px;
+	
 
 }
 
