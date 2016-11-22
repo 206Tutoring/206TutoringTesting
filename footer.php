@@ -6,6 +6,7 @@
     </article>
     <article class="footer-contact push info-megablock">
       <h3>(206) 551-7843</h3>
+	</br>
       <h3>contact@206tutoring.com</h3>
     </article>
   </section>
