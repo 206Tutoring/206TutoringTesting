@@ -29,34 +29,34 @@
 <body>
 	<?php include 'header.php'; ?>
 	<section class="home-info row">
-	<h1> As Featured On </h1>
+	<h1 class="featured-header"> As Featured On </h1>
 	</br>
 	<div class="featured-container">
-	<div class="featured">
-              <img src="/assets/logos/ittakeslogo.png" alt="ItTakesAVillage" class="village-logo">
-	</div>
-	<div class="featured">
-              <img src="/assets/logos/crosscutlogo.png" alt="Crosscut" class="village-logo">
-	</div>
-	<div class="featured">
-              <img src="/assets/logos/dailydotlogo.png" alt="TheDailyDot" class="village-logo">
-	</div>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/crosscutlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/dailydotlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/gawkerlogo.png" alt="Gawker" class="village-logo">
-	</div>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/gawkerlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/nprlogo.png" alt="NPR" class="village-logo">
-	</div>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/nprlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/seattleweeklylogo.png" alt="SeattleWeekly" class="village-logo">
-	</div>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/seattleweeklylogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/thestrangerlogo.png" alt="TheStranger" class="village-logo">
-	</div>
+	<a href="https://www.takesavillage.com/" class="featured">
+              <img src="/assets/logos/thestrangerlogo.png" alt="TakesAVillage" class="village-logo">
+	</a>
 	
 	
 	</div>
