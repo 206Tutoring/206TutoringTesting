@@ -291,8 +291,7 @@ img.editorial {
 .about-prof  {text-align: center; border-radius: 100%; margin-bottom: 15px;}
 .get-intouch article {padding-bottom: 30px;}
 .address             {padding-top: 50px;}
-.address2            {padding-top: 55px; padding-bottom: 25px; text-align: center; }
-.addresses	{margin: 20px 0px;}
+.address2            {padding-top: 55px; padding-bottom: 25px; text-align: center;}
 
 /* $BLOG
 ------------------------- */
@@ -755,6 +754,11 @@ a.nobtn-contact img,
 
 /* FEATURED ON */
 
+.featured-header {
+margin: -30px;
+padding: 0px;
+}
+
 .featured-container {
 max-width: 1100px;
 display: block;
@@ -766,6 +770,40 @@ margin-right: auto;
 
 .featured {
 margin: auto;	
-padding: 0% 3%;
-float: left;
+padding: 2%;
+}
+
+/* LANDING PAGES */
+.img-responsive {
+	border: 5px solid;
+	margin-top: 20px;
+	box-shadow: 10px 20px 30px;
+}
+.landing {
+	margin: 10px 40px;
+	
+
+}
+
+.color-block {
+	height: 30px;
+	background-color: #099AD2;	
+}
+
+.landing-contact-div {
+	background-color: #099AD2;
+	border-radius: 25px;
+}
+
+.lp-contact-form p {
+	font-weight: bold;
+	
+}
+
+.lp-contact-form {
+	margin-top: 20px;
+	
+}
+.lp-contact-form input {
+	background-color: #cccccc;
 }
