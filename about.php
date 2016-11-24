@@ -188,6 +188,23 @@
 				<h2 class="prominent">Avery Pong</h2>
         <p>Avery, a native New Yorker, is a product of the Manhattan School of Music precollege division.  His ten years of classical training has allowed to him make finals in a number of city and regional concerto competitions, but has also afforded him a passionate, technical appreciation of all that the piano has to offer: from indulgent Chopin, to intense ensemble pieces, to modern piano covers, he's always tried to use his formal instruction to explore new ways to enjoy his music-making more personally.  He now lives in Seattle and attends the University of Washington.</p>	
       </div>
+
+<div class="one-third">
+				<img class="about-bio-img" src="/assets/about/alexgallo-brown.jpg">
+				<h2 class="prominent">Alex Gallo-Brown</h2>
+        <p>Alex is a published writer whose work has been featured in Salon, the Seattle Weekly, and other national and weekly periodicals. As an instructor at Green River Community College, he taught his students composition, close reading, and critical thinking, and he brings the same focus and sense of purpose to his individual lessons.</p>	
+      </div>
+
+<div class="one-third first">
+				<img class="about-bio-img" src="/assets/about/cameronshishido.jpg">
+				<h2 class="prominent">Cameron Shishido</h2>
+        <p>Cameron earned his Master’s in Chemistry in his early twenties and has worked as an educator ever since. Equally at home T.A.’ing a college class, tutoring high-schoolers in STEM topics, or facilitating a before-school enrichment math course at a public elementary, Cameron is a versatile instructor, and his broad range of interests and students attest to his understanding of numerous topics, and the best way to teach them across diverse learning styles.</p>	
+      </div>
+
+
+
+
+
 	</article>
 	<section class="about-content half-row">
 		<a name="contact-form"></a>

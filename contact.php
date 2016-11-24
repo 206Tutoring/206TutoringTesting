@@ -43,7 +43,7 @@
 <a href="https://www.google.com/maps/place/1512+Summit+Ave+%23304,+Seattle,+WA+98122/@47.6145694,-122.3266819,16z/data=!4m5!3m4!1s0x54906acb14d17daf:0xd0c1ef34305fd942!8m2!3d47.6145658!4d-122.3252174">			
 <img class="center-block" src="/assets/contact/map1.jpg" alt="find us on the map">
 		</a>
-					<article class="address2">
+					<article class="address3">
 						<h2>7711 14th Ave NE</h2>
 						<h2>Seattle, WA 98115</h2	>
 						<h2>(206) 551-7843</h2	>
@@ -56,7 +56,7 @@
 		</article>
 
 
-<section class="about-content one-third">
+<section class="about-content one-half">
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
 			<h1>Get in touch</h1>
