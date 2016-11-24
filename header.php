@@ -25,7 +25,7 @@
           <div class="pull">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>Seattle Times: <br>How to reduce High School Stress<br>
+              <br>206 Tutoring in the Seattle Times:<br>How to reduce stress in high school<br>
             </a>
           </div>
           <div class="push">
