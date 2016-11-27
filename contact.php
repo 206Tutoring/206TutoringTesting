@@ -40,18 +40,17 @@
 				<h2>Seattle, WA 98122</h2	>
 				<h2>(206) 551-7843</h2	>
 			</article>
-<a href="https://www.google.com/maps/place/1512+Summit+Ave+%23304,+Seattle,+WA+98122/@47.6145694,-122.3266819,16z/data=!4m5!3m4!1s0x54906acb14d17daf:0xd0c1ef34305fd942!8m2!3d47.6145658!4d-122.3252174">			
-<img class="center-block" src="/assets/contact/map1.jpg" alt="find us on the map">
-		</a>
+
 					<article class="address3">
 						<h2>7711 14th Ave NE</h2>
 						<h2>Seattle, WA 98115</h2	>
 						<h2>(206) 551-7843</h2	>
 					</article>
-		<a href="https://www.google.com/maps/place/7711+14th+Avenue+Northeast,+Seattle,+WA+98115/@47.6853611,-122.3180225,16z/data=!4m5!3m4!1s0x54901474d38f0fb1:0xce4aa5bbb60fb473!8m2!3d47.6853575!4d-122.3136398">			
-		<img class="center-block" src="/assets/contact/map2.jpg" alt="find us on the map">
-				</a>
-		
+
+
+<a href="https://www.google.com/maps/place/1512+Summit+Ave+%23304,+Seattle,+WA+98122/@47.6145694,-122.3266819,16z/data=!4m5!3m4!1s0x54906acb14d17daf:0xd0c1ef34305fd942!8m2!3d47.6145658!4d-122.3252174">			
+<img class="center-block" src="/assets/contact/mapboth.jpg" alt="find us on the map">
+		</a>		
 		
 		</article>
 
