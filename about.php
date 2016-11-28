@@ -192,7 +192,7 @@
 <div class="one-third">
 				<img class="about-bio-img" src="/assets/about/alexgallo-brown.jpg">
 				<h2 class="prominent">Alex Gallo-Brown</h2>
-        <p>Alex is a published writer whose work has been featured in Salon, the Seattle Weekly, and other national and weekly periodicals. As an instructor at Green River Community College, he taught his students composition, close reading, and critical thinking, and he brings the same focus and sense of purpose to his individual lessons.</p>	
+        <p>Alex Gallo-Brown is a writer and educator who holds an MA in English from Georgia State University in Atlanta and a BFA in Writing from Pratt Institute in Brooklyn. He was an instructor of composition at Green River College and a writing tutor at Georgia State University and South Seattle College. His essays, stories, and poems have appeared in many publications, including Salon, Seattle Weekly, The Stranger, The Oregonian, and Los Angeles Review of Books.</p>	
       </div>
 
 <div class="one-third first">
@@ -201,6 +201,17 @@
         <p>Cameron earned his Master’s in Chemistry in his early twenties and has worked as an educator ever since. Equally at home T.A.’ing a college class, tutoring high-schoolers in STEM topics, or facilitating a before-school enrichment math course at a public elementary, Cameron is a versatile instructor, and his broad range of interests and students attest to his understanding of numerous topics, and the best way to teach them across diverse learning styles.</p>	
       </div>
 
+<div class="one-third">
+				<img class="about-bio-img" src="/assets/about/caitlinroberts.jpg">
+				<h2 class="prominent">Caitlin Roberts</h2>
+        <p>Caitlin earned her Master of Environmental Studies in Biological Oceanography from The Evergreen State College in 2013. In pursuit of her passion for education, she worked as the Project Manager for the Ocean Acidification Curriculum Collection for three years after she graduated. Her expertise lies in STEM subjects, music, writing, and Spanish. She has been writing songs and playing guitar for over 13 years and performs in several indie bands in Seattle. Caitlin works with each student's interests to expand their musical skillset.</p>	
+      </div>
+
+<div class="one-third">
+				<img class="about-bio-img" src="/assets/about/naomigradinaru.jpg">
+				<h2 class="prominent">Naomi Gradinaru</h2>
+        <p>Naomi Gradinaru is a student at the University of Washington and a graduate of Interlake High School. She is passionate about science as a former participant in Science Olympiad throughout high school, studying anatomy and cell biology in detail. Naomi is familiar with many AP and IB subjects including biology, chemistry, physics, math, and French. She has experience working in educational summer camps with children from kindergarten to middle school and also enjoys working with high school students as a volunteer Science Olympiad coach.</p>	
+      </div>
 
 
 
