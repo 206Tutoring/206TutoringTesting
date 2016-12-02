@@ -101,8 +101,7 @@ h1 {text-align: center;
 	margin-top: 20px;
 	box-shadow: 10px 20px 30px;
 }
-.landing {
-	margin: 10px 40px;
+
 	
 
 }
@@ -168,16 +167,21 @@ h1 {text-align: center;
 	font-size: 1.5em;
 }
 
-/* $FOOTER
-------------------------- */
+/* $FOOTER*/
+------------------------- 
 footer h1 {font-weight: 600;}
 footer h3 {font-weight: 400;}
 footer {
   padding: 50px 0 75px;
-  background-color: #0D0D0D;
+  background-color: #099ad2;
   color: white;
 }
 .footer-logo h1    {padding-bottom: 15px;}
 .footer-contact h3 {text-align: right; padding-bottom: 15px;}
 .info-megablock {font-weight: bold; text-align: center;}
+.footer-text {
+	margin-top: 30px;
+	font-size: 170%;
+	text-align: center;
+}
 
