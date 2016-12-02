@@ -1,0 +1,170 @@
+/* --------------------------------------------------
+** landing-page-style.css
+** Stylesheet for www.206tutoring.com
+** Copyright: 2016
+** -------------------------------------------------- */
+
+
+
+
+
+.navbar-default {
+  background-color: #099ad2;
+  border-color: #097ba7;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 1.2em;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ff9600;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+font-weight: bold;
+font-size: 1.2em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff9600;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ff9600;
+  background-color: #097ba7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ff9600;
+  background-color: #097ba7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #097ba7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #097ba7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ff9600;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+	
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ff9600;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ff9600;
+    background-color: #097ba7;
+  }
+}
+
+
+.nav-image {width: 80px;
+		margin-top: -25px;}
+
+body{margin-top: 100px;
+}
+
+h1 {text-align: center;
+
+}
+
+.img-responsive {
+	border: 5px solid;
+	margin-top: 20px;
+	box-shadow: 10px 20px 30px;
+}
+.landing {
+	margin: 10px 40px;
+	
+
+}
+.landing-text {margin-top: 20px;
+
+}
+
+
+
+.color-block {
+	height: 30px;
+	background-color: #099AD2;	
+}
+
+.landing-contact-div {
+	background-color: #099AD2;
+	border-radius: 25px;
+}
+
+.lp-contact-form {
+	font-weight: bold;
+	font-size: 1.5em;
+	
+}
+
+
+.lp-contact-form {
+	margin-top: 20px;
+	
+}
+
+
+.lp-contact-form input {
+	background-color: #cccccc;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #099AD2;
+	border-radius: 4px;
+	font-size: 1.2em;
+	
+} 
+
+.lp-contact-form textarea{
+	width: 100%;
+	height: 80px;
+	padding: 12px 20px;
+	margin: 8px 0;
+    	box-sizing: border-box;
+    	border: 2px solid #099AD2;
+    	border-radius: 4px;
+    	background-color: #cccccc;
+    	resize: none;
+} 
+
+.lp-contact-form input [type=submit] {
+	background-color: ##FF9600
+	color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+	width: 100%;
+	font-size: 1.5em;
+}
+
