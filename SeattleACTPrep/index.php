@@ -70,10 +70,10 @@
   <div>
   		 <h1>SEATTLE ACT PREP</h1>
 		 
-              <div class="col-md-4 landing">
+              <div class="col-md-4 one-third first landing">
                 <img src="../SeattleACTPrep/cml-pic.jpg" class="img-responsive" alt="Responsive image">
               </div>
-              <div class="col-md-4 landing-text">
+              <div class="col-md-4 one-third landing-text">
                 <p>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></p>
                 <p>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></p>
                 <p><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</p>
@@ -81,7 +81,7 @@
                 <p><b>Reading</b> contains four passages (prose fiction, humanities, social science, and natural science) with ten questions each.</p>
                 <p><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.<p>
               </div>
-			  <div class="col-md-4">
+			  <div class="col-md-4 one-third">
 			                <?php include '../landingpage-contactform.php'; ?>
 			                <br>
 			              </div>
@@ -91,6 +91,24 @@
 
   
 </div>
+
+
+<footer>
+  <section class="row">
+    <article class="footer-logo pull first">
+      <h1>206 <span class="subtext-dark">tutoring</span></h1>
+      <h3>&copy;206 Tutoring</h3>
+    </article>
+    <article class="footer-contact push info-megablock">
+      <h3>(206) 551-7843</h3>
+	</br>
+      <h3>contact@206tutoring.com</h3>
+    </article>
+  </section>
+</footer>
+
+
+
 <!-- Footer -->
 <?php include "../footer.php"; ?>
 </body>
