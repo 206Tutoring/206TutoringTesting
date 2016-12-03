@@ -7,7 +7,7 @@
         </a>
       </div>
       <div class="nav-badge nav-btn one-fifth push">
-        <a href="/about.php#contact-form" class="btn-orange btn-contact">CONTACT US</a>
+        <a href="/contact.php" class="btn-orange btn-contact">CONTACT US</a>
         <div class="phone-numb">
           <p>(206) 551-7843</p>
         </div>
@@ -17,6 +17,7 @@
         <ul class="nav-link-list">
           <li><a href="/test_prep.php" class="nav-link">TEST & COLLEGE PREP</a></li>
           <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
+		  <li><a href="/groupclasses.html" class="nav-link">GROUP CLASSES</a></li>
           <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
           <li><a href="/about.php" class="nav-link">ABOUT</a></li>
           <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
@@ -47,7 +48,7 @@
           <div>
             <h2>experienced, effective, empowering</h2>
           </div>
-          <a href="/about.php#contact-form" class="btn-orange">Contact Us Now</a>
+          <a href="/contact.php" class="btn-orange">Contact Us Now</a>
         </main>
       </span>
     </div>
