@@ -770,7 +770,8 @@ margin-right: auto;
 
 
 .featured {
-margin: auto;	
+display: block;
+margin: 0 auto;	
 padding: 2%;
 float: left;
 }
@@ -797,11 +798,11 @@ landing-body{
 	margin: 50px;
 }
 
-.img-responsive {
+/*.img-responsive {
 	border: 5px solid;
 	margin-top: 20px;
 	box-shadow: 10px 20px 30px;
-}
+} */
 .landing {
 	margin: 10px 40px;
 	
@@ -833,7 +834,7 @@ landing-body{
 
 .lp-contact-form input {
 	background-color: #cccccc;
-	width: 100%;
+	width: 90%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	border: 2px solid #099AD2;
@@ -860,9 +861,13 @@ landing-body{
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-	width: 100%;
+	width: 90%;
 	font-size: 1.5em;
 	cursor: pointer;
+}
+
+.lp-contact-form input[type=submit], input[type=button]:hover{
+	background-color:#DB8203;
 }
 
 /* GROUP CLASSES */
