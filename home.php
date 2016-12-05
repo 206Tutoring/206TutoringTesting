@@ -33,33 +33,31 @@
 	</br>
 	<div class="featured-container">
 	
-              <div class="featured">
-		<img src="/assets/logos/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
-		</div>
+			  <a href="https://www.takesavillage.com/" class="featured">
+			                <img src="/assets/logos/ittakeslogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
+			  	<a href="http://crosscut.com" class="featured">
+			                <img src="/assets/logos/crosscutlogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
+			  	<a href="http://www.dailydot.com" class="featured">
+			                <img src="/assets/logos/dailydotlogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
 	
-		<div class="featured">
-              <img src="/assets/logos/crosscutlogo.png" alt="TakesAVillage" class="village-logo">
-		</div>
-	<div class="featured">
-              <img src="/assets/logos/dailydotlogo.png" alt="TakesAVillage" class="village-logo">
-	</div>
+			  	<a href="http://gawker.com" class="featured">
+			                <img src="/assets/logos/gawkerlogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/gawkerlogo.png" alt="TakesAVillage" class="village-logo">
-	</div>
+			  	<a href="http://www.npr.org" class="featured">
+			                <img src="/assets/logos/nprlogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/nprlogo.png" alt="TakesAVillage" class="village-logo">
-	</div>
+			  	<a href="http://www.seattleweekly.com" class="featured">
+			                <img src="/assets/logos/seattleweeklylogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
 	
-	<div class="featured">
-              <img src="/assets/logos/seattleweeklylogo.png" alt="TakesAVillage" class="village-logo">
-	</div>
-	
-	<div class="featured">
-              <img src="/assets/logos/thestrangerlogo.png" alt="TakesAVillage" class="village-logo">
-	</div>
-	
+			  	<a href="http://www.thestranger.com" class="featured">
+			                <img src="/assets/logos/thestrangerlogo.png" alt="TakesAVillage" class="village-logo">
+			  	</a>
 	
 	</div>
 	
