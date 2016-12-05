@@ -71,10 +71,10 @@
 <div class="container">
 	 <h1>SEATTLE ACT PREP</h1>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-push-4 landing-element">
        <img src="../SeattleACTPrep/cml-pic.jpg" class="img-responsive" alt="Responsive image">
     </div>
-    <div class="col-sm-4 landing-text">
+    <div class="col-sm-pull-4 landing-element">
       <p>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></p>
       <p>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></p>
       <p><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</p>
@@ -82,7 +82,7 @@
       <p><b>Reading</b> contains four passages (prose fiction, humanities, social science, and natural science) with ten questions each.</p>
       <p><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.<p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 landing-element">
       <?php include '../landingpage-contactform.php'; ?> 
     </div>
   </div>
