@@ -834,7 +834,7 @@ landing-body{
 
 .lp-contact-form input {
 	background-color: #cccccc;
-	width: 90%;
+	width: 80%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	border: 2px solid #099AD2;
@@ -844,7 +844,7 @@ landing-body{
 } 
 
 .lp-contact-form textarea{
-	width: 100%;
+	width: 80%;
 	height: 150px;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -861,12 +861,12 @@ landing-body{
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-	width: 90%;
+	width: 80%;
 	font-size: 1.5em;
 	cursor: pointer;
 }
 
-.lp-contact-form input[type=submit], input[type=button]:hover{
+.lp-contact-form input[type=submit]:hover, input[type=button]:hover{
 	background-color:#DB8203;
 }
 
