@@ -68,7 +68,7 @@
 
 
 <div class="container">
-	 <h1>SEATTLE ACT PREP</h1>
+	 <h1 class="top-header">SEATTLE ACT PREP</h1>
   <div class="row">
 	  
       <div class="landing-content col-sm-4 col-sm-push-4">
