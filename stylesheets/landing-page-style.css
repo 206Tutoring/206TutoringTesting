@@ -13,7 +13,7 @@
   border-color: #097ba7;
 padding-top: 25px;
 padding-bottom: 25px;
-font-size: 1.2em;
+font-size: 1.1em;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -96,14 +96,14 @@ h1 {text-align: center; margin-top: 30px;
 }
 
 h1.top-header{
-	margin-top: 100px;
-		margin-bottom: 30px;
+	margin-top: 30px;
+		margin-bottom: 0px;
 		font-size: 370%;
 }
 
 .img-responsive {
 	border: 5px solid;
-	margin-top: 60px;
+	margin-top: 5px;
 	box-shadow: 10px 20px 30px;
 }
 
@@ -183,7 +183,7 @@ h1.top-header{
 footer h1 {font-weight: 600;}
 footer h3 {font-weight: 400;}
 footer {
-  padding: 50px 0 75px;
+  padding: 30px 0 60px;
   background-color: #099ad2;
   color: white;
 }
