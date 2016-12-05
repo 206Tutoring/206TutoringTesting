@@ -92,10 +92,13 @@ font-size: 1.2em;
 body{margin-top: 100px;
 }
 
-h1 {text-align: center; margin-top: 100px;
-	margin-bottom: 30px;
-	font-size: 370%;
+h1 {text-align: center; margin-top: 30px;
+}
 
+h1.top-header{
+	margin-top: 100px;
+		margin-bottom: 30px;
+		font-size: 370%;
 }
 
 .img-responsive {
@@ -108,6 +111,7 @@ h1 {text-align: center; margin-top: 100px;
 
 .landing-content{
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
@@ -125,7 +129,7 @@ h1 {text-align: center; margin-top: 100px;
 
 .lp-contact-form {
 	font-weight: bold;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	
 }
 
