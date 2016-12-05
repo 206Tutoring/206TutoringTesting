@@ -92,22 +92,24 @@ font-size: 1.2em;
 body{margin-top: 100px;
 }
 
-h1 {text-align: center; margin: 20px;
+h1 {text-align: center; margin-top: 100px;
+	margin-bottom: 30px;
+	font-size: 370%;
 
 }
 
 .img-responsive {
 	border: 5px solid;
-	margin-top: 20px;
+	margin-top: 60px;
 	box-shadow: 10px 20px 30px;
 }
 
 	
 
+.landing-content{
+	margin-top: 30px;
 }
-.landing-element {margin-top: 60px;
 
-}
 
 
 
