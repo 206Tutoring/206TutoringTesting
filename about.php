@@ -214,7 +214,17 @@
         <p>Naomi Gradinaru is a student at the University of Washington and a graduate of Interlake High School. She is passionate about science as a former participant in Science Olympiad throughout high school, studying anatomy and cell biology in detail. Naomi is familiar with many AP and IB subjects including biology, chemistry, physics, math, and French. She has experience working in educational summer camps with children from kindergarten to middle school and also enjoys working with high school students as a volunteer Science Olympiad coach.</p>	
       </div>
 
-
+<div class="one-third first">
+				<img class="about-bio-img" src="/assets/about/maddyburton.jpg">
+				<h2 class="prominent">Maddy Burton</h2>
+        <p>Maddy Burton is a recent graduate of Tufts University in Medford, MA where she majored in English and minored in Communications and Media Studies as well as Sociology. After returning to Seattle she worked in publicity and marketing within the publishing industry and is passionate about succinct written and visual communication. As a student, Maddy taught literacy skills as a tutor for Tufts Literacy Corps and also has experience teaching Algebra, Geometry, Chemistry, Writing, and Test Prep skills to a variety of age groups. She enjoys empowering kids as they navigate an often times difficult academic landscape.
+</p>	
+      </div>
+<div class="one-third">
+				<img class="about-bio-img" src="/assets/about/vincentnewton.jpg">
+				<h2 class="prominent">Vincent Newton</h2>
+        <p>Vincent is an accompanist and piano teacher from the Midwest. An Illinois native, he studied music and mathematics at Grinnell College (Iowa), and then became active in the accompanying (dance and choir), teaching and music scene in Columbus, OH. Vincent is a classically trained pianist, but is comfortable teaching myriad genres. In addition to piano, Vincent also teaches music theory and composition. </p>	
+      </div>
 
 
 	</article>
