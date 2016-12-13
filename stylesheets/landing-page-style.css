@@ -85,6 +85,12 @@ font-size: 1.2em;
   }
 }
 
+.navbar-nav li+li { border-left: 1px solid #fff }
+
+
+.navbar-nav li a {
+    line-height: 10px;
+}
 
 .nav-image {width: 80px;
 		margin-top: -25px;}
@@ -148,7 +154,7 @@ h1.top-header{
 	margin: 8px 0;
 	border: 2px solid #099AD2;
 	border-radius: 4px;
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
 	
 } 
 
@@ -171,7 +177,7 @@ h1.top-header{
     text-decoration: none;
     margin: 4px 2px;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	cursor: pointer;
 }
 
@@ -179,16 +185,16 @@ h1.top-header{
 	background-color:#DB8203;
 }
 
-/* $FOOTER*/
-------------------------- 
-footer h1 {font-weight: 600;}
+/* $FOOTER  */
+
+footer h1 {font-size: 200%;}
 footer h3 {font-weight: 400;}
 footer {
-  padding: 30px 0 60px;
+  padding: 2px 0 10px;
   background-color: #099ad2;
   color: white;
 }
-.footer-logo h1    {padding-bottom: 15px;}
+.footer-logo h1    {padding-bottom: 0px;}
 .footer-contact h3 {text-align: right; padding-bottom: 15px;}
 .info-megablock {font-weight: bold; text-align: center;}
 .footer-text {
