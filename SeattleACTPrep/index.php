@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>206 Tutoring - Seattle ACT Prep</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -68,25 +68,27 @@
 
 
 <div class="container">
-	 <h1 class="top-header">SEATTLE ACT PREP</h1>
+	 <h1 class="top-header">SEATTLE'S BEST ACT TUTORS</h1>
   <div class="row">
 	  
-      <div class="landing-content col-sm-4 col-sm-push-4">
-        <p>206 Tutoring offers full-service ACT preparation, with expert instructors and average gains of <b>4 points.</b></p>
-        <p>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise and stress without test preparation. Our ACT preparation focuses on <b>answering questions efficiently.</b></p>
-        <p><b>English</b> consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</p>
-        <p><b>Math</b> covers more concepts than SAT math, all the way through trigonometry, which means it’s easier—as long as you know math.</p>
-        <p><b>Reading</b> contains four passages (prose fiction, humanities, social science, and natural science) with ten questions each.</p>
-        <p><b>Science</b> tests the ability to interpret lab reports and graphs. It is similar to the reading section. You don’t even need to know science.<p>
-      </div>
+      <div class="landing-content col-sm-4">
+        <p>206 Tutoring offers elite, individualized ACT tutoring with the <b>best results</b> in the Seattle area. Improve your score by <b>4 points</b>, across English, math, reading, science, and the essays, and gain admission to the college of your dreams.
+</p>
+        <p> All of our instructors have scored at least 31 on the <b>ACT</b>. Meet <b>in your home</b> or at the <b>location of your choice</b>, across <b>the entire Seattle area.</b> </p>
+        <p> Get in touch and start your journey today! </p>
+              </div>
 	  
-    <div class="landing-content col-sm-4 col-sm-pull-4">
+        
+    <div class="landing-content col-sm-4">
+      
+	<?php include '../landingpage-contactform.php'; ?>
+    </div>
+
+<div class="landing-content col-sm-4">
        <img src="../SeattleACTPrep/cml-pic.jpg" class="img-responsive" alt="Responsive image">
     </div>
-    
-    <div class="landing-content col-sm-4">
-      <?php include '../landingpage-contactform.php'; ?> 
-    </div>
+
+
   </div>
 </div>
 
@@ -94,7 +96,7 @@
 
 <footer>
   
-      <h1>206 <span class="subtext-dark">Tutoring</span> </h1>
+      <h1 class="footer-logo">206 <span class="subtext-dark">Tutoring</span> </h1>
 	<div class="footer-text">	
 		 <p> &copy;206 Tutoring &bull; contact@206tutoring.com &bull; (206) 551-7843 </p>
   </div>
