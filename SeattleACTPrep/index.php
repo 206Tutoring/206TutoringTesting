@@ -16,7 +16,9 @@
 </head>
 <body>
 	
-	<nav class="navbar navbar-default navbar-fixed-top">
+	
+	
+	<nav class="navbar navbar-default navbar-fixed-top center">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -54,16 +56,20 @@
                     <li>
                         <a href="../payment.php">Payment</a>
                     </li>
-					<li><a href="../contact.php">Contact Us</a></li>
+					
+					
 
 	          </ul>
 	        </li>
 	      </ul>
-	      
+		  <ul class="nav navbar-right">
+		                      <li><a href="../contact.php" class="btn btn-orange btn-contact">Contact Us</a></li>
+		                    </ul>
 	     
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+
 
 
 
@@ -80,12 +86,18 @@
 	  
         
     <div class="landing-content col-sm-4">
-      
-	<?php include '../landingpage-contactform.php'; ?>
+      Contact form goes here!
+	
     </div>
 
 <div class="landing-content col-sm-4">
        <img src="../SeattleACTPrep/cml-pic.jpg" class="img-responsive" alt="Responsive image">
+	   <section>
+	   <p>
+	   	"Mr. Morris-Lent recognizes the importance of his role as a “guiding force” in influencing the educational endeavors of his students. He respects parents’ impelling positive impact in the educational voyage of their children … goals not based on dictated tenets and past performances, but toward desired results." <i> - Siri H., Redmond</i>
+		
+	   </p>
+   </section>
     </div>
 
 
@@ -109,6 +121,6 @@
 </body>
 </html>
 
-
+<?php include '../landingpage-contactform.php'; ?>
 
 
