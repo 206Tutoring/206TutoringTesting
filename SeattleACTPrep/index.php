@@ -86,7 +86,7 @@
 	  
         
     <div class="landing-content col-sm-4">
-      Contact form goes here!
+      <?php include '../landingpage-contactform.php'; ?>
 	
     </div>
 
@@ -121,6 +121,6 @@
 </body>
 </html>
 
-<?php include '../landingpage-contactform.php'; ?>
+
 
 
