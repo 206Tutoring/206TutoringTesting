@@ -52,7 +52,9 @@
                     <li>
                         <a href="../about.php">About</a>
                     </li>
-
+                    <li>
+                        <a href="../instructors.html">Instructors</a>
+                    </li>
                     <li>
                         <a href="../payment.php">Payment</a>
                     </li>
@@ -74,14 +76,18 @@
 
 
 <div class="container">
-	 <h1 class="top-header">SEATTLE'S BEST ACT TUTORS</h1>
+	 <h1 class="top-header">SEATTLE'S BEST ACT PREP TUTORS</h1>
   <div class="row">
 	  
       <div class="landing-content col-sm-4">
-        <p>206 Tutoring offers elite, individualized ACT tutoring with the <b>best results</b> in the Seattle area. Improve your score by <b>4 points</b>, across English, math, reading, science, and the essays, and gain admission to the college of your dreams.
+        <p>206 Tutoring offers elite, individualized ACT tutoring with the <strong>best results</strong>. Improve your score by <strong>4 points</strong>, across English, math, reading, science, and the essays, and gain admission to the college of your dreams.
 </p>
-        <p> All of our instructors have scored at least 31 on the <b>ACT</b>. Meet <b>in your home</b> or at the <b>location of your choice</b>, across <b>the entire Seattle area.</b> </p>
-        <p> Get in touch and start your journey today! </p>
+
+
+
+        <p> All of our instructors have scored at least 31 on the <strong>ACT</strong>. Meet <strong>in your home</strong> or at the <strong>location of your choice</strong>, across <strong>the entire Seattle area</strong>.</p>
+		
+		<p>Get in touch and start your journey today!</p>
               </div>
 	  
         
@@ -91,7 +97,7 @@
     </div>
 
 <div class="landing-content col-sm-4">
-       <img src="../SeattleACTPrep/cml-pic.jpg" class="img-responsive" alt="Responsive image">
+       <img src="../assets/landingpages/cml-pic.jpg" class="img-responsive" alt="Responsive image">
 	   <section>
 	   <p>
 	   	"Mr. Morris-Lent recognizes the importance of his role as a “guiding force” in influencing the educational endeavors of his students. He respects parents’ impelling positive impact in the educational voyage of their children … goals not based on dictated tenets and past performances, but toward desired results." <i> - Siri H., Redmond</i>
