@@ -16,10 +16,14 @@ require_once('config.php');
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/stylesheets/abc-reset.css">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
   <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  
+  
+  
   <title>206Tutoring - Payment</title>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -121,7 +125,7 @@ require_once('config.php');
 
 
   <!-- START HEADER -->
-<header class="home-header master-header">
+<header class="home-header master-header payment-header">
   <div class="full-row gradient">
     <section class="top-nav row">
       <div>
