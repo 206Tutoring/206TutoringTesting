@@ -1,8 +1,8 @@
+
 <?php
 require_once('force_ssl.php');
 require_once('config.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,7 +121,7 @@ require_once('config.php');
 
 
   <!-- START HEADER -->
-<header class="home-header master-header">
+<header class="home-header master-header payment-header">
   <div class="full-row gradient">
     <section class="top-nav row">
       <div>
