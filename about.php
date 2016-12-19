@@ -121,7 +121,7 @@
     </section>
   </div>
 </header>
-<span class="jump-links"><a href="#aboutCML">About Chris Morris-Lent</a> | <a href="#instructors">Instructors</a> | <a href="#contact-form">Get In Touch</a></span>
+<!--><span class="jump-links"><a href="#aboutCML">About Chris Morris-Lent</a> | <a href="#instructors">Instructors</a> | <a href="#contact-form">Get In Touch</a></span>-->
 	<section class="about-content half-row">
 		<article class="about-article">
 			<h1>Mission Statement</h1>
@@ -155,100 +155,8 @@
 			</div>
 		</article>
 	</section>
-	<a name="instructors"></a>
-	<article class="about-article row">
-		<h1>Our Instructors</h1>
-		<section class="about-bio">
-			<div class="one-third first">
-				<img class="about-bio-img" src="/assets/about/ML.jpg">
-				<h2 class="prominent">Mark Logue</h2>
-				<p>Mark Logue recently graduated from Oberlin College, Phi Beta Kappa, with a B.A. in German studies and economics. For three years, he tutored other students in microeconomics, macroeconomics, and German, which he speaks fluently. Though most comfortable teaching subjects related to his majors, he’s knowledgeable of many more, having studied varied topics such as music theory, art history, math, film, and linguistics.</p>
-			</div>
-			
-			<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/SR.jpg">
-				<h2 class="prominent">Sabrina Reinehr</h2>
-				<p>Sabrina Reinehr is a student currently attending the University of Washington studying engineering. She has worked with students of all ages, from kindergartners to high-school seniors, teaching math and science. She is an expert in AP math and science tests.</p>
-			</div>
-			
-			<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/OW.jpg">
-				<h2 class="prominent">Olivia White</h2>
-				<p>Olivia majored in English writing and Philosophy at Whitworth University in Spokane. She has since moved back to her native PNW to pursue her music, writing, and rainy walks. As a tutor for the required general philosophy course in college, she broke down everything from Plato to de Beauvoir to Derrida for a varied group of students. She spent most of her English classes workshopping her peers' creative and analytical writing. She took a variety of classes and can discuss and critically analyze any subject you bring to the table.</p>
-			</div>
-			
-
-			<div class="one-third first">
-				<img class="about-bio-img" src="/assets/about/AK.jpg">
-				<h2 class="prominent">Anders Kjell</h2>
-				<p>Anders believes that the best approach to becoming a musician is to simply be one. Having spent the last decade performing and songwriting, he is savvy with the steps needed to make playing music more meaningful, faster. Anders understands that each student is different, and customizes every lesson based on this principal. Whether you are new to this craft or are simply looking to improve your skills; come jam and learn the true extent to your potential!</p>	
-      </div>
-      <div class="one-third">
-				<img class="about-bio-img" src="/assets/about/carolinabotero.jpg">
-				<h2 class="prominent">Carolina Botero</h2>
-        <p>Carolina studied piano and voice for over decade in Colombia with professors Mercedes Guevara and Gunter Renz and performed in numerous occasions for Amira De La Rosa Opera house in Colombia. She completed her undergraduate degree at Catholic University, Washington DC were she studied with Norma Newton and Dr. Michael Cordovana, and pursued her Master’s degree in vocal performance at University of St. Thomas, Houston TX under the direction of Dr. Joan Allouache and conductor Dr. Glenn Garrido. At Catholic University she was chosen as the first Hispanic to sing for the Daughters of the American Revolution. Opera roles include: <i>Dialogues of the Carmelites, L’Elisir d’amore, Die Zauberflöte, Don Pasquale, Le Nozze di Figaro, Die Fledermaus, Cosí fan tutte, Der Freischütz, La Calisto</i> and the musical <i>She Loves Me</i> performed in Washington DC, New York, Texas and Washington. She is currently a first year DMA candidate in vocal performance at the University of Washington.</p>	
-      </div>
-      <div class="one-third">
-				<img class="about-bio-img" src="/assets/about/joericci.jpg">
-				<h2 class="prominent">Joe Ricci</h2>
-        <p>Joe did his undergraduate at the University of Rochester, triple majoring in Physics, Mathematics (with distinction), and Philosophy (with highest distinction). He has a masters degree in philosophy and in 2015 received his doctorate, each with the University of Washington. His dissertation was titled Intertheoretic Relations in Context: Details, Purpose, and Practice. Joe has taught philosophy and mathematics at the University of Washington, Seattle Central College, and Columbia College. He has tutored for over 18 years, in Hong Kong, New York, and Seattle. Joe also has two Guinness World Records for juggling and is an active breakdancer.</p>	
-      </div>
-      <div class="one-third first">
-				<img class="about-bio-img" src="/assets/about/stanleywu.jpg">
-				<h2 class="prominent">Stanley Wu</h2>
-        <p>Stanley is a student at the University of Washington and graduated from Inglemoor High School. He has played and taken lessons in cello since elementary school and continues to play in orchestra in college. Besides playing cello, Stanley likes to run, bike, hike, play golf, and play basketball.</p>	
-      </div>
-      <div class="one-third">
-				<img class="about-bio-img" src="/assets/about/masonlynass.jpg">
-				<h2 class="prominent">Mason Lynass</h2>
-        <p>Mason was born in Dallas, TX, and raised in Littleton, CO. He studied piano at a young age, then started drumming around age 10, later moving to to Denton, TX in 2010 to attend the University of North Texas. Mason earned a Bachelor of Music degree in Percussion Performance, performing with classical percussion ensembles, concert bands, orchestras, jazz ensembles, and ethnic ensembles. He’s currently living in Seattle, WA, teaching private lessons, performing with the bands Señor Fín and Hat Hair, and working on original music.</p>	
-      </div>
-      <div class="one-third">
-				<img class="about-bio-img" src="/assets/about/marie-christinesmet.jpg">
-				<h2 class="prominent">Marie-Christine Smet</h2>
-        <p>Marie-Christine is currently an undergraduate student at the University of Washington. In high school, she mastered all of the Social Science and English classes she took, scoring highly in the classes and the AP tests. She has experience working with middle school and high school students on various endeavors, from writing personal statements to navigating pre-algebra to developing debate skills.</p>	
-      </div>
-      
-
-      <div class="one-third first">
-				<img class="about-bio-img" src="/assets/about/ofeliaruiz.jpg">
-				<h2 class="prominent">Ofelia Ruiz</h2>
-        <p>Ofelia is a native Spanish speaker from the state of Jalisco, Mexico, and a Bellevue College-certified Spanish tutor. She taught Bellevue College students for two years while taking her own business classes, then transferred to Seattle University and completed her bachelor's degree in Business Administration. Helping others to learn how to communicate in Spanish is her passion, and she is proud to share her culture, traditions, and arts through teaching. She lives in Issaquah with her husband and young daughter.</p>	
-      </div>
-      <div class="one-third">
-				<img class="about-bio-img" src="/assets/about/jonahbyrne.jpg">
-				<h2 class="prominent">Jonah Byrne</h2>
-        <p>Jonah has been playing violin for over 20 years in a wide range of styles and settings. He studied music at University of Colorado and has been active in the Seattle music scene for the past ten years. He has played classical violin, played fiddle with country and folk bands, and played with experimental, electronic, and indie rock groups. His lessons are designed to teach good technique while helping you play whatever kind of music you’re interested in!</p>	
-      </div>
-      
-
-
-<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/caitlinroberts.jpg">
-				<h2 class="prominent">Caitlin Roberts</h2>
-        <p>Caitlin earned her Master of Environmental Studies in Biological Oceanography from The Evergreen State College in 2013. In pursuit of her passion for education, she worked as the Project Manager for the Ocean Acidification Curriculum Collection for three years after she graduated. Her expertise lies in STEM subjects, music, writing, and Spanish. She has been writing songs and playing guitar for over 13 years and performs in several indie bands in Seattle. Caitlin works with each student's interests to expand their musical skillset.</p>	
-      </div>
-
-<div class="one-third first">
-				<img class="about-bio-img" src="/assets/about/naomigradinaru.jpg">
-				<h2 class="prominent">Naomi Gradinaru</h2>
-        <p>Naomi Gradinaru is a student at the University of Washington and a graduate of Interlake High School. She is passionate about science as a former participant in Science Olympiad throughout high school, studying anatomy and cell biology in detail. Naomi is familiar with many AP and IB subjects including biology, chemistry, physics, math, and French. She has experience working in educational summer camps with children from kindergarten to middle school and also enjoys working with high school students as a volunteer Science Olympiad coach.</p>	
-      </div>
-
-<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/maddyburton.jpg">
-				<h2 class="prominent">Maddy Burton</h2>
-        <p>Maddy Burton is a recent graduate of Tufts University in Medford, MA where she majored in English and minored in Communications and Media Studies as well as Sociology. After returning to Seattle she worked in publicity and marketing within the publishing industry and is passionate about succinct written and visual communication. As a student, Maddy taught literacy skills as a tutor for Tufts Literacy Corps and also has experience teaching Algebra, Geometry, Chemistry, Writing, and Test Prep skills to a variety of age groups. She enjoys empowering kids as they navigate an often times difficult academic landscape.
-</p>	
-      </div>
-<div class="one-third">
-				<img class="about-bio-img" src="/assets/about/vincentnewton.jpg">
-				<h2 class="prominent">Vincent Newton</h2>
-        <p>Vincent is an accompanist and piano teacher from the Midwest. An Illinois native, he studied music and mathematics at Grinnell College (Iowa), and then became active in the accompanying (dance and choir), teaching and music scene in Columbus, OH. Vincent is a classically trained pianist, but is comfortable teaching myriad genres. In addition to piano, Vincent also teaches music theory and composition. </p>	
-      </div>
-
-
-	</article>
+	
+	
 	<section class="about-content half-row">
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
@@ -309,29 +217,7 @@
 	<!-- START FOOTER -->
   <?php include "footer.php"; ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
-	<!--<script type="text/javascript">
-	$(function() {
-		// Insert Responsive Sidebar Icon
-		$('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
-		$('<div class="responsive-nav-close" />').appendTo('nav');
 
-		// Navigation Slide In
-		$('.responsive-nav-icon').click(function() {
-			$('nav').addClass('slide-in');
-			$('html').css("overflow", "hidden");
-			$('#overlay').show();
-			return false;
-		});
-
-		// Navigation Slide Out
-		$('#overlay, .responsive-nav-close').click(function() {
-			$('nav').removeClass('slide-in');
-			$('html').css("overflow", "auto");
-			$('#overlay').hide();
-			return false;
-		});
-	});
-	</script>-->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 

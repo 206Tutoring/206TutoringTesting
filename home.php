@@ -20,10 +20,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-48216177-1', 'auto');
   ga('send', 'pageview');
-
 	</script>
 </head>
 <body>
@@ -174,7 +172,6 @@
 				  if (preg_match($pattern,$email)){ $email = $_REQUEST['email'];}
 				  else{ $errors[] = 'Your email was not formatted corretly.';}
 				  } else {$errors[] = 'You forgot to enter your email.';}
-
 				  }
 				  //End of validation 
 				  if (isset($_REQUEST['submitted'])) {
@@ -231,28 +228,7 @@
       });
     }); 
   </script>	
-	<script type="text/javascript">
-	$(function() {
-		// Insert Responsive Sidebar Icon
-		$('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
-		$('<div class="responsive-nav-close" />').appendTo('nav');
 
-		// Navigation Slide In
-		$('.responsive-nav-icon').click(function() {
-			$('nav').addClass('slide-in');
-			$('html').css("overflow", "hidden");
-			$('#overlay').show();
-			return false;
-		});
-
-		// Navigation Slide Out
-		$('#overlay, .responsive-nav-close').click(function() {
-			$('nav').removeClass('slide-in');
-			$('html').css("overflow", "auto");
-			$('#overlay').hide();
-			return false;
-		});
-	});
-	</script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body><!-- END BODY -->
 </html>

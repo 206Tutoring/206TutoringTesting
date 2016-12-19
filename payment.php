@@ -344,29 +344,7 @@ $(document).ready(function(){
       });
     }); 
   </script> 
-  <!--<script type="text/javascript">
-    $(function() {
-      // Insert Responsive Sidebar Icon
-      $('<div class="responsive-nav-icon" />').appendTo('.top-nav.row');
-      $('<div class="responsive-nav-close" />').appendTo('nav');
-
-      // Navigation Slide In
-      $('.responsive-nav-icon').click(function() {
-        $('nav').addClass('slide-in');
-        $('html').css("overflow", "hidden");
-        $('#overlay').show();
-        return false;
-      });
-
-      // Navigation Slide Out
-      $('#overlay, .responsive-nav-close').click(function() {
-        $('nav').removeClass('slide-in');
-        $('html').css("overflow", "auto");
-        $('#overlay').hide();
-        return false;
-      });
-    });
-  </script>-->
+  
 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body><!-- END BODY -->
