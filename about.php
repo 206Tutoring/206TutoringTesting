@@ -121,7 +121,7 @@
     </section>
   </div>
 </header>
-<!--><span class="jump-links"><a href="#aboutCML">About Chris Morris-Lent</a> | <a href="#instructors">Instructors</a> | <a href="#contact-form">Get In Touch</a></span>-->
+<!--<span class="jump-links"><a href="#aboutCML">About Chris Morris-Lent</a> | <a href="#instructors">Instructors</a> | <a href="#contact-form">Get In Touch</a></span>-->
 	<section class="about-content half-row">
 		<article class="about-article">
 			<h1>Mission Statement</h1>
