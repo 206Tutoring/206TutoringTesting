@@ -43,6 +43,9 @@
   	          </ul>
   	        </li>
   	      </ul>
+<ul class="nav navbar-right">
+		                      <li><a href="../contact.php" class="btn-orange btn-contact">Contact Us</a></li>
+		                    </ul>
 	      
 	     
   	    </div><!-- /.navbar-collapse -->
@@ -59,9 +62,9 @@
         </a>
       </div>
       <div class="nav-badge nav-btn one-fifth push">
-        <a href="/contact.php" class="btn-orange btn-contact">CONTACT US</a>
+         
         <div class="phone-numb">
-          <p>(206) 551-7843</p>
+          <p></p>
         </div>
       </div>
       <!-- START NAV -->
