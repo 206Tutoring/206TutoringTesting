@@ -25,18 +25,18 @@
 </head>
 <!-- START BODY -->
 <body>
-  	 	<nav class="navbar navbar-default navbar-fixed-top">
+  	 	  	<nav class="navbar navbar-default navbar-fixed-top">
   	  <div class="container-fluid">
   	    <!-- Brand and toggle get grouped for better mobile display -->
   	    <div class="navbar-header">
 			
 			
   	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-  	        <span class="sr-only">Toggle navigation</span>
-  	        <span class="icon-bar"></span>
-  	        <span class="icon-bar"></span>
-  	        <span class="icon-bar"></span>
+ 	        
+<span class="sr-only">Toggle navigation</span>
+  	       MENU <span class="caret"></span>
   	      </button>
+
   	      <!--<a class="navbar-brand" href="http://www.206tutoring.com">
   	<img src="../assets/home_page/spaceneedlelogosquaresmall.png" alt="SpaceNeedle">
   	</a>-->
@@ -45,17 +45,26 @@
   	    <!-- Collect the nav links, forms, and other content for toggling -->
   	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   	      <ul class="nav navbar-nav">
-  	        <li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types of Tutoring<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
                           <a href="../test_prep.php">Test and College Prep</a>
                       </li>
-			
-                      <li>
-                          <a href="../tutoring.html"> Tutoring</a>
+             <li>
+                          <a href="../tutoring.html">Academic Tutoring</a>
                       </li>
-                        <li><a href="/groupclasses.html" class="nav-link">Group Classes</a></li>
-                      <li>
+            <li>
                           <a href="../music.html">Music Lessons</a>
                       </li>
+           
+          </ul>
+        </li>
+  	        
+			
+                     
+                        <li><a href="/groupclasses.html" class="nav-link">Group Classes</a></li>
+                      
 
                       <li>
                           <a href="../about.php">About</a>
@@ -70,9 +79,10 @@
   	          </ul>
   	        </li>
   	      </ul>
-	      
-	     
-  	    </div><!-- /.navbar-collapse -->
+<ul class="nav navbar-right">
+		                      <li><a href="../contact.php" class="btn-orange btn-contact">Contact Us</a></li>
+		                    </ul>  	    
+</div><!-- /.navbar-collapse -->
   	  </div><!-- /.container-fluid -->
   	</nav>
 
@@ -82,9 +92,9 @@
       <a href="/home.php" class="nav-logo pull first">
         <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
       <div class="nav-badge nav-btn one-fifth push">
-            <a href="/contact.php" class="btn-orange btn-contact">CONTACT US</a>
+            
           <div class="phone-numb">
-            <p>(206) 551-7843</p>
+            <p></p>
           </div>
       </div>
       <!-- START NAV -->
