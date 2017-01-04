@@ -108,8 +108,8 @@ a.nav-link:hover {color: #FF9600;}
 .about-header {height: 400px;}
 .blog-header {background-color: #099AD2;}
 .header-text {padding: 15px 0 50px; text-align: center;}
-.header-text h1 {font-size: 3.5em; font-weight: 500;}
-.header-text h2 {font-size: 2.5em; font-weight: 200; padding-bottom: 40px;}
+.header-text h1 {font-size: 3.0em; font-weight: 500;}
+.header-text h2 {font-size: 2.0em; font-weight: 200; padding-bottom: 40px;}
 .header-text h4 {padding: 15px 0 25px;}
 
 .master-header {margin-top: 73px;}
@@ -994,7 +994,7 @@ padding: 0px;
 
 /* collapse nav bar at this screen size */
 		
-		@media (max-width: 1064px) {
+		@media (max-width: 795px) {
 		    .navbar-header {
 		        float: none;
 		    }
@@ -1041,5 +1041,9 @@ margin: 25px auto;
 
 .payment-header {
 	margin-top: 100px;
+}
+
+.spaceneedle-logo {
+	text-align: center;
 }
 		
