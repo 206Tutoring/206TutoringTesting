@@ -78,6 +78,7 @@ a.nav-logo {color: #fff;}
 .nav-logo img {padding-top: 10px;}
 .nav-badge {text-align: center;}
 .thumbtack-logo {width: 75px; padding-top: 15px;}
+.thumbtack-logo2016 {width: 65px; padding-top: 15px;}
 .seattletimes-logo {width: 75px; padding-top: 15px; margin: left;}
 nav li {
   display: inline;
@@ -112,7 +113,7 @@ a.nav-link:hover {color: #FF9600;}
 .header-text h2 {font-size: 2.0em; font-weight: 200; padding-bottom: 40px;}
 .header-text h4 {padding: 15px 0 25px;}
 
-.master-header {margin-top: 73px;}
+.master-header {margin-top: 70px;}
 
 /* $PAGES
 ================================================== */
@@ -173,9 +174,9 @@ a.nav-link:hover {color: #FF9600;}
   background-color: #099AD2;
   text-align: center;
 }
-.schedule-block    {padding: 50px 0;}
+.schedule-block    {padding: 0 0 30px 0;}
 .schedule-block h1 {font-size: 3.375em; font-weight: 400; padding: 15px 0;}
-.schedule-block h2 {font-size: 1.875em; font-weight: 200; padding-bottom: 45px;}
+.schedule-block h2 {font-size: 1.875em; font-weight: 200; padding-bottom: 30px;}
 .home-signup {padding: 15px 0;}
 .home-signup div {
   font-size: 1.125em;
@@ -238,7 +239,7 @@ h1 {text-align: center;}
 .slick-next {
   right: 50px!important;
 }
-.home-about        {background-color: #099AD2; padding: 30px 100px;}
+.home-about        {background-color: #099AD2; padding: 30px 100px 0px 100px;}
 .home-portrait     {text-align: center;}
 .home-portrait img {border-radius: 100%;}
 .home-about p {
@@ -366,7 +367,7 @@ img.editorial {
 footer h1 {font-weight: 600;}
 footer h3 {font-weight: 400;}
 footer {
-  padding: 50px 0 75px;
+  padding: 25px 0 15px;
   background-color: #0D0D0D;
   color: white;
 }
@@ -868,10 +869,16 @@ landing-body{
 	cursor: pointer;
 }
 
-.lp-contact-form input[type=submit]:hover, input[type=button]:hover{
-	background-color:#DB8203;
+.lp-contact-form input[type=submit], input[type=button]{
+	background-color: #FF9600;
+	color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+	width: 100%;
+	font-size: 1.3em;
+	cursor: pointer;
 }
-
 /* GROUP CLASSES */
 .group-list {
 	padding-bottom: 15px;
@@ -976,7 +983,7 @@ padding: 0px;
 			
 		}
 		
-		/*CENTER NAV BAR*/
+		/*CENTER NAV BAR
 		
 		.navbar .navbar-nav {
 
@@ -990,7 +997,9 @@ padding: 0px;
 
 		text-align: center;
 
-		}
+		}*/
+
+
 
 /* collapse nav bar at this screen size */
 		
