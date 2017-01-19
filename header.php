@@ -92,7 +92,7 @@
           </div>
           <div class="one-fifth push">
               <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
-                <img src="/assets/about/ThumbtackBadge2016.png" alt="Thumbtack" class="thumbtack-logo2016">
+                <img src="/assets/about/thumbtackbadge2016.png" alt="Thumbtack" class="thumbtack-logo2016">
                 <br>5 stars on Thumbtack<br>Best of 2016<br>
               </a>
             </div>
