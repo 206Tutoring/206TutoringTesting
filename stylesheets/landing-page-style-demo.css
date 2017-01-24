@@ -1,0 +1,369 @@
+/* --------------------------------------------------
+** landing-page-style.css
+** Stylesheet for www.206tutoring.com
+** Copyright: 2016
+** -------------------------------------------------- */
+
+.top-logo{height: 125px; width: 125px; margin-top: -60px;}
+
+.color-bar-header {
+	height: 40px;
+	background-color: #099ad2;
+	margin-bottom: 0px;
+}
+
+p {font-size: 80%;}
+
+
+
+/*NAVBAR (not currently in use)*/
+
+.navbar-default {
+
+  background-color: #099ad2;
+  border-color: #097ba7;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 1.1em;
+
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ff9600;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+font-weight: bold;
+font-size: 1.2em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff9600;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ff9600;
+  background-color: #097ba7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ff9600;
+  background-color: #097ba7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #097ba7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #097ba7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ff9600;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+	
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ff9600;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ff9600;
+    background-color: #097ba7;
+  }
+}
+
+.navbar-nav li+li { border-left: 1px solid #fff }
+
+
+.navbar-nav li a {
+    line-height: 10px;
+}
+
+
+.nav-image {width: 80px;
+		margin-top: -25px;}
+		
+		/*CENTER NAV BAR*/
+		
+		.navbar .navbar-nav {
+
+		display: inline-block;
+
+		float: none;
+
+		}
+
+		.navbar .navbar-collapse {
+
+		text-align: center;
+
+		}
+
+
+
+		/* collapse nav bar at this screen size */
+		
+		@media (max-width: 1080px) {
+		    .navbar-header {
+		        float: none;
+		    }
+		    .navbar-left,.navbar-right {
+		        float: none !important;
+		    }
+		    .navbar-toggle {
+		        display: block;
+		    }
+		    .navbar-collapse {
+		        border-top: 1px solid transparent;
+		        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		    }
+		    .navbar-fixed-top {
+		        top: 0;
+		        border-width: 0 0 1px;
+		    }
+		    .navbar-collapse.collapse {
+		        display: none!important;
+		    }
+		    .navbar-nav {
+		        float: none!important;
+		        margin-top: 7.5px;
+		    }
+		    .navbar-nav>li {
+		        float: none;
+		    }
+		    .navbar-nav>li>a {
+		        padding-top: 10px;
+		        padding-bottom: 10px;
+		    }
+		    .collapse.in{
+		        display:block !important;
+		    }
+		}
+
+
+
+
+body{margin-top: 0px;
+	
+
+}
+
+h1 {text-align: center; margin-top: 30px;
+}
+
+.top-header{
+	margin-top: -30px;
+		margin-bottom: 0px;
+		font-size: 260%;
+		text-align: center;
+}
+
+.img-responsive {
+	border: 5px solid;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	max-width: 90%;
+	margin-left: 10px;
+	box-shadow: 5px 10px 15px;
+}
+
+	
+
+.landing-content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 115%;
+}
+
+
+
+
+.color-block {
+	height: 30px;
+	background-color: #099AD2;	
+}
+
+.landing-contact-div {
+	background-color: #099AD2;
+	border-radius: 25px;
+}
+
+.lp-contact-form {
+	font-weight: bold;
+	/*font-size: 1.5em;*/
+	
+}
+
+
+.lp-contact-form {
+	margin-top: 0px;
+	
+}
+
+
+.lp-contact-form input {
+	background-color: #cccccc;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #099AD2;
+	border-radius: 4px;
+	/*font-size: 1.2em;*/
+	
+} 
+
+.lp-contact-form textarea{
+	width: 100%;
+	height: 80px;
+	padding: 12px 20px;
+	margin: 8px 0;
+    	box-sizing: border-box;
+    	border: 2px solid #099AD2;
+    	border-radius: 4px;
+    	background-color: #cccccc;
+    	resize: none;
+} 
+
+.lp-contact-form input[type=submit], input[type=button]{
+	background-color: #FF9600;
+	color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+	width: 100%;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.lp-contact-form input[type=submit]:hover, input[type=button]:hover{
+	background-color:#DB8203;
+}
+
+
+
+/* $BUTTONS
+================================================== */
+a.btn-orange,
+.btn-orange,
+a.btn-blue,
+.btn-blue{
+	color: white;
+	display: inline-block;
+  padding: 20px 45px;
+  margin: 0px 0;
+  color: #FFFFFF;
+  font-size: .875em !important;
+  line-height: .875em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid rgba(255,255,255,.5);
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.3);
+      -ms-box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.3);
+       -o-box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.3);
+          box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.3);
+}
+a.btn-orange:hover,
+.btn-orange:hover{
+	background-color: #FFB200;
+          box-shadow: 0 0 10px rgba(230,230,230,0.5), 0 0 1px rgba(255,255,255,1);
+		
+}
+a.btn-blue:hover,
+.btn-blue:hover{
+	background-color: #0AADED;
+          box-shadow: 0 0 10px rgba(230,230,230,0.5), 0 0 1px rgba(255,255,255,1);
+		
+}
+
+a.btn-orange,
+.btn-orange {background-color: #FF9600;}
+
+a.btn-blue,
+.btn-blue {background-color:#099ad2;}
+
+
+a.btn-contact,
+.btn-contact{
+  padding: 10px 10px;
+  margin: -10px 0px 0px 0px;
+  color: #FFFFFF;
+  font-size: .875em !important;
+  line-height: .875em;
+}
+a.btn-blue,
+.btn-blue {
+  padding: 12px 10px 10px 10px;
+  margin: -10px 0px 0px 0px;
+  color: #FFFFFF;
+  font-size: .875em !important;
+  line-height: .875em;
+}
+
+
+a.btn-contact img,
+.btn-contact img {height: .875em; padding-right: 15px;}
+.btn-contact::before {
+  padding-right: 15px;
+  content: url(/assets/home_page/Contact_envelope_icon.png);
+}
+
+/* $FOOTER  */
+
+a{
+	color:#FFF;
+}
+a:hover {color:#FF9600;
+	text-decoration: none;
+	
+}
+
+footer h1 {font-size: 200%;}
+footer h3 {font-weight: 400;}
+footer {
+  padding: 2px 0 10px;
+  background-color: #099ad2;
+  color: white;
+}
+.footer-logo h1    {padding-bottom: 0px;}
+.footer-contact h3 {text-align: right; padding-bottom: 15px;}
+.info-megablock {font-weight: bold; text-align: center;}
+.footer-text {
+	margin-top: 30px;
+	font-size: 170%;
+	text-align: center;
+}
+
+.color-bar {
+	height: 40px;
+	background-color: #099ad2;
+	margin-bottom: 20px;
+}
