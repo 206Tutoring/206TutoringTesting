@@ -4,6 +4,13 @@
 ** Copyright: 2016
 ** -------------------------------------------------- */
 
+.container, .container-fluid /*remove margin*/ {
+     padding-right: 0; 
+     padding-left: 0;  
+     margin-right: auto;
+     margin-left: auto;
+}
+
 .top-logo{height: 125px; width: 125px; margin-top: -60px;}
 
 .color-bar-header {
@@ -256,7 +263,7 @@ h1 {text-align: center; margin-top: 30px;
     text-decoration: none;
     margin: 4px 2px;
 	width: 100%;
-	font-size: 90%;
+	font-size: 100%;
 	cursor: pointer;
 }
 
