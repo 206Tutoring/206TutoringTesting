@@ -72,10 +72,10 @@ require_once('config.php');
   	    <div class="navbar-header">
 			
 			
-  	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  	      <button type="button" class="navbar-toggle collapsed navbar-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
  	        
 <span class="sr-only">Toggle navigation</span>
-  	       MENU <span class="caret"></span>
+  	       MENU ☰
   	      </button>
 
   	      <!--<a class="navbar-brand" href="http://www.206tutoring.com">
@@ -135,40 +135,48 @@ require_once('config.php');
 <header class="home-header master-header payment-header">
   <div class="full-row gradient">
     <section class="top-nav row">
-      <div>
-        <a href="/home.php" class="nav-logo pull first">
-          <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo">
-        </a>
-      </div>
+      <a href="/home.php" class="nav-logo pull first">
+        <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
       <div class="nav-badge nav-btn one-fifth push">
-        
-        <div class="phone-numb">
-          <p></p>
-        </div>
+            
+          <div class="phone-numb">
+            <p></p>
+          </div>
       </div>
       <!-- START NAV -->
       <nav>
-       <!-- <ul class="nav-link-list">
+      <!--  <ul class="nav-link-list">
           <li><a href="/test_prep.php" class="nav-link">TEST & COLLEGE PREP</a></li>
           <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
-          <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
 		  <li><a href="/groupclasses.html" class="nav-link">GROUP CLASSES</a></li>
+          <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
           <li><a href="/about.php" class="nav-link">ABOUT</a></li>
           <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
-        </ul>-->
+        </ul> -->
         <section>
-          <div class="pull">
+          <div class="one-fifth push">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>206 Tutoring in the Seattle Times: <br>How to reduce stress in high school<br>
+              <br>206 Tutoring Featured in the Seattle Times
             </a>
           </div>
-          <div class="push">
+          <div class="one-fifth push">
+              <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+                <img src="/assets/about/thumbtackbadge2016.png" alt="Thumbtack" class="thumbtack-logo2016">
+                <br>5 stars on Thumbtack<br>Best of 2016<br>
+              </a>
+            </div>
+
+
+
+<div class="one-fifth push">
+	
             <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
               <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
-              <br>5 stars on Thumbtack — <br>Best of 2015<br>
+              <br>5 stars on Thumbtack<br>Best of 2015<br>
             </a>
           </div>
+
         </section>
       </nav>
     </section>

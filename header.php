@@ -10,9 +10,7 @@
   	       MENU ☰
   	      </button>
 
-  	      <!--<a class="navbar-brand" href="http://www.206tutoring.com">
-  	<img src="../assets/home_page/spaceneedlelogosquaresmall.png" alt="SpaceNeedle">
-  	</a>-->
+  	      
   	    </div>
 
   	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,25 +62,26 @@
   	  </div><!-- /.container-fluid -->
   	</nav>
 <header class="home-header master-header">
-  <div class="full-row gradient">
-	
-
+   <div class="full-row gradient">
     <section class="top-nav row">
-      <div>
-        <a href="/home.php" class="nav-logo pull first">
-          <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo">
-        </a>
+      <a href="/home.php" class="nav-logo pull first">
+        <img src="/assets/home_page/spaceneedlelogo.png" alt="SpaceNeedle" class="spaceneedle-logo"></a>
+      <div class="nav-badge nav-btn one-fifth push">
+            
+          <div class="phone-numb">
+            <p></p>
+          </div>
       </div>
-            <!-- START NAV -->
+      <!-- START NAV -->
       <nav>
-       <!-- <ul class="nav-link-list">
+      <!--  <ul class="nav-link-list">
           <li><a href="/test_prep.php" class="nav-link">TEST & COLLEGE PREP</a></li>
           <li><a href="/tutoring.html" class="nav-link">TUTORING</a></li>
 		  <li><a href="/groupclasses.html" class="nav-link">GROUP CLASSES</a></li>
           <li><a href="/music.html" class="nav-link">MUSIC LESSONS</a></li>
           <li><a href="/about.php" class="nav-link">ABOUT</a></li>
           <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
-        </ul>-->
+        </ul> -->
         <section>
           <div class="one-fifth push">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
@@ -106,13 +105,13 @@
               <br>5 stars on Thumbtack<br>Best of 2015<br>
             </a>
           </div>
+
         </section>
       </nav>
     </section>
     <div>
       <span>
-        <main class="header-text row">
-          <div>
+        <main class="header-text row">          <div>
             <h1>TEST PREP, TUTORING, MUSIC LESSONS</h1>
           </div>
           <br>

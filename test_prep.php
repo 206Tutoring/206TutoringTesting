@@ -34,16 +34,14 @@
   	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
  	        
 <span class="sr-only">Toggle navigation</span>
-  	       MENU <span class="caret"></span>
+  	       MENU ☰
   	      </button>
 
-  	      <!--<a class="navbar-brand" href="http://www.206tutoring.com">
-  	<img src="../assets/home_page/spaceneedlelogosquaresmall.png" alt="SpaceNeedle">
-  	</a>-->
+  	      
   	    </div>
 
   	    <!-- Collect the nav links, forms, and other content for toggling -->
-  	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  	    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
   	      <ul class="nav navbar-nav">
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types of Tutoring<span class="caret"></span></a>
@@ -108,18 +106,29 @@
           <li><a href="/payment.php" class="nav-link">PAYMENT</a></li>
         </ul> -->
         <section>
-          <div class="pull">
+          <div class="one-fifth push">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>206 Tutoring in the Seattle Times: <br>How to reduce stress in high school<br>
+              <br>206 Tutoring Featured in the Seattle Times
             </a>
           </div>
-          <div class="push">
+          <div class="one-fifth push">
+              <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
+                <img src="/assets/about/thumbtackbadge2016.png" alt="Thumbtack" class="thumbtack-logo2016">
+                <br>5 stars on Thumbtack<br>Best of 2016<br>
+              </a>
+            </div>
+
+
+
+<div class="one-fifth push">
+	
             <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
               <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
-              <br>5 stars on Thumbtack — <br>Best of 2015<br>
+              <br>5 stars on Thumbtack<br>Best of 2015<br>
             </a>
           </div>
+
         </section>
       </nav>
     </section>
@@ -133,7 +142,7 @@
           <div>
             <h2>SAT, ACT, GRE / ESSAY EDITING, PLACEMENT, AND MORE</h2>
           </div>
-          <a href="/contact.php" class="btn-orange btn-contact">CONTACT US NOW</a>
+          
         </main>
       </span>
     </div>
@@ -150,14 +159,13 @@
 		</article>
 		<section class="content-img one-half">
 			<img src="/assets/test_prep/Test_prep_Top_image.png" alt="Stacked Text Books">
-			<p class="quote-bubble">"206 Tutoring is an excellent alternative not just to the establishment choices, which just tested my daughter twice and sent her on her way, but also the smaller firms. Entrusting someone with your daughter’s future through prep and college admissions is a huge decision. With 206 Tutoring, we’re confident we made the right one."<span class="prominent"> - Jessica M., Redmond</span></p>
+			<p class="quote-bubble">"206 Tutoring is an excellent alternative not just to the establishment choices, which just tested my daughter twice and sent her on her way, but also the smaller firms. Entrusting someone with your daughter’s future through prep and college admissions is a huge decision. With 206 Tutoring, we’re confident we made the right one."<span class="prominent"> - Jessica M., Redmond</span></p><a name="sat"></a>
 		</section>
 	</section>
-	<a name="sat"></a>
 	<section class="content-block row">
 		<article class="content-info one-half first">
 			<h1>SAT Prep</h1>
-			<p>We recommend the SAT over the ACT for natural test-takers.</p>
+			<p>We recommend the SAT over the ACT for natural test-takers. No matter your goals or initial score, we can raise it by <span class="prominent">200 points</span> or more.</p>
 			<p>The SAT consists of three multiple-choice sections (math, reading, and writing), along with a free-response essay. 206 Tutoring is on the cutting edge of <span class="prominent">the New SAT</span>, collaborating with other agencies to develop original strategies you won’t find elsewhere.</p>
 			<p class="stacked-p"><span class="prominent">Reading, </span>which tests vocabulary and reading comprehension through short passages, is the section where our improvements are most exceptional.</p>
 			<p>The new SAT will feature graphs and charts alongside the passages, but the overall strategy will remain similar.</p>
@@ -169,14 +177,14 @@
 		</article>
 		<section class="content-img one-half">
 			<img src="/assets/test_prep/Test_prep_SAT.png" alt="SAT Prep">
-			<p class="quote-bubble">"We tried to enroll our daughter in Kaplan for the SAT, but found it to be impersonal and expensive. She’s the first in our family to go to college, and we wanted to find a top-notch tutor, so we went to 206 Tutoring. Now our daughter going to UW in October, and both she and I have felt we’ve done our best."<span class="prominent"> - Pablo R., Seattle</span></p>
+			<p class="quote-bubble">"We tried to enroll our daughter in Kaplan for the SAT, but found it to be impersonal and expensive. She’s the first in our family to go to college, and we wanted to find a top-notch tutor, so we went to 206 Tutoring. Now our daughter going to UW in October, and both she and I have felt we’ve done our best."<span class="prominent"> - Pablo R., Seattle</span><a name="act"></a></p>
 		</section>
 	</section>
-	<a name="act"></a>
+	
 	<section class="content-block row">
 		<article class="content-info one-half first">
 			<h1>ACT Test Prep</h1>
-			<p>We recommend the ACT over the SAT for fast thinkers and math wizards.</p>
+			<p>We recommend the ACT over the SAT for fast thinkers and math wizards. Our methods can raise any student's score by<span class="prominent"> 4 points</span> or more.</p>
 			<p>The ACT is more straightforward than the SAT, but its time constraints are difficult and can result in surprise, stress and poor scores the first time around. Our ACT preparation focuses on answering questions efficiently.</p>
 			<p><span class="prominent">English </span>consists of five passages of fifteen questions each, with an emphasis on grammar and sentence correction.</p>
 			<p><span class="prominent">Math </span>covers more concepts than SAT math, all the way through trigonometry, which means it’s easier—as long as you know math.</p>
@@ -185,10 +193,10 @@
 		</article>
 		<section class="content-img one-half">
 			<img src="/assets/test_prep/Test_prep_ACT.png" alt="ACT Prep">
-			<p class="quote-bubble">"My son had taken the ACT six times, with only modest improvement each time—he said he felt like he was banging his head against the wall. We called 206 Tutoring, and the next time he took the test his score was high enough to earn the scholarship we were hoping he’d earn. Worth every penny, and more!"<span class="prominent"> - Connor G., Federal Way</span></p>
+			<p class="quote-bubble">"My son had taken the ACT six times, with only modest improvement each time—he said he felt like he was banging his head against the wall. We called 206 Tutoring, and the next time he took the test his score was high enough to earn the scholarship we were hoping he’d earn. Worth every penny, and more!"<span class="prominent"> - Connor G., Federal Way</span><a name="collegePlanning"></a></p>
 		</section>
 	</section>
-	<a name="collegePlanning"></a>
+	
 	<section class="content-block row">
 		<article class="content-info one-half first">
 			<h1>College Planning and Admissions Counseling</h1>
@@ -205,10 +213,10 @@
 		</article>
 		<section class="content-img one-half">
 			<img src="/assets/test_prep/Test_prep_SAT.png" alt="SAT Prep">
-			<p class="quote-bubble">I don’t know if Chris got me into Whitman, but he definitely helped. Admissions are so competitive, and I saw a lot of my friends get frustrated. Not me! I learned a lot from the beginning of the application process all the way to getting into my dream school.”<span class="prominent"> - Roger M., Bellevue</span></p>
+			<p class="quote-bubble">I don’t know if Chris got me into Whitman, but he definitely helped. Admissions are so competitive, and I saw a lot of my friends get frustrated. Not me! I learned a lot from the beginning of the application process all the way to getting into my dream school.”<span class="prominent"> - Roger M., Bellevue</span><a name="other"></a></p>
 		</section>
 	</section>
-	<a name="other"></a>
+	
 	<section class="content-block row">
 		<article class="content-info one-half first">
 			<h1>Prep for the GRE and Other Tests</h1>
