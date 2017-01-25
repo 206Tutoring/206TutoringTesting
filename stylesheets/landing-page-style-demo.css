@@ -4,7 +4,7 @@
 ** Copyright: 2016
 ** -------------------------------------------------- */
 
-.container, .container-fluid /*remove margin*/ {
+.container{
      padding-right: 0; 
      padding-left: 0;  
      margin-right: auto;
