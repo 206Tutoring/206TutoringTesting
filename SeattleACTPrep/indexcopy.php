@@ -36,7 +36,7 @@
 	  </div>
 	</div>
 
-<div class="container">
+<div class="main-content">
 	<h1 class="top-header">SEATTLE'S BEST ACT PREP TUTORS</h1>
 	
   	<div class="row">
