@@ -27,12 +27,11 @@
 	    <div class="col landing-content">
 	      <a href="../home.php"><img class="top-logo" src=../assets/home_page/spaceneedlelogo.png></a>
 	    </div>
-	    <div class="col landing-content text-center">
+
+	    <div class="col landing-content text-right">
 	      <a href="../home.php" class="btn btn-blue">Home Page</a>
 	    </div>
-	    <div class="col landing-content text-right">
-	      <a href="../contact.php" class="btn btn-orange btn-contact">Contact Us</a>
-	    </div>
+	    
 	    
 	  </div>
 	</div>
