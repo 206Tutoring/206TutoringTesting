@@ -41,7 +41,7 @@
 	
   	<div class="row">
 	  
-      <div class="landing-content col-md-4">
+      <div class="landing-content col-md-4 col-sm-6">
         <p>206 Tutoring offers elite, individualized ACT tutoring with the <strong>best results</strong>. Improve your score by <strong>4 points</strong>, across English, math, reading, science, and the essays, and gain admission to the college of your dreams.
 </p>
 
@@ -59,12 +59,12 @@
               </div>
 	  
         
-    <div class="landing-content col-md-4">
+    <div class="landing-content col-md-5 col-sm-6">
      <?php include '../landingpage-contactform.php'; ?>
 	
     </div>
 
-<div class="landing-content col-md-4">
+<div class="landing-content col-md-3 col-sm-6">
      
 	   <section>
 		  <img src="../assets/landingpages/cml-pic.jpg" class="img-responsive" alt="Responsive image"> 
