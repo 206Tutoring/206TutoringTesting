@@ -137,7 +137,7 @@
 		</section>
 			<h1>Lessons are available in person or online</h1>
 			<h2>Unsure about the best option for you? Contact us now for a free 15-minute consultation. We’ll help you figure out the right plan.</h2>
-			<a href="/about.php#contact-form" class="btn-orange">CONTACT US NOW</a>
+			<a href="/contact.php#contact-form" class="btn-orange">CONTACT US NOW</a>
 	</section>
   <section class="home-about full-row">
 		<section class="row">

@@ -86,13 +86,13 @@
           <div class="one-fifth push">
             <a href="http://www.seattletimes.com/education-lab/guest-essay-how-many-good-high-schools-can-be-so-bad/" class="nav-link">
               <img src="/assets/home_page/seattletimes.png" alt="SeattleTimes" class="seattletimes-logo">
-              <br>206 Tutoring Featured in the Seattle Times
+              <br>206 Tutoring Op-Ed in the Seattle Times
             </a>
           </div>
           <div class="one-fifth push">
               <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
                 <img src="/assets/about/thumbtackbadge2016.png" alt="Thumbtack" class="thumbtack-logo2016">
-                <br>5 stars on Thumbtack<br>Best of 2016<br>
+                <br>5 stars on Thumbtack:<br>Best of 2016<br>
               </a>
             </div>
 
@@ -102,7 +102,7 @@
 	
             <a href="https://www.thumbtack.com/wa/seattle/test-prep/tutoring-piano-lessons" class="nav-link">
               <img src="/assets/about/ThumbtackBadge.png" alt="Thumbtack" class="thumbtack-logo">
-              <br>5 stars on Thumbtack<br>Best of 2015<br>
+              <br>5 stars on Thumbtack:<br>Best of 2015<br>
             </a>
           </div>
 
