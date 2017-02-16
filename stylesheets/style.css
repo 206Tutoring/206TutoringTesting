@@ -681,7 +681,7 @@ a.nobtn-contact img,
   
   nav .nav-link {
     display: block;
-    font-size: 2em;
+    font-size: 1.1em;
     padding: 10px 0;
   }
   a.nav-link {color: #FFFFFF;}
@@ -741,7 +741,7 @@ a.nobtn-contact img,
   } */
   nav .nav-link {
     display: block;
-    font-size: 2em;
+    font-size: 1.1em;
     padding: 10px 0;
   }
   a.nav-link {color: #FFFFFF;}
@@ -1058,4 +1058,7 @@ margin: 25px auto;
 .spaceneedle-logo {
 	text-align: center;
 }
-		
+	
+
+.navbar-text {margin: 12px 0 0 5px;}	
+
