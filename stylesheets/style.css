@@ -419,8 +419,9 @@ a.btn-contact,
   padding: 10px 15px;
   margin: 5px 0;
   color: #FFFFFF;
-  font-size: .875em !important;
-  line-height: .875em;
+  font-size: 1.1em !important;
+font-weight: bold;
+  line-height: 1.1em;
 }
 a.btn-contact img,
 .btn-contact img {height: .875em; padding-right: 15px;}
@@ -683,7 +684,7 @@ a.nobtn-contact img,
     font-size: 2em;
     padding: 10px 0;
   }
-  a.nav-link {color: #167CEF;}
+  a.nav-link {color: #FFFFFF;}
   .teacher {width: 47.916666666667%;}
 }
 /* TABLET */
@@ -743,7 +744,7 @@ a.nobtn-contact img,
     font-size: 2em;
     padding: 10px 0;
   }
-  a.nav-link {color: #167CEF;}
+  a.nav-link {color: #FFFFFF;}
   aside.side-blog {width: 100%; margin-left: 0;}
   .teacher {width: 16.666666666667%;}
 }
@@ -1040,8 +1041,10 @@ padding: 0px;
 		    }
 		}
 
-
-
+/*hide nav bar text at this size*/
+@media (max-width: 1031px) {
+	.navbar-text{display: none;}
+}
 
 
 .instructor-header {
