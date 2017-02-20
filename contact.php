@@ -35,16 +35,15 @@
 				<h2 class="prominent">206 Tutoring and Music Lessons</h2>
 			</br>
 			</br>
-			</br>
-				<h2>1512 Summit Ave #304</h2>
-				<h2>Seattle, WA 98122</h2	>
-				<h2>(206) 551-7843</h2	>
+				<h2 class="contact-address">1512 Summit Ave #304</h2>
+				<h2 class="contact-address">Seattle, WA 98122</h2	>
+				<h2 class="contact-address">(206) 551-7843</h2	>
 			</article>
 
 					<article class="address3">
-						<h2>7711 14th Ave NE</h2>
-						<h2>Seattle, WA 98115</h2	>
-						<h2>(206) 551-7843</h2	>
+						<h2 class="contact-address">7711 14th Ave NE</h2>
+						<h2 class="contact-address">Seattle, WA 98115</h2	>
+						<h2 class="contact-address">(206) 551-7843</h2	>
 					</article>
 
 
@@ -55,10 +54,10 @@
 		</article>
 
 
-<section class="about-content one-half">
+<section class="one-half">
 		<a name="contact-form"></a>
-		<article class="about-article get-intouch">
-			<h1>Get in touch</h1>
+		<article class="address2">
+			<h2 class="prominent">Get in touch</h2>
 			<?php
       require 'vendor/autoload.php';
 
@@ -68,11 +67,11 @@
           ?>
           <form class="lp-contact-form"  action="" method="POST" enctype="multipart/form-data">
           <input type="hidden" name="action" value="submit">
-          Your name:<br>
+          Name:<br>
           <input name="name" type="text" value="" size="30"/><br>
-          Your email:<br>
+          Email Address:<br>
           <input name="email" type="text" value="" size="30"/><br>
-          Your phone number:<br>
+          Phone number:<br>
           <input name="phonenumber" type="text" value="" size="30"/><br>
           How can we help you?:<br>
           <textarea name="message" rows="7" cols="30"></textarea><br>
