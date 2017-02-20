@@ -27,6 +27,7 @@
 </head>
 <body>
 	<?php include 'header.php'; ?>
+<a name="contact-form"></a>
 	<section class="home-info row">
 		<article class="info-block one-half first">
 				
@@ -55,7 +56,7 @@
 
 
 <section class="one-half">
-		<a name="contact-form"></a>
+		
 		<article class="address2">
 			<h2 class="prominent">Get in touch</h2>
 <br>
