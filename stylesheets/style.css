@@ -294,8 +294,11 @@ img.editorial {
 .about-prof  {text-align: center; border-radius: 100%; margin-bottom: 15px;}
 .get-intouch article {padding-bottom: 30px;}
 .address             {padding-top: 50px;}
-.address2            {padding-top: 55px; padding-bottom: 25px; text-align: center;}
+.address2            {padding-top: 10px; padding-bottom: 25px; text-align: center;}
 .address3            {padding-top: 0px; padding-bottom: 25px; text-align: center;}
+.contact-address {font-size: 1.2em;
+
+}
 
 /* $BLOG
 ------------------------- */
@@ -825,7 +828,6 @@ landing-body{
 
 .lp-contact-form {
 	font-weight: bold;
-	font-size: 1.5em;
 	
 }
 
@@ -843,14 +845,14 @@ landing-body{
 	margin: 8px 0;
 	border: 2px solid #099AD2;
 	border-radius: 4px;
-	font-size: 1.2em;
+
 	
 } 
 
 .lp-contact-form textarea{
 	width: 80%;
-	height: 150px;
-	padding: 12px 20px;
+	height: 120px;
+	padding: 10px 10px;
 	margin: 8px 0;
     	box-sizing: border-box;
     	border: 2px solid #099AD2;
@@ -862,11 +864,10 @@ landing-body{
 .lp-contact-form input[type=submit], input[type=button]{
 	background-color: #FF9600;
 	color: white;
-    padding: 16px 32px;
+    padding: 10px 32px;
     text-decoration: none;
     margin: 4px 2px;
 	width: 80%;
-	font-size: 1.5em;
 	cursor: pointer;
 }
 
@@ -877,9 +878,12 @@ landing-body{
     text-decoration: none;
     margin: 4px 2px;
 	width: 80%;
-	font-size: 1.3em;
 	cursor: pointer;
 }
+.lp-contact-form input[type=submit]:hover, input[type=button]:hover{
+	background-color:#DB8203;
+}
+
 /* GROUP CLASSES */
 .group-list {
 	padding-bottom: 15px;
