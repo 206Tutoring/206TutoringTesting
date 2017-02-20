@@ -58,6 +58,7 @@
 		<a name="contact-form"></a>
 		<article class="address2">
 			<h2 class="prominent">Get in touch</h2>
+<br>
 			<?php
       require 'vendor/autoload.php';
 
