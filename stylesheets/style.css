@@ -1064,5 +1064,7 @@ margin: 25px auto;
 }
 	
 
-.navbar-text {margin: 12px 0 0 5px;}	
+.navbar-text {margin: 5px 0 0 0px;
+font-size: 1.3em; line-height: 1.2em;
+font-style: italic;}	
 
