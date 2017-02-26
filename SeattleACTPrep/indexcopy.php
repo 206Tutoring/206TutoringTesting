@@ -51,7 +51,7 @@
 		
  	   <p>
 		   
- 	   	"Mr. Morris-Lent recognizes the importance of his role as a “guiding force” in influencing the educational endeavors of his students. He respects parents’ impelling positive impact in the educational voyage of their children … goals not based on dictated tenets and past performances, but toward desired results." <i> - Siri H., Redmond</i>
+ 	   <i>	"Over the course of three months Chris taught me many concepts and gave me ways I could teach myself to improve in between lessons. My score went up by 400 points. Thanks so much, Chris!"  - Sofia R., Bellevue</i>
 		
  	   </p>
 		
