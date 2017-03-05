@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>206 Tutoring - Seattle Elementary School Math Tutoring</title>
+  <title>206 Tutoring - Seattle ESL Tutoring</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -37,15 +37,20 @@
 	</div>
 
 <div class="main-content">
-	<h1 class="top-header">SEATTLE'S BEST ELEMENTARY-SCHOOL MATH TUTORS</h1>
+	<h1 class="top-header">SEATTLE'S BEST ESL TUTORS</h1>
 	
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <p>206 Tutoring offers exceptional instruction from experienced tutors at the location of your choice. Our personalized math lessons cover all ages and ability levels. We are happy to help with <strong>addition, subtraction, multiplication, division, geometry, percentages, fractions, decimals, pre-algebra, and more.</strong>.
+        <<p>206 Tutoring offers elite, individualized reading instruction experienced tutors at the location of your choice. Our team of instructors will help <strong>anyone</strong>, from <strong>any background</strong>, of <strong>any age and ability level</strong>, polish their English.
 </p>
 
-        <p>Our tutors have years of experience teaching math, and <strong>love working with kids. </strong>Our <strong>individualized lessons</strong> adapt to each student’s learning style. Meet <strong>in your home</strong> or at the <strong>location of your choice</strong>, across <strong>the entire Seattle area</strong>.</p>
+
+
+        <p>Meet <strong>in your home</strong> or at the <strong>location of your choice</strong>, across <strong>the entire Seattle area</strong>.</p>
+		
+		<p>Get in touch and start your journey today!</p>
+
 		
  	   <p>
 		   
