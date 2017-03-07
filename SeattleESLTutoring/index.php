@@ -42,7 +42,7 @@
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <<p>206 Tutoring offers elite, individualized reading instruction experienced tutors at the location of your choice. Our team of instructors will help <strong>anyone</strong>, from <strong>any background</strong>, of <strong>any age and ability level</strong>, polish their English.
+        <p>206 Tutoring offers elite, individualized reading instruction experienced tutors at the location of your choice. Our team of instructors will help <strong>anyone</strong>, from <strong>any background</strong>, of <strong>any age and ability level</strong>, polish their English.
 </p>
 
 
