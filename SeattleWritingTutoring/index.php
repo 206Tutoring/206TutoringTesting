@@ -42,7 +42,7 @@
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <p>206 Tutoring offers elite, individualized reading instruction experienced tutors at the location of your choice. Take advantage of our full range of services, from learning to free write in<strong>elementary school</strong>, to writing longer papers and college-admissions essays in <strong>high school</strong>, writing original papers in<strong>college</strong>, and and editing <strong>résumés</strong>.
+        <p>206 Tutoring offers elite, individualized reading instruction experienced tutors at the location of your choice. Take advantage of our full range of services, from learning to free write in <strong>elementary school</strong>, to writing longer papers and college-admissions essays in <strong>high school</strong>, writing original papers in <strong>college</strong>, and and editing <strong>résumés</strong>.
 </p>
 
 <p>Our reading and instructors are <strong>full-time teachers, published authors,</strong> and <strong>experienced editors</strong>. We specialize in <strong>ESL</strong> and <strong>ELL</strong> as well.</p>
