@@ -42,13 +42,13 @@
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <div class="landing-content col-sm-4">
+        
         <p>206 Tutoring offers elite, one-on-one GRE preparation, with expert instructors and average gains of <strong>7 points</strong>. Our GRE students have a <strong>100-percent track record</strong> of gaining admission to the program of their first or second choice.
 </p>
 
 
         <p> Conquer the <strong>math section</strong>, the <strong>reading section</strong>, and the <strong>essays</strong>. Meet <strong>in your home</strong> or at the <strong>location of your choice</strong>, across <strong>the entire Seattle area</strong>.</p>
-              </div>
+              
 
 		
  	   <p>
