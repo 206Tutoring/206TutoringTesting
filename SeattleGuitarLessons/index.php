@@ -42,11 +42,9 @@
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <p>206 Music Lessons is happy to offer <b>guitar lessons</b>—both electrical and acoustic. If you’re interested in starting the guitar from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</p>
-              <p>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop</b> to <b>folk</b> to <b>country. Movie music</b> and <b>video-game music</b> are particular specialties.</p>
-              <p><b>Our guitar lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</p>
-              <p><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. <b>We teach both kids and adults.</b></p>
-              <p><b>We will teach you what you want to play, how you want to play it.</b></p>
+        <p>If you’re interested in starting the guitar from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</p>
+              <p>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop</b> to <b>folk</b> to <b>country. Movie music</b> and <b>video-game music</b> are particular specialties. All students of all ages and all levels of experience are welcome.</p>
+              <p><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. <b>We teach both kids and adults. We will teach you what you want to play, how you want to play it.</b></p>
 		
  	   
 		
