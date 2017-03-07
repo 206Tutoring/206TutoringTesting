@@ -60,13 +60,7 @@
 
         <p>Get in touch and start planning your journey today!</p>
 		
- 	   <p>
-		   
- 	   <i>	"Over the course of three months Chris taught me many concepts and gave me ways I could teach myself to improve in between lessons. My score went up by 400 points. Thanks so much, Chris!"  - Sofia R., Bellevue</i>
-		
- 	   </p>
-		
-		<p>Get in touch and start your journey today!</p>
+ 	  
               </div>
 	  
         
@@ -80,6 +74,7 @@
 	   <section>
 		  <img src="../assets/landingpages/cml-pic.jpg" class="img-responsive" alt="Responsive image"> 
 	   
+
 	   
    </section>
     </div>
