@@ -42,9 +42,8 @@
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <p>206 Music Lessons is happy to offer <b>drum lessons.</b> If you’re interested in starting on the drums from scratch, or already have some experience and want to pick up new techniques and styles, we have the right instructor for you.</p>
-              <p>We pride ourselves on hiring only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop. Movie music</b> and <b>video-game music</b> are particular specialties.</p>
-              <p><b>Our drum lessons are fun,</b> with a light-hearted approach puts you in in a better mindset to learn. All students of all ages and all levels of experience are welcome.</p>
+        <p>If you’re interested in starting on the drums from scratch, or already have some experience and want to pick up new techniques and styles, only the most skilled and dedicated music-education professionals, and matching students to someone aligned with their interests, aspirations, and ability level. Our instructors’ training runs the gamut from <b>classical</b> to <b>rock,</b> from <b>jazz</b> to <b>pop. Movie music</b> and <b>video-game music</b> are particular specialties.</p>
+              <p>All students of all ages and all levels of experience are welcome.</p>
               <p><b>Our music lessons are flexible,</b> with schedules and instruction much more individualized than you’ll find at a typical music academy. <b>We teach both kids and adults.</b></p>
               <p><b>We will teach you what you want to play, how you want to play it.</b></p>
 		
@@ -53,7 +52,7 @@
 	  
         
     <div class="landing-content col-md-4 col-sm-6">
-     <?php include '../landingpage-contactform.php'; ?>
+      <?php include '../landingpage-contactform.php'; ?>
 	
     </div>
 
@@ -88,5 +87,5 @@
 </html>
 
 
- 
+
 
