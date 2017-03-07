@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>206 Tutoring - Seattle Statistics Tutoring</title>
+  <title>206 Tutoring - Seattle SAT Prep</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -37,12 +37,12 @@
 	</div>
 
 <div class="main-content">
-	<h1 class="top-header">SEATTLE'S BEST STATISTICS TUTORS</h1>
+	<h1 class="top-header">SEATTLE'S BEST SAT PREP TUTORS</h1>
 	
   	<div class="row">
 	  
       <div class="landing-content col-md-4 col-sm-6">
-        <p>206 Tutoring offers elite, individualized statistics tutoring with the <strong>best results</stron> in the Seattle area. Improve your AP score by <strong>one whole point</strong> or your grade by <strong>one full letter grade</strong>.
+           <p>206 Tutoring offers elite, individualized statistics tutoring with the <strong>best results</strong> in the Seattle area. Improve your AP score by <strong>one whole point</strong> or your grade by <strong>one full letter grade</strong>.
 </p>
 
 <p>Our SAT math scores range from <strong>700 to 800</strong>. We earned <strong>4’s or 5’s</strong> on the <strong>Calculus AB, Calculus BC</strong> and <strong>Statistics AP tests</strong>. You can too. <strong>We'll help you get there</strong>.</p>
