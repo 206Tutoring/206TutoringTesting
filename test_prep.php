@@ -70,9 +70,9 @@
 <li>
                         <a href="../instructors.html">Instructors</a>
                     </li>
-                      <li>
+                      <!-- <li>
                           <a href="../payment.php">Payment</a>
-                      </li>
+                      </li> -->
 
   	          </ul>
   	        </li>
