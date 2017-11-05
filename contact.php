@@ -12,7 +12,7 @@ use SimpleMail\SimpleMail;
 
 $config = new Config;
 $config->load('./config/config.php');
-
+echo "<script>console.log('Before if')</script>";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
     $email   = stripslashes(trim($_POST['form-email']));
@@ -36,24 +36,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->setSenderEmail($email);
         $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
 
-        $body = "
-        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
-        <html>
-            <head>
-                <meta charset=\"utf-8\">
-            </head>
-            <body>
-                <h1>{$subject}</h1>
-                <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
-                <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
-                <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
-                <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
-            </body>
-        </html>";
-
+        $body = "{$subject}
+                {$config->get('fields.name')}:{$name}
+                {$config->get('fields.email')}: {$email}
+                {$config->get('fields.phone')}:{$phone}
+                {$config->get('fields.message')}:{$message}";
+        $EmailFrom = $config->get('emails.from');
         $mail->setHtml($body);
-        $mail->send();
-
+        // $mail->send();
+        mail($config->get('emails.to'), $config->get('subject.prefix') . ' ' . $subject, $body, "From: <$EmailFrom>");
         $emailSent = true;
     } else {
         $hasError = true;
@@ -87,7 +78,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
   <?php include 'header.php'; ?>
-    
   <section class="home-info row">
     <article class="info-block one-half first">
         <article class="address2">

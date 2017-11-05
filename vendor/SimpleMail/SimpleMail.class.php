@@ -80,5 +80,7 @@ class SimpleMail
         ini_set('sendmail_from', $this->from);
 
         mail($this->to, '=?UTF-8?B?' . base64_encode($this->subject) . '?=', $message, $header);
+
+        echo "<script>console.log('sent mail! from = " . $this->from . ", to= " . $this->to . "')</script>";
     }
 }

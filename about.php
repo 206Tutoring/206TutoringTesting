@@ -176,7 +176,7 @@
 	</section>
 	
 	
-	<section class="about-content half-row">
+	<!-- <section class="about-content half-row">
 		<a name="contact-form"></a>
 		<article class="about-article get-intouch">
 			<h1>Get in touch</h1>
@@ -232,7 +232,7 @@
 				<h2>Seattle, WA 98103</h2	>
 			</article>
 		</article>
-	</section>
+	</section> -->
 	<!-- START FOOTER -->
   <?php include "footer.php"; ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>		
